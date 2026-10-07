@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{TITLE}}: Sources</title>
+<style>
+  :root { --navy: #14284b; --ink: #1a2233; --soft: #4b556b; --line: #dfe4ec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.6; }
+  main { max-width: 800px; margin: 0 auto; padding: 36px 20px 60px; }
+  header { border-bottom: 3px solid var(--navy); padding-bottom: 14px; margin-bottom: 18px; }
+  h1 { color: var(--navy); font-size: clamp(1.4rem, 3.5vw, 1.9rem); line-height: 1.25; margin: 0 0 6px; }
+  header p { margin: 0; color: var(--soft); }
+  .note { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .9rem; color: var(--soft); background: #f3f6fa; border-left: 3px solid var(--navy); padding: 10px 14px; margin: 0 0 18px; }
+  input { width: 100%; font: 15px system-ui, -apple-system, "Segoe UI", sans-serif; padding: 9px 12px; border: 1px solid #c9d1de; border-radius: 6px; margin-bottom: 8px; }
+  input:focus { outline: 2px solid var(--navy); border-color: transparent; }
+  h2 { color: var(--navy); font-size: 1.15rem; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+  ol { list-style: none; margin: 0; padding: 0; }
+  li { display: grid; grid-template-columns: 3em 1fr; gap: 0 .6em; padding: 9px 0; border-bottom: 1px solid #f0f2f6; }
+  .n { color: var(--navy); font-weight: bold; text-align: right; }
+  .t { overflow-wrap: anywhere; }
+  .acts { grid-column: 2; margin-top: 5px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .acts a { font-size: .78rem; text-decoration: none; color: var(--navy); border: 1px solid var(--navy); border-radius: 4px; padding: 2px 9px; }
+  .acts a.pdf { background: var(--navy); color: #fff; }
+  .acts a:hover { text-decoration: underline; }
+  .gone { font-size: .78rem; color: #8a2323; font-style: italic; }
+  .empty { color: var(--soft); font-style: italic; }
+  footer { margin-top: 40px; font: .8rem system-ui, sans-serif; color: var(--soft); }
+  @media (max-width: 520px) { body { font-size: 16px; } li { grid-template-columns: 2.4em 1fr; } }
+  @media print {
+    input, .acts a { display: none !important; }
+    .acts a[data-href]::after { content: ""; }
+    body { font-size: 11pt; } main { padding: 0; max-width: none; }
+    .note { background: none; }
+    h2 { break-after: avoid; } li { break-inside: avoid; }
+    .print-url { display: block !important; font: 8.5pt system-ui, sans-serif; color: #444; grid-column: 2; overflow-wrap: anywhere; }
+  }
+  .print-url { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>{{TITLE}}</h1>
+    <p>This page preserves copies of the sources cited in the book by {{AUTHOR}}.</p>
+  </header>
+  <p class="note">If an original link is no longer available, the saved PDF is the reference copy. Each PDF begins with an archive cover sheet; the source itself starts on page 2.</p>
+  <input type="search" id="q" placeholder="Search the bibliography" aria-label="Search the bibliography" />
+  <div id="list"></div>
+  <footer>Infinity Foundation · Source archive</footer>
+</main>
+<script>
+window.BOOK_FALLBACK = /*DATA*/null;
+(function () {
+  var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+  var D, box = document.getElementById("list"), q = document.getElementById("q");
+  function li(e) {
+    var a = [];
+    if (e.pdf) a.push('<a class="pdf" href="' + esc(e.pdf) + '" target="_blank" rel="noopener">Saved PDF</a>');
+    e.urls.forEach(function (u, i) { a.push('<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">Original link' + (e.urls.length > 1 ? " " + (i + 1) : "") + "</a>"); });
+    if (e.gone) a.push('<span class="gone">Original no longer available</span>');
+    return '<li><span class="n">' + esc(e.n) + '</span><span class="t">' + esc(e.text) + "</span>" +
+      (a.length ? '<span class="acts">' + a.join("") + "</span>" : "") +
+      (e.pdf && /^https?:/.test(e.pdf) ? '<span class="print-url">Saved copy: ' + esc(e.pdf) + "</span>" : "") + "</li>";
+  }
+  function render() {
+    var s = q.value.trim().toLowerCase(), out = "";
+    D.chapters.forEach(function (c) {
+      var es = c.entries.filter(function (e) { return !s || (e.n + " " + e.text + " " + e.urls.join(" ")).toLowerCase().indexOf(s) > -1; });
+      if (es.length) out += "<h2>" + esc(c.title) + "</h2><ol>" + es.map(li).join("") + "</ol>";
+    });
+    box.innerHTML = out || '<p class="empty">No entries match your search.</p>';
+  }
+  function boot(d) { D = d; q.addEventListener("input", render); render(); }
+  fetch("sources.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(boot).catch(function () { boot(window.BOOK_FALLBACK); });
+})();
+</script>
+</body>
+</html>

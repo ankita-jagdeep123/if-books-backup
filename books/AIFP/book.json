@@ -2,5 +2,19 @@
   "code": "AIFP",
   "title": "Artificial Intelligence and the Future of Power: 5 Battlegrounds",
   "author": "Rajiv Malhotra",
-  "year": 2021
+  "year": 2021,
+  "rmPage": "https://rajivmalhotra.com/ai-and-the-future-of-power/",
+  "chapters": [
+    {"title": "Introduction", "from": 1, "to": 10},
+    {"title": "Chapter 1. Overview of AI Technologies", "from": 11, "to": 79},
+    {"title": "Chapter 2. The Battle for Jobs", "from": 80, "to": 127},
+    {"title": "Chapter 3. The Battle for World Domination", "from": 128, "to": 193},
+    {"title": "Chapter 4. The Battle for Agency", "from": 194, "to": 220},
+    {"title": "Chapter 5. The Battle for Self", "from": 221, "to": 242},
+    {"title": "Chapter 6. Stress Testing India", "from": 243, "to": 253},
+    {"title": "Chapter 7. Technological Dependence", "from": 254, "to": 287},
+    {"title": "Chapter 8. Digital Colonization", "from": 288, "to": 324},
+    {"title": "Chapter 9. Psychological Hijacking", "from": 325, "to": 340},
+    {"title": "Chapter 10. How Robust Is the Rashtra?", "from": 341, "to": 380}
+  ]
 }
