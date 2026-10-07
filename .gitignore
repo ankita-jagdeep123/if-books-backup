@@ -1,0 +1,6 @@
+work/
+VERIFY_*.md
+*.pyc
+__pycache__/
+.DS_Store
+.env
