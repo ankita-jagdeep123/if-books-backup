@@ -22,6 +22,7 @@ build_library.py           builds everything above
 ## Updating a book after each batch (one step)
 Replace `books/AIFP/AIFP_sources.csv` with the new export, keeping the same name and path, and commit it. On GitHub you can use **Add file → Upload files** in `books/AIFP/` and drop the CSV there. The **Rebuild library.json** Action then runs on its own, rebuilds the page and data, and commits them. The live page updates a minute or two later. Nothing else needs editing.
 The build doesn't care about column order, extra columns, or blank rows, because columns are matched by header name.
+If you work locally instead: copy the new CSV over `books/AIFP/AIFP_sources.csv`, then `git add books/AIFP/AIFP_sources.csv && git commit -m "AIFP: new CSV" && git push`. The Action does the rest.
 
 ## What each entry shows
 - The endnote number and the "Note / citation text" column, as printed.

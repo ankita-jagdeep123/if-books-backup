@@ -19,10 +19,13 @@ EDIT = re.compile(r"action=edit|[?&]edit=|/edit(?:[/?#]|$)|:[wxp]:/r/|editnew", 
 def get(r, name):
     """Column lookup by header name, ignoring case, spacing and column order."""
     want = re.sub(r"\W+", "", name.lower())
-    for k, v in r.items():
-        if k and re.sub(r"\W+", "", k.lower()).startswith(want):
-            if (v or "").strip():
-                return v.strip()
+    keys = [k for k in r if isinstance(k, str)]
+    exact = [k for k in keys if re.sub(r"\W+", "", k.lower()) == want]
+    # Exact header match wins (so "Note #" never falls through to "Note / citation text").
+    for k in exact or [k for k in keys if re.sub(r"\W+", "", k.lower()).startswith(want)]:
+        v = r.get(k)
+        if isinstance(v, str) and v.strip():
+            return v.strip()
     return ""
 
 
