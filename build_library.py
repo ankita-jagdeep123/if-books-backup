@@ -12,13 +12,17 @@ import csv, glob, html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GONE = {"cannot obtain"}
-EDIT = re.compile(r"[?&](e=|action=edit)|/edit\b", re.I)
+EDIT = re.compile(r"action=edit|[?&]edit=|/edit(?:[/?#]|$)|:[wxp]:/r/|editnew", re.I)
+# Note: "?e=xxxx" on 1drv.ms share links is an access token, not an edit flag.
 
 
 def get(r, name):
+    """Column lookup by header name, ignoring case, spacing and column order."""
+    want = re.sub(r"\W+", "", name.lower())
     for k, v in r.items():
-        if k and k.strip().lower().startswith(name.lower()):
-            return (v or "").strip()
+        if k and re.sub(r"\W+", "", k.lower()).startswith(want):
+            if (v or "").strip():
+                return v.strip()
     return ""
 
 
@@ -26,20 +30,23 @@ def urls(s):
     return [u.strip() for u in re.split(r"\s+\|\s+|\s*\n\s*", s or "") if u.strip().startswith("http")]
 
 
-def pdf_link(r, folder):
+def onedrive(r):
     od = get(r, "OneDrive link")
-    if od and not EDIT.search(od):
-        return od
-    bf = get(r, "Backup file")
-    if bf and os.path.exists(os.path.join(folder, "Saved PDFs", bf)):
-        return "Saved PDFs/" + bf
-    return ""
+    if not od:
+        return ""
+    if EDIT.search(od) or not od.startswith("https://"):
+        print(f"WARNING {get(r, 'ID')}: OneDrive link looks like an edit link or is not https; treated as missing", file=sys.stderr)
+        return ""
+    return od
 
 
-def entry(r, folder, label):
+def address(r):
+    """One address block = one CSV row: its own PDF, original link(s) and wayback link(s)."""
     gone = get(r, "Status").lower() in GONE
-    return {"n": label, "text": get(r, "Note / citation text") or get(r, "Source (full citation)"),
-            "pdf": "" if gone else pdf_link(r, folder), "urls": urls(get(r, "URL")), "gone": gone}
+    us, wb = urls(get(r, "URL")), urls(get(r, "Wayback link"))
+    return {"pdf": "" if gone else onedrive(r), "gone": gone,
+            "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
+                     or ([{"url": "", "wayback": w} for w in wb])}
 
 
 def build(folder):
@@ -48,16 +55,31 @@ def build(folder):
     for c in sorted(glob.glob(os.path.join(folder, "*_sources.csv"))):
         with open(c, encoding="utf-8-sig", newline="") as f:
             rows += list(csv.DictReader(f))
-    notes = {}
-    bib = []
+    notes, bib, extras, pending = {}, [], 0, []
     for r in rows:
+        if not any((v or "").strip() for v in r.values() if isinstance(v, str)):
+            continue  # blank row
+        rt = get(r, "Row type").lower()
         num = get(r, "Note #")
-        if get(r, "Row type").lower().startswith("note") and num.isdigit():
-            notes[int(num)] = entry(r, folder, int(num))
+        if not num.isdigit():
+            m = re.search(r"_N(\d+)", get(r, "ID"))
+            num = m.group(1) if m else num
+        if rt.startswith("note") and num.isdigit():
+            n = int(num)
+            if "extra" in rt:
+                extras += 1
+                pending.append((n, r))
+                continue
+            notes[n] = {"n": n, "text": get(r, "Note / citation text") or get(r, "Source (full citation)"),
+                        "addr": [address(r)]}
         elif get(r, "Source (full citation)"):
-            e = entry(r, folder, "")
-            e["text"] = get(r, "Source (full citation)")
-            bib.append(e)
+            bib.append({"n": "", "text": get(r, "Source (full citation)"), "addr": [address(r)]})
+    for n, r in pending:
+        if n in notes:
+            notes[n]["addr"].append(address(r))
+        else:
+            print(f"WARNING {get(r, 'ID')}: extra address for note {n} has no parent note row", file=sys.stderr)
+            notes[n] = {"n": n, "text": get(r, "Note / citation text"), "addr": [address(r)]}
     chapters, used = [], set()
     for ch in meta.get("chapters", []):
         items = [notes[n] for n in range(ch["from"], ch["to"] + 1) if n in notes]
@@ -80,10 +102,10 @@ def build(folder):
                .replace("{{AUTHOR}}", html.escape(meta.get("author", "")))
                .replace("/*DATA*/null", emb))
     open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(page)
-    n = len(notes)
-    print(f"{meta['code']}: {n} endnotes, {len(bib)} bibliography-only, "
-          f"{sum(1 for c in chapters for e in c['entries'] if e['pdf'])} with saved PDF, "
-          f"{sum(1 for c in chapters for e in c['entries'] if e['urls'])} with original link")
+    A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
+    print(f"{meta['code']}: {len(notes)} endnotes, {len(bib)} bibliography-only, {extras} extra-address rows grouped; "
+          f"buttons: Open PDF {sum(1 for a in A if a['pdf'])}, PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'])}, "
+          f"Copy not available {sum(1 for a in A if a['gone'])}")
     return meta
 
 
