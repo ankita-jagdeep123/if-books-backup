@@ -2,6 +2,14 @@
  "code": "AIFP",
  "title": "Artificial Intelligence and the Future of Power: 5 Battlegrounds",
  "author": "Rajiv Malhotra",
+ "stats": {
+  "endnotes": 380,
+  "bibliography": 95,
+  "books": 65,
+  "web": 181,
+  "sites": 116,
+  "comments": 55
+ },
  "progress": {
   "endnotes": 380,
   "cite": 325,

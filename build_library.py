@@ -9,6 +9,7 @@ and the root index.html (list of books in rajivmalhotra.com/books/ order).
 The CSV is only read, never changed. No network access, no API keys.
 """
 import csv, glob, html, json, os, re, sys
+from urllib.parse import urlsplit
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GONE = {"cannot obtain"}
@@ -53,6 +54,31 @@ def address(r):
     return {"pdf": pdf, "gone": gone, "comment": comment,
             "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
                      or ([{"url": "", "wayback": w} for w in wb])}
+
+
+def stats(rows, endnotes, comments):
+    """Static counts for the stats row at the top of the page, all taken from the CSV.
+    endnotes      : numbered endnotes (Row type "Note")
+    bibliography  : distinct bibliography Source IDs (AIFP_B###), incl. "Bibliography only" rows
+    books         : distinct Source IDs (or citations, if no ID) with Category "Book/Print"
+                    (books, reports, journal articles and other printed works)
+    web           : distinct URLs with Category "URL" or "Social post" (web pages, articles, posts)
+    sites         : distinct websites (domains, without "www.") behind those URLs
+    comments      : endnotes that are the author's own comments (not counted as sources)"""
+    bib, books, web = set(), set(), set()
+    for r in rows:
+        cat, sid = get(r, "Category").lower(), get(r, "Source ID")
+        if re.match(r"[A-Z]+_B\d+$", sid):
+            bib.add(sid)
+        if cat.startswith("book"):
+            books.add(sid or get(r, "Source (full citation)") or get(r, "Note / citation text"))
+        elif cat in ("url", "social post"):
+            for u in urls(get(r, "URL")):
+                s = urlsplit(u)
+                web.add((s.netloc.lower().removeprefix("www."), s.path.rstrip("/") + ("?" + s.query if s.query else "")))
+    books.discard("")
+    return {"endnotes": endnotes, "bibliography": len(bib), "books": len(books),
+            "web": len(web), "sites": len({h for h, _ in web}), "comments": comments}
 
 
 def build(folder):
@@ -102,6 +128,7 @@ def build(folder):
     comments = sum(1 for e in nl if all(a["comment"] for a in e["addr"]))
     saved = sum(1 for e in nl if any(a["pdf"] for a in e["addr"]))
     data = {"code": meta["code"], "title": meta["title"], "author": meta.get("author", ""),
+            "stats": stats(rows, len(nl), comments),
             "progress": {"endnotes": len(nl), "cite": len(nl) - comments, "saved": saved, "comments": comments},
             "chapters": chapters}
     with open(os.path.join(folder, "sources.json"), "w", encoding="utf-8") as f:
@@ -116,7 +143,7 @@ def build(folder):
     print(f"{meta['code']}: {len(notes)} endnotes, {len(bib)} bibliography-only, {extras} extra-address rows grouped; "
           f"buttons: Open PDF {sum(1 for a in A if a['pdf'])}, PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'])}, "
           f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}; "
-          f"progress: {saved} of {len(nl) - comments} source endnotes saved")
+          f"progress: {saved} of {len(nl) - comments} source endnotes saved; stats: {data['stats']}")
     return meta
 
 

@@ -26,8 +26,19 @@
   .btn.off { color: #8b93a3; border-color: #d3d8e0; background: #f4f6f9; cursor: not-allowed; }
   a.btn:hover, .wb:hover { text-decoration: underline; }
   .wb { font-size: .78rem; color: var(--soft); }
-  .progress { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .9rem; color: var(--ink); margin: 0 0 10px; }
-  .progress:empty { display: none; }
+  .stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; padding: 0; list-style: none; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .stats:empty { display: none; }
+  .stats li { display: block; flex: 1 1 120px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: #f7f9fc; line-height: 1.25; }
+  .stats b { display: block; color: var(--navy); font-size: 1.3rem; }
+  .stats span { display: block; color: var(--soft); font-size: .76rem; }
+  .stats small { display: block; color: #7a8396; font-size: .7rem; }
+  /* Progress bar: remove later by setting SHOW_PROGRESS = false in the script below (it also hides itself once every source is saved). */
+  .progress { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0 0 16px; }
+  .progress[hidden] { display: none; }
+  .progress .cap { font-size: .82rem; color: var(--soft); margin-bottom: 5px; }
+  .progress .cap b { color: var(--ink); }
+  .progress .track { height: 7px; background: #e6e9ef; border-radius: 4px; overflow: hidden; }
+  .progress .fill { height: 100%; background: #2f8a57; border-radius: 4px; }
   .cmt { font-size: .78rem; color: var(--soft); font-style: italic; }
   .gone { font-size: .78rem; color: #8a2323; font-style: italic; }
   .empty { color: var(--soft); font-style: italic; }
@@ -48,8 +59,9 @@
   <header>
     <h1>{{TITLE}}</h1>
     <p>This page preserves copies of the sources cited in the book by {{AUTHOR}}.</p>
+    <ul class="stats" id="stats"></ul>
   </header>
-  <p class="progress" id="progress"></p>
+  <div class="progress" id="progress" hidden></div>
   <p class="note">If an original link is no longer available, the saved PDF is the reference copy. Each PDF begins with an archive cover sheet; the source itself starts on page 2.</p>
   <input type="search" id="q" placeholder="Search the bibliography" aria-label="Search the bibliography" />
   <div id="list"></div>
@@ -84,16 +96,28 @@ window.BOOK_FALLBACK = /*DATA*/null;
     });
     box.innerHTML = out || '<p class="empty">No entries match your search.</p>';
   }
+  function stats(t) {
+    var el = document.getElementById("stats"), n = function (x) { return Number(x).toLocaleString("en-US"); };
+    if (!t) return;
+    var c = [[t.endnotes, "Endnotes"], [t.bibliography, "Bibliography entries"], [t.books, "Books &amp; printed works"],
+             [t.web, "Web pages &amp; posts", t.sites ? "on " + n(t.sites) + " websites" : ""], [t.comments, "Author\u2019s comments"]];
+    el.innerHTML = c.filter(function (x) { return x[0]; }).map(function (x) {
+      return "<li><b>" + n(x[0]) + "</b><span>" + x[1] + "</span>" + (x[2] ? "<small>" + x[2] + "</small>" : "") + "</li>";
+    }).join("");
+  }
+  // PROGRESS BAR: set SHOW_PROGRESS = false to remove it (e.g. once the archive is complete).
+  // It also hides itself automatically when every endnote that cites a source has a saved copy.
+  var SHOW_PROGRESS = true;
   function progress(p) {
     var el = document.getElementById("progress");
-    if (!p || !p.cite) return;
-    var t = p.saved >= p.cite
-      ? "All " + p.cite + " endnotes that cite a source have a saved copy."
-      : p.saved + " of the " + p.cite + " endnotes that cite a source have a saved copy so far; the rest are in progress.";
-    if (p.comments) t += " The other " + p.comments + " endnotes are the author\u2019s own comments, with no source to save.";
-    el.textContent = t;
+    if (!SHOW_PROGRESS || !p || !p.cite || p.saved >= p.cite) return;
+    var pct = Math.round(100 * p.saved / p.cite);
+    el.innerHTML = '<div class="cap">Saved copies: <b>' + p.saved + "</b> of " + p.cite + " endnotes with a source (" + pct + "%)</div>" +
+      '<div class="track" role="progressbar" aria-label="Saved copies" aria-valuemin="0" aria-valuemax="' + p.cite + '" aria-valuenow="' + p.saved + '">' +
+      '<div class="fill" style="width:' + (100 * p.saved / p.cite).toFixed(1) + '%"></div></div>';
+    el.hidden = false;
   }
-  function boot(d) { D = d; progress(d.progress); q.addEventListener("input", render); render(); }
+  function boot(d) { D = d; stats(d.stats); progress(d.progress); q.addEventListener("input", render); render(); }
   fetch("sources.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
     .then(boot).catch(function () { boot(window.BOOK_FALLBACK); });
 })();
