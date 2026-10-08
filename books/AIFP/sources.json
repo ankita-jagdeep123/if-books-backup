@@ -2,6 +2,12 @@
  "code": "AIFP",
  "title": "Artificial Intelligence and the Future of Power: 5 Battlegrounds",
  "author": "Rajiv Malhotra",
+ "progress": {
+  "endnotes": 380,
+  "cite": 325,
+  "saved": 217,
+  "comments": 55
+ },
  "chapters": [
   {
    "title": "Introduction",
@@ -13,6 +19,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -24,6 +31,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQD2smdcLvmQpgNd-t8fr1eAeax7AzCukEOPKReppMYlRQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2020-05-28/google-sued-by-arizona-over-collecting-user-location-data",
@@ -40,6 +48,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQGqPbB-XP5R5rUzD_ETvd_Af959bxQYnGYeNUTmM_xmrs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html",
@@ -56,6 +65,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRBgi1OYbkBTI6LDFI67LmFAeaceN-TR4C-tqi7SirnnaM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2020/06/10/technology/amazon-facial-recognition-backlash.html",
@@ -72,6 +82,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQGqPbB-XP5R5rUzD_ETvd_Af959bxQYnGYeNUTmM_xmrs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html",
@@ -88,6 +99,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQGqPbB-XP5R5rUzD_ETvd_Af959bxQYnGYeNUTmM_xmrs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html",
@@ -104,6 +116,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT0zdkD8cPjS7aw5v-Z6CxSAe9WM-SPFKvF8gu29mHyzy4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.vice.com/en_ca/article/wxqx8q/snowden-tech-workers-are-complicit-in-how-their-companies-hurt-society",
@@ -120,6 +133,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRZPtZyifV6RpdkG32LRa8GAVULSkx8kpNyuXh3y1RBWfg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nature.com/articles/d41586-020-02003-2",
@@ -136,6 +150,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -147,6 +162,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRChEdko3oBR6bM5MUl_z6KAY3oqAx-T5EY4heCLxWTXmQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://futureoflife.org/ai-open-letter/",
@@ -157,6 +173,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ-XQHOAok-SYbkO9NQl44VAcixBJPRjhzjO43AvAZ4uLo",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://futureoflife.org/data/documents/research_priorities.pdf?x59035",
@@ -178,6 +195,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTO7zzIRwFRQIA5jl6tkiTnAYAsmkmLaGC-P3a32j8Wy-I",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.rt.com/news/401731-ai-rule-world-putin/",
@@ -194,6 +212,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQaxfjlOMgnR5S9LRZ9ciGSAUXI7pOgVm7fsOFPQYL0uZg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.wordstream.com/blog/ws/2018/04/10/voice-search-statistics-2018",
@@ -210,6 +229,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -221,6 +241,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -232,6 +253,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQp87ctoCKhS7g_wmkunQbTARVyIMMYwxkjTLvPZnTg65E",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://vas3k.com/blog/machine_learning/",
@@ -248,6 +270,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRgdbYsEMd3QoDuOT5xt4ALAbrtLt3Bw1pOKa_VTns40yc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.technologyreview.com/2020/05/11/1001563/covid-pandemic-broken-ai-machine-learning-amazon-retail-fraud-humans-in-the-loop/",
@@ -264,6 +287,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -275,6 +299,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQqvNqDI5-iRbsQia3Pq1xCAVht2JX-a4kU5tI7lZAKrK4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://news.harvard.edu/gazette/story/2019/04/harvard-google-team-up-to-tap-the-collective-mind-in-medicine/",
@@ -291,6 +316,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -302,6 +328,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -313,6 +340,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://venturedc.com/2015/10/the-three-vs-of-big-data-volume-velocity-variety/",
@@ -329,6 +357,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQWdYPEpDX_SJA6t-ix2q5QAT1uFFWxjSHvAMk2DjkTeLg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://infolab.stanford.edu/~ullman/mmds/ch9.pdf",
@@ -345,6 +374,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT_o23Yxa44SbCXzvOn54TCAfbps6UdLaygMhA0yNi6eAA",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -356,6 +386,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT4dnMY4l3vSof8V-pYx_r0ASjCXHThRPgVTfs8ICbvrLY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G",
@@ -372,6 +403,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRM3xTdHyyBTaHd1wrBjpsZAQXHYk2_M_wrGXd7ZoP-AHU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist",
@@ -388,6 +420,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -399,6 +432,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -410,6 +444,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT5stJZAJwSQLesx8LzUF_IAVi1gc697zMfHesV1XBcLwI",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.fastcompany.com/90241545/alexa-powered-amazon-houses-may-be-closer-than-you-think",
@@ -426,6 +461,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -437,6 +473,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -448,6 +485,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRlBvCQsHNISJQFWTVhOXhBAcQNkZ9hl5aHmglBlr5h2mk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nbcsandiego.com/news/local/ucsd-health-using-ai-to-identify-pneumonia-helping-covid-19-analysis/2301350/",
@@ -464,6 +502,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRjRMAuuDpwQ5fUyn7LE7A-AQCxLtw3R2oXazw_Ckij0gk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://emerj.com/ai-sector-overviews/ai-in-pharma-and-biomedicine/",
@@ -480,6 +519,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQodKEwEdfBSY0fa3WTnWCjAfep1XplMQgi2Zb2_67eHS4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.thehindu.com/sci-tech/health/coronavirus-densely-packed-areas-in-cities-are-vulnerable-says-biocomplexity-expert-madhav-marathe/article31195212.ece",
@@ -496,6 +536,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -507,6 +548,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS8rVKqXbQeTqYGNIb1ti9pAY3qgefmEHFBEkjc8ZfCvJ8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.wired.com/story/ai-epidemiologist-wuhan-public-health-warnings/",
@@ -523,6 +565,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://sciencenode.org/feature/machine-learning-and-the-microbiome-computers-spot-sick-guts.php",
@@ -533,6 +576,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.the-scientist.com/multimedia/slideshow—scads-of-microbes-now-stored-at-scripps-66920",
@@ -543,6 +587,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTULXAtN6R9RLBKi_SsplU5AX_4FaInbgaO8qhzOiVlMjM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.weforum.org/agenda/2019/03/how-emerging-technologies-increase-the-threat-from-biological-weapons/",
@@ -559,6 +604,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRMH0P-ONeVSbd7ujU5_EoTAUriPyBUGAtSFaVNj7UAt9g",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.melloddy.eu/",
@@ -569,6 +615,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSEGSVvccpxS54nBrm0QGtwAU3aelL9cB8p63gRox7Sowc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.quantamagazine.org/new-machine-learning-system-decodes-how-proteins-interact-20200603/",
@@ -585,6 +632,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSqXbPebwAhSbItyBFUjiUTAe-xtm_IZTEgbVB30yq0BhA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://twitter.com/FrRonconi/status/1201841058713350144",
@@ -595,6 +643,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTyOmdIVZW4RKAccvVbzJzeAQ18xIK_w34cOcafaN__1Ko",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www-technologyreview-com.cdn.ampproject.org/c/s/www.technologyreview.com/2019/06/27/238884/the-pentagon-has-a-laser-that-can-identify-people-from-a-distanceby-their-heartbeat/amp/",
@@ -611,6 +660,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-first-game-based-digital-therapeutic-improve-attention-function-children-adhd",
@@ -627,6 +677,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -638,6 +689,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT9Ply5qW03R6xjIReJch-dAValTsGn94lzY05DV7wvQWo",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnbc.com/2019/05/07/uber-lyft-drivers-to-go-on-strike-over-low-wages-and-benefits.html",
@@ -654,6 +706,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQxz6ngzZQkTrrhkfz2cbswAYPq0mmLAqHKGGdxXjHGcOw",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2019/04/18/technology/uber-atg-autonomous-cars-investment.html",
@@ -670,6 +723,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTizl7Acs0aRZTxnfu79FVuAWdnHGxkA-qXOneZsUd8KO8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.whitehouse.gov/ai/",
@@ -686,6 +740,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -697,6 +752,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSbWhRQ6RwBSaV2Vs_sok2lAcVqa2wmDQXhpPfVtMf73uk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.youtube.com/watch?v=YdnJI9T-yXI",
@@ -713,6 +769,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQToNcDyUdabTL0pWwCVBmXIAYTPcktuMOYF8_nfw2c8DCk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://emerj.com/ai-sector-overviews/ai-in-banking-analysis/",
@@ -729,6 +786,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTGVvkb-oCOS473i6KYLoN9ARp77HPejbnJxS1Hxk16EVM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://emerj.com/ai-sector-overviews/machine-learning-at-insurance-companies/",
@@ -745,6 +803,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTsIsWGiDucR762dIRwHqWxAXgplS5G83n8h2sgxxtfPT4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2019-12-06/robots-in-finance-could-wipe-out-some-of-its-highest-paying-jobs",
@@ -761,6 +820,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -772,6 +832,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.wsj.com/amp/articles/chinas-efforts-to-lead-the-way-in-ai-start-in-its-classrooms-11571958181",
@@ -788,6 +849,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT0-evDti9oQbIZxGfV7GawAe_4BtBQ_Xzq8gX8wp2mG7Y",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/",
@@ -804,6 +866,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ_V4BVmephTZW9dPvJ8585AYREtV5HD0oUVbFzAdRfsJk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://sites.psu.edu/ist446/2017/01/23/gamification-of-politics/",
@@ -820,6 +883,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -831,6 +895,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -842,6 +907,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -853,6 +919,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -864,6 +931,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -875,6 +943,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSYQNDxbjiTQppXCCATY6j2AdSHNTnFble51bzgWwAM--A",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.theatlantic.com/technology/archive/2017/02/artificial-intelligence-christianity/515463/",
@@ -891,6 +960,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -902,6 +972,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -913,6 +984,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRp9vQhulCOQpoKdyGYfcpEAbrFZMTqlSVPLTVxh68WT-Q",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.businessinsider.com/why-google-ai-game-go-is-harder-than-chess-2016-3",
@@ -929,6 +1001,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTURsZeVeXjQqQGz_evs6w4Ae9BV3ebVTVe7zXD9xLcZt4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://cuseum.com/blog/2019/12/17/3-things-you-need-to-know-about-ai-powered-deep-fakes-in-art-amp-culture",
@@ -945,6 +1018,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRtkb-MogU-Q5-pX8lP0ursAUm81kF1gFuRRdr3NFMqH0I",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.vice.com/en_us/article/ywyxex/deepfake-of-mark-zuckerberg-facebook-fake-video-policy",
@@ -961,6 +1035,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -972,6 +1047,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -983,6 +1059,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS51GpbYXMtRKFkVyLdno5MAe-BMLrCQoKlTCmZNuh9f_A",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.historians.org/about-aha-and-membership/aha-history-and-archives/gi-roundtable-series/pamphlets/em-2-what-is-propaganda-(1944",
@@ -999,6 +1076,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1010,6 +1088,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSo-QGXQSTtSKsaVDtLgXZ_Ac72ExxYxJwDZzCkQX2eSQM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/world-news/facebook-names-1st-board-members-of-its-supreme-court-to-oversee-content-2224527",
@@ -1026,6 +1105,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRT1snZJuQGSLE8-GOZKNonAdqW0jivYlFcCRoiO34HA0M",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnbctv18.com/technology/us-court-asked-to-force-facebook-to-release-myanmar-officials-data-for-rohingya-genocide-case-6112291.htm",
@@ -1042,6 +1122,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ316yquKzbQ65HCnjv4wPxAX8rR85F71wpTZgAVj3Fa_Q",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2020-05-28/trump-furious-at-twitter-aims-executive-order-at-tech-giants",
@@ -1058,6 +1139,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1069,6 +1151,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTVui7dWVc3SoEAMl_LUXXKAXOslYk5yByDU2vySEmW8l4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.warc.com/content/paywall/article/warc-datapoints/nearly-90-of-consumers-have-changed-their-behaviour-because-of-covid-19/132043",
@@ -1085,6 +1168,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.democraticmedia.org/article/platforms-privacy-pandemic-and-data-profiteering-covid-19-crisis-further-fuels-unaccountable",
@@ -1095,6 +1179,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTzKzCl4UnUSYklL63o5dDoAZKcC78GSFbsRvCSaFiBAPc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nielsen.com/us/en/insights/article/2020/key-consumer-behavior-thresholds-identified-as-the-coronavirus-outbreak-evolves/",
@@ -1111,6 +1196,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1122,6 +1208,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTaZpuq7Sj4S43kMDLX8XwqAQrIwNtBjVpCPnCMkLb_6U8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.pewresearch.org/internet/2014/08/06/future-of-jobs/",
@@ -1138,6 +1225,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTsFY-6w4-KQpH7YMUC0UFSAWegu3JTG3voWDmye_cLPx8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.forbes.com/sites/hilarybrueck/2015/09/01/why-computers-could-design-more-organic-products-than-humans/",
@@ -1154,6 +1242,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1165,6 +1254,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1176,6 +1266,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1192,6 +1283,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1203,6 +1295,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1214,6 +1307,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1225,6 +1319,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1236,6 +1331,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1247,6 +1343,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT3FkRfYuk9R5T80Ntm7oq5AZKNhN285yZMrziZYnwNkY0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://blog.aboutamazon.com/transportation/whats-next-for-amazon-scout",
@@ -1263,6 +1360,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQVUQyC3a0ARbF1gUwfyyOkAal1CII6CF868oeP8c4nCzY",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1274,6 +1372,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR-i5H9-XaTTbPojbW13ESYAbZ54nJjRLFd_qBHCo1g0HE",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1285,6 +1384,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1296,6 +1396,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1307,6 +1408,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQScGN8YMAwtT4T6ZYTKjGJgAeEKtvZqiWGwZr-m1zOblr4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1318,6 +1420,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1329,6 +1432,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTkKO_MNjeNS7Hcc_DOq9USAUFpviirhww6cYu1QTKgTU0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://su.org/blog/exponential-technology-trends-defined-2019/",
@@ -1345,6 +1449,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQScGN8YMAwtT4T6ZYTKjGJgAeEKtvZqiWGwZr-m1zOblr4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1356,6 +1461,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1367,6 +1473,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1378,6 +1485,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1389,6 +1497,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1400,6 +1509,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1411,6 +1521,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1422,6 +1533,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1433,6 +1545,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQga-VrK68jRqGQSWi0yfPIAaemqg9yUX6H3GK2j9fVgw4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2019-12-27/world-s-richest-gain-1-2-trillion-as-kylie-baby-sharks-prosper",
@@ -1449,6 +1562,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1460,6 +1574,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRehX1zf6mHSouDuLPnpuraAd3kGPPYqdOk8WQS90ziQxU",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1471,6 +1586,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRehX1zf6mHSouDuLPnpuraAd3kGPPYqdOk8WQS90ziQxU",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1482,6 +1598,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1493,6 +1610,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1504,6 +1622,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRehX1zf6mHSouDuLPnpuraAd3kGPPYqdOk8WQS90ziQxU",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1515,6 +1634,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDQzZCSffhTpA0_TaaiIrOAST8leDcg4HKEf-2tfcWmaA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://resources.oxfordeconomics.com/how-robots-change-the-world",
@@ -1531,6 +1651,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS6FOzC3MG7SbFdQxjz7U9PAWP81qi3qNt_Qnc2yoCO9D4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1542,6 +1663,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS6FOzC3MG7SbFdQxjz7U9PAWP81qi3qNt_Qnc2yoCO9D4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1553,6 +1675,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1564,6 +1687,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRehX1zf6mHSouDuLPnpuraAd3kGPPYqdOk8WQS90ziQxU",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1575,6 +1699,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRehX1zf6mHSouDuLPnpuraAd3kGPPYqdOk8WQS90ziQxU",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1586,6 +1711,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqM2bBimrBSLSPE1H4CRw3AaHaJPgQ2semPE1QkL4-NM0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/economy/coronavirus-crisis-could-plunge-half-a-billion-people-into-poverty-oxfam-5654871.htm",
@@ -1602,6 +1728,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTT2LCKs-6ZQp9QeISm_KdJAWc0UAesMi6tdG6nw-M0nx0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://edition.cnn.com/2020/03/31/perspectives/equal-pay-day-coronavirus/index.html",
@@ -1618,6 +1745,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1629,6 +1757,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1640,6 +1769,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1651,6 +1781,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1662,6 +1793,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqLmOErCZ7S6PSDNIGd7gUAe2AzIGKdr6wmiUFK-U_F4s",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1673,6 +1805,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSPtWEVF0R-QqoFVLH57IomAXf4hPR2GsJeq2UD8U-TjjM",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1684,6 +1817,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRpIVQiZ4xaSJEkGTdAA73MAbiicbY8oouMejf40gcxLQ8",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1695,6 +1829,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1706,6 +1841,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1717,6 +1853,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1728,6 +1865,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqLmOErCZ7S6PSDNIGd7gUAe2AzIGKdr6wmiUFK-U_F4s",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1739,6 +1877,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDQzZCSffhTpA0_TaaiIrOAST8leDcg4HKEf-2tfcWmaA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://resources.oxfordeconomics.com/how-robots-change-the-world",
@@ -1760,6 +1899,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1771,6 +1911,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQVUQyC3a0ARbF1gUwfyyOkAal1CII6CF868oeP8c4nCzY",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1782,6 +1923,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQVUQyC3a0ARbF1gUwfyyOkAal1CII6CF868oeP8c4nCzY",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1793,6 +1935,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1804,6 +1947,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1815,6 +1959,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1826,6 +1971,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1837,6 +1983,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR3gbNWh1B_TrK4I15cXUK7AWkX5H9PZGpNROzAbemSQmY",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1848,6 +1995,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDQzZCSffhTpA0_TaaiIrOAST8leDcg4HKEf-2tfcWmaA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://resources.oxfordeconomics.com/how-robots-change-the-world",
@@ -1864,6 +2012,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDQzZCSffhTpA0_TaaiIrOAST8leDcg4HKEf-2tfcWmaA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://resources.oxfordeconomics.com/how-robots-change-the-world",
@@ -1880,6 +2029,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS6FOzC3MG7SbFdQxjz7U9PAWP81qi3qNt_Qnc2yoCO9D4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1891,6 +2041,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1902,6 +2053,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS9I6t3AKXQQKqyTselLV9IAWQuGhlK6-6yagJiNCNplro",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.orfonline.org/expert-speak/the-tsinghua-of-economic-development-in-pakistan-66037/",
@@ -1918,6 +2070,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1929,6 +2082,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1940,6 +2094,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1951,6 +2106,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1962,6 +2118,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1973,6 +2130,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -1984,6 +2142,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -1995,6 +2154,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2006,6 +2166,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2017,6 +2178,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSVmF-wqUdtSbzHGq66XsSdAUPKBW1_pURR92QE9qP71KY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.financialexpress.com/opinion/an-ai-innovation-engine-for-new-india/1649078/lite/",
@@ -2033,6 +2195,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2044,6 +2207,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSGZyThmYJ9TpwGnOmwXtKQAZr-8KQVCs7G1RdV8p7bGzw",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.inc.com/magazine/201809/amy-webb/china-artificial-intelligence.html",
@@ -2054,6 +2218,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSziZRpthfnQ6dNiZRP6CDEAUGFJwvKDAOYJNg2o2zpqHo",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.newamerica.org/cybersecurity-initiative/digichina/blog/xi-jinping-calls-for-healthy-development-of-ai-translation/",
@@ -2064,6 +2229,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQJUjOnQjfgS6ErKqfp8s7zAXc_nL9-L-Pncg3HLJgB1xI",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.newamerica.org/cybersecurity-initiative/digichina/blog/full-translation-chinas-new-generation-artificial-intelligence-development-plan-2017/",
@@ -2080,6 +2246,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSkEpFegOVtQ72pbS70NL6HAfWHIcRLMUCm5s2TaBUyW2g",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnas.org/publications/reports/understanding-chinas-ai-strategy",
@@ -2096,6 +2263,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2107,6 +2275,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2118,6 +2287,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSEOY0z8sIDRau9qhUPD6rTAZkznJC118hDDGHTvtoK8qc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.scmp.com/news/china/military/article/3031462/china-stakes-claim-unmanned-warfare-national-day-show-drone",
@@ -2134,6 +2304,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2145,6 +2316,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR6LYq6tVU8SLYSn2O4KShpARylUypNdCkW3sy_9BAGrUc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://in.reuters.com/article/grindr-m-a-beijingkunlun/chinas-kunlun-tech-agrees-to-u-s-demand-to-sell-grindr-gay-dating-app-idINKCN1SJ297",
@@ -2161,6 +2333,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRXiSlN0UZkT4Cx8A8avqZpAd0S-P8lnBqb_F6dMu_0980",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://apple.news/AajzW-k_CR7S2-i6EGxvLVg",
@@ -2177,6 +2350,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTgxszPhPFYTZTNCQir4WDhAd1S8zpwgJVXU7sL_ASKszI",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnn.com/videos/us/2020/02/25/tsa-airport-workers-tiktok-china-national-security-concerns-ots-vpx.hln/video/playlists/atv-trending-videos/",
@@ -2193,6 +2367,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRkp3eq2MMmTIoZt1KZR2QTAbwyc3_ZZDB7IMToBU5KAkA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.eurozine.com/social-control-4-0-chinas-social-credit-systems/",
@@ -2209,6 +2384,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTxnQW4HKPuQ7w29uAIv_PrAUDyrEltGeGYTDp4F1fy7nc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2019/12/30/world/asia/china-xinjiang-muslims-labor.html",
@@ -2225,6 +2401,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTAwABakjxXRJeCyYHcoKSIAW_We_xvr3QwhsGosPYLtqU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.dailymail.co.uk/news/article-7824541/China-rewrite-Bible-Quran-reflect-socialist-values.html",
@@ -2241,6 +2418,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS4snnyx85GTp4XwUaHbBUaAaqBDkPSBnqtjR_iuMfcvRg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.defenseone.com/ideas/2019/08/chinas-military-pursuing-biotech/159167/",
@@ -2257,6 +2435,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS4snnyx85GTp4XwUaHbBUaAaqBDkPSBnqtjR_iuMfcvRg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.defenseone.com/ideas/2019/08/chinas-military-pursuing-biotech/159167/",
@@ -2273,6 +2452,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ-oSFGREIBTKjVpnEGX0j_AZyNJLqr6tszy3jF_WxgFpk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.reuters.com/article/us-usa-artificial-intelligence/us-government-limits-exports-of-artificial-intelligence-software-idUSKBN1Z21PT",
@@ -2289,6 +2469,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSAbjlPgabiSbFKXa3xocdeAZhLscDCmSCZZ7tHX5KRST0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnn.com/2019/12/09/tech/china-us-computers-software/index.html",
@@ -2305,6 +2486,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2316,6 +2498,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSzCUhhXtoWR5sgP_ZUaR5GAcgB9BkAez9GP310ErXj84E",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2020-05-20/china-has-a-new-1-4-trillion-plan-to-overtake-the-u-s-in-tech",
@@ -2332,6 +2515,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTjW18t2ZOjTpIwpOpZEd2pASllJxrjOlqj2uqpnWVXQJ0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.whitehouse.gov/presidential-actions/executive-order-maintaining-american-leadership-artificial-intelligence/",
@@ -2348,6 +2532,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTizl7Acs0aRZTxnfu79FVuAWdnHGxkA-qXOneZsUd8KO8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.whitehouse.gov/ai/",
@@ -2364,6 +2549,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTizl7Acs0aRZTxnfu79FVuAWdnHGxkA-qXOneZsUd8KO8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.whitehouse.gov/ai/",
@@ -2380,6 +2566,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRPtIO4eTc0Q4cy8UE5uWfoAcNrJAkNeXy8X0i7ot33_Vk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2020-06-07/huawei-troops-see-dire-threat-to-future-from-latest-trump-salvo",
@@ -2396,6 +2583,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTqXlTl-hE8RoFzsedP2BwSAauPqDzclW8jj1_VwkU8ckY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://emerj.com/ai-sector-overviews/artificial-intelligence-at-the-top-5-us-defense-contractors/",
@@ -2412,6 +2600,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQROKa8aCLnTQbUayecCZdaAAdSegv9Trtal4N4fVhg414s",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://dodcio.defense.gov/About-DoD-CIO/Organization/JAIC/",
@@ -2428,6 +2617,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ai.mil/about.html",
@@ -2438,6 +2628,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ai.mil/blog_09_16_19.html",
@@ -2454,6 +2645,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2465,6 +2657,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2476,6 +2669,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2487,6 +2681,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSePGr4U1_nSJBvlUUYakFoAQ7-tG6LX_6F0Ns26ZG3I_0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://fas.org/sgp/crs/natsec/R45178.pdf",
@@ -2503,6 +2698,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSePGr4U1_nSJBvlUUYakFoAQ7-tG6LX_6F0Ns26ZG3I_0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://fas.org/sgp/crs/natsec/R45178.pdf",
@@ -2519,6 +2715,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTqXlTl-hE8RoFzsedP2BwSAauPqDzclW8jj1_VwkU8ckY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://emerj.com/ai-sector-overviews/artificial-intelligence-at-the-top-5-us-defense-contractors/",
@@ -2535,6 +2732,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSfh9fHmOe0Rq3hvVw4Qg9yAUZRZa0HpOEwLatMxSN0QBY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.dni.gov/files/ODNI/documents/AIM-Strategy.pdf",
@@ -2551,6 +2749,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQuhPAjWpWaSZRv39dRDOSdAVAd-1zJ1T99KENH5pGFGo0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.darpa.mil/program/media-forensics",
@@ -2567,6 +2766,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSePGr4U1_nSJBvlUUYakFoAQ7-tG6LX_6F0Ns26ZG3I_0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://fas.org/sgp/crs/natsec/R45178.pdf",
@@ -2583,6 +2783,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSePGr4U1_nSJBvlUUYakFoAQ7-tG6LX_6F0Ns26ZG3I_0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://fas.org/sgp/crs/natsec/R45178.pdf",
@@ -2599,6 +2800,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTizl7Acs0aRZTxnfu79FVuAWdnHGxkA-qXOneZsUd8KO8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.whitehouse.gov/ai/",
@@ -2615,6 +2817,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT-5QE8dfkBT7OMGkS4qr9zAY_ZsB4L5IMtAiuK5Es36_k",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.energy.gov/articles/us-department-energy-and-cray-deliver-record-setting-frontier-supercomputer-ornl",
@@ -2631,6 +2834,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTizl7Acs0aRZTxnfu79FVuAWdnHGxkA-qXOneZsUd8KO8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.whitehouse.gov/ai/",
@@ -2647,6 +2851,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2658,6 +2863,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2669,6 +2875,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2680,6 +2887,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTvtMtn4BxUS5oZNjHgAi8uAZbvLMTNgAYhwrg7Lxj1lMM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://onezero.medium.com/former-google-ceo-wants-to-create-a-government-funded-university-to-train-a-i-coders-9a2df09c5bce",
@@ -2701,6 +2909,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2712,6 +2921,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ2C1YQodZ6Q5MI-Mgg1uyNAeAzRCBDWVxF60rSJPS_1f0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bbc.com/news/technology-27762088",
@@ -2728,6 +2938,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSePGr4U1_nSJBvlUUYakFoAQ7-tG6LX_6F0Ns26ZG3I_0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://fas.org/sgp/crs/natsec/R45178.pdf",
@@ -2738,6 +2949,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQfidFwgLCPQobFDbzye8V6AXaev9_7EPX14PLvx4TCFu4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnbctv18.com/technology/how-artificial-intelligence-can-power-call-centres-during-lockdowns-6033791.htm",
@@ -2754,6 +2966,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2765,6 +2978,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2776,6 +2990,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2787,6 +3002,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2798,6 +3014,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2809,6 +3026,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2820,6 +3038,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2831,6 +3050,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -2842,6 +3062,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRcYACXK5l_SZbm-1PGVlU7AQdTXdE5Tgbdhy71D67XywQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.clicktale.com/resources/blog/puzzling-web-habits-across-the-globe-part-1/",
@@ -2858,6 +3079,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2869,6 +3091,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS4G-u5Wgo0TbckNN8duekhAVrV0VeTlSKLQHtzmFN8D_s",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.nytimes.com/2020/01/06/opinion/suicide-young-people.html",
@@ -2885,6 +3108,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2896,6 +3120,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS9I7_i9VKjRJpAnytBJbsoAdDvmc6c8OSGMEa3HHCYaZg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.theverge.com/2020/1/31/21117217/amazon-kindle-tracking-page-turn-taps-e-reader-privacy-policy-security-whispersync",
@@ -2912,6 +3137,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2923,6 +3149,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2934,6 +3161,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRUdVf6w7AJRowFaJ6Km_UJAdeE-JgFeuPtEYdiJb3RI-w",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://techcrunch.com/2020/06/08/ibm-ends-all-facial-recognition-work-as-ceo-calls-out-bias-and-inequality/",
@@ -2950,6 +3178,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS9c0NQmAt1TqO1Yw5hbiSHASc6LacYFSFfu6e2HdWP980",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://timesofindia.indiatimes.com/videos/city/jaipur/covid-19-robots-to-treat-patients-in-jaipurs-sms-hospital/videoshow/74818087.cms",
@@ -2960,6 +3189,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://timesofindia.indiatimes.com/videos/international/robots-seen-as-effective-tool-against-covid-19/videoshow/76072335.cms",
@@ -2976,6 +3206,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2987,6 +3218,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -2998,6 +3230,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3009,6 +3242,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3020,6 +3254,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3031,6 +3266,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS7ud3fqmkPTIp-pWFiysuuAXRguNYg4g9bvB4Jx2Tanps",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3042,6 +3278,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3058,6 +3295,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3069,6 +3307,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3080,6 +3319,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3091,6 +3331,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3102,6 +3343,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3113,6 +3355,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3124,6 +3367,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3135,6 +3379,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3146,6 +3391,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3157,6 +3403,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3168,6 +3415,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3179,6 +3427,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3190,6 +3439,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSMmFzd509WR5jwllsvSD10AS8jQkv8kHg9dH2qioXV39A",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://davidhume.org/texts/m/3",
@@ -3206,6 +3456,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSFc-XeRiH7Rai5o9EP7-BwAd0e44uFooL_jk8GEUhpnjg",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://youtu.be/r-vbh3t7WVI",
@@ -3222,6 +3473,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTkiHPFJZo9RqGrEZQUug8fAaFFvOHfjg6V6akPMrGEyck",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.scientificamerican.com/article/scientists-demonstrate-direct-brain-to-brain-communication-in-humans/",
@@ -3238,6 +3490,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3249,6 +3502,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR3AT9QJW5_S7FmjdR1GQewAYDrsSiwetKG_3r3HEWi5vM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://intellectualkshatriya.com/american-exceptionalism-and-the-myth-of-the-frontiers-1-introduction/",
@@ -3265,6 +3519,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3276,6 +3531,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3287,6 +3543,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3298,6 +3555,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTkiHPFJZo9RqGrEZQUug8fAaFFvOHfjg6V6akPMrGEyck",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.scientificamerican.com/article/scientists-demonstrate-direct-brain-to-brain-communication-in-humans/",
@@ -3314,6 +3572,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3330,6 +3589,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS26DkZ0-S7TaLA-hLsCQEzAfC1pmlvLe5crcoN6YcRq6g",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://raise2020.indiaai.gov.in/",
@@ -3346,6 +3606,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3357,6 +3618,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3368,6 +3630,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3379,6 +3642,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3390,6 +3654,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQtolCjwSMoRKhvxrhCcWT-AdORjORbPxS_Df8uGcisYnQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://cis-india.org/internet-governance/blog/ai-in-india-a-policy-agenda",
@@ -3406,6 +3671,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQAcIsUjtg7T6r528CvzUHkAb7-PtU4flkupGxuqVGZE-c",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://carnegieindia.org/2016/08/11/india-and-artificial-intelligence-revolution-pub-64299",
@@ -3422,6 +3688,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ42j9S1nvURL31bt4zk4zhAagriraUF4PQydW_hHec3YM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/business/niti-aayog-google-join-hands-to-foster-artificial-intelligence-ai-ecosystem-in-india-1848608",
@@ -3438,6 +3705,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSLrgMklFHcS54dYm9e4f9OAbK-VyL6zUkX_bnfrI56R8Y",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/views/how-one-indian-industry-beat-china-at-manufacturing-and-created-a-global-footprint-6135001.htm",
@@ -3454,6 +3722,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3465,6 +3734,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRN7ZPEoAt2QrbzzdhTAcl7AWtIAl7deiYC0HpcilEEG8g",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://armstrade.sipri.org/armstrade/page/toplist.php",
@@ -3475,6 +3745,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSKrbLNzwxARZcQHoqyMEOiARfekvna-y4TpU0VT9wr3Dw",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.defensenews.com/global/asia-pacific/2018/02/05/indias-defense-budget-will-rise-but-it-will-get-eaten-up-by-personnel-costs/",
@@ -3485,6 +3756,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRbq6c__D0YS4Y4xppYlPYwATAqA0MPoQYk-B0_CBM-ej0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://swarajyamag.com/videos/while-the-5-rafale-fighter-jets-arrive-indias-defence-sector-problems-remain",
@@ -3506,6 +3778,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTtsXMDzDwITrggZIEyNBHsAdIUpGW_eL-QhacECYo6Uzs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.dri.org.in/integral-humanism-booklet/",
@@ -3522,6 +3795,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3533,6 +3807,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQzGYF1DB6WS7ah-H137lVKAWsm8-pmqefXfUg7uqB_-tA",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3544,6 +3819,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3555,6 +3831,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3566,6 +3843,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT4uZPo3WPaTZUxsk6GfFzbAcfOcHEK2Jojy_h8dEq1nEY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.iqt.org/",
@@ -3582,6 +3860,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3593,11 +3872,13 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       },
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.analyticsinsight.net/artificial-intelligence-india-comprehensive-overview/",
@@ -3614,6 +3895,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQx0rtLxl99Qq-BiNL0IGnIAekEsfT6nh5Hgo5uIQg65dU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://niti.gov.in/sites/default/files/2019-01/NationalStrategy-for-AI-Discussion-Paper.pdf",
@@ -3624,6 +3906,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTkp9BwBEokQ5eM6U56egHfAThg82DOQ_XpTGf3IFQR9uE",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://medium.com/@subhashkak/whence-premium-mediocrity-in-india-ff894a984fde",
@@ -3640,6 +3923,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQx0rtLxl99Qq-BiNL0IGnIAekEsfT6nh5Hgo5uIQg65dU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://niti.gov.in/sites/default/files/2019-01/NationalStrategy-for-AI-Discussion-Paper.pdf",
@@ -3656,6 +3940,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT0sfP71uqLTZZ_heqoS8EmAXOTXOqtrfEfgr6DuxbOWrc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://techbeacon.com/enterprise-it/google-goes-ai-first-io-what-dev-ops-need-know",
@@ -3672,6 +3957,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR6DfrrYBjSRbKiIOz9y6k3AfDJn0bYJiqjeI-3lRbrbVc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnbctv18.com/business/uday-kotak-bats-for-re-think-on-business-policy-to-get-migrant-labour-back-6070221.htm",
@@ -3688,6 +3974,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://coe-dsai.nasscom.in/",
@@ -3704,6 +3991,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQb913TRrtFTKMDzAIbU4_zAd-QIVvMB7U1aXGEkKL1r5A",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://analyticsindiamag.com/should-ai-be-allowed-to-get-patents-how-can-indian-companies-protect-their-inventions/",
@@ -3720,6 +4008,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ3iuGOAk9BTKJT3hGyN-q9Ace8AYj1bLo4j5Wez2iB1Yo",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://emerj.com/ai-market-research/artificial-intelligence-in-india/",
@@ -3736,6 +4025,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSw6LMk7tEFTpvxKDNE9BIWASg_EZQ0ruUYJJrlz3pR_dQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/tencents-now-the-alibaba-of-indian-startup-scene/articleshow/73789241.cms",
@@ -3752,6 +4042,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -3763,6 +4054,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSnIEisSZT9RqJUe1sXTw3HAXhJhHvyCoVp5a264dpSvxc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://economictimes.indiatimes.com/tech/internet/alibaba-tencent-pour-cash-into-indias-gambling-loopholes/articleshow/75173745.cms",
@@ -3779,6 +4071,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS3Nfn4hZ56RoBG0VkVg1LEATv56bVJnYCueVVHiOluBcQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/keeping-a-check-on-the-chinese/articleshow/75223704.cms",
@@ -3789,6 +4082,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTZcvRUlJfTRp-tlzgQPS-tAeglkIpAUJuWvhNhjuVhbEk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/economy/no-intention-to-stop-chinese-investments-in-startups-says-niti-aayog-ceo-5733001.htm",
@@ -3799,6 +4093,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSYGtYB_7F8SrpcJjT-e34-Ae806SeGAP-LEYW-xSpRXj0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.reuters.com/article/us-india-china-investments-exclusive-idUSKCN2270L9",
@@ -3815,6 +4110,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSLntkR7-zURYm_OQv1gno-AQL_vW6tpppQwCWx0nwI1NE",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/politics/rss-affiliate-wants-swadeshi-zoom-lauds-crackdown-on-chinese-app-5729751.htm",
@@ -3831,6 +4127,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDIJOy521FRYSw3nU_pTp3AThpFas59IzyZjK_DwAV3qk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.brookings.edu/blog/techtank/2019/04/22/how-india-can-prepare-its-workforce-for-the-artificial-intelligence-era/",
@@ -3847,6 +4144,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDIJOy521FRYSw3nU_pTp3AThpFas59IzyZjK_DwAV3qk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.brookings.edu/blog/techtank/2019/04/22/how-india-can-prepare-its-workforce-for-the-artificial-intelligence-era/",
@@ -3863,6 +4161,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSPfoe2O7cAS7On-sVHEKD1ASKV20vohUDF5RAPABd6nnI",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://medium.com/the-coleman-fung-institute/blue-river-technology-how-robotics-and-machine-learning-are-transforming-the-future-of-farming-f355398dc567",
@@ -3879,6 +4178,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQhPmygnZvwRrNrhD99Irb5AUYUYHrqEfzEllv2YH81KKs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.chathamhouse.org/expert/comment/problem-india-s-ai-all-strategy",
@@ -3895,6 +4195,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ_ejVX9n5iQoRwyQpFY5JwAcPe5dTX6OLsLY8l-g0WQW4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://ficci.in/spdocument/22951/FICCI-NASSCOM-EY-Report_Future-of-Jobs.pdf",
@@ -3911,6 +4212,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3922,6 +4224,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3933,6 +4236,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTOHRpKD-mQRoN6o4ULzo6FAW4hO1g-Jg6BRhFXgwphIH8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://qz.com/india/1051533/india-is-unprepared-for-a-near-future-when-it-will-be-the-worlds-most-populous-country/",
@@ -3943,6 +4247,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS2wQHYs3UWSZY8vM6938tTAUZUVuvnCafomM6WcdxvnYA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.livemint.com/Money/JYalqNRTOtaQCIU4EuXGRO/More-than-30-of-Indias-youth-not-in-employment-shows-OECD.html",
@@ -3953,6 +4258,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQk3MORoCckSZy9GzsWuqLmAYHLZqvDGtQ8RiJKwfZmJJM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.livemint.com/politics/policy/a-third-of-skilled-youth-in-india-jobless-official-survey-1565161972818.html",
@@ -3969,6 +4275,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTWpsyukswuR5OP9la-KoDoAcvxK4jkQGi0hA9CMQWrfDQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://economictimes.indiatimes.com/news/politics-and-nation/share-of-population-over-age-of-60-in-india-projected-to-increase-to-20-in-2050-un/articleshow/68919318.cms",
@@ -3985,6 +4292,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -3996,6 +4304,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4007,6 +4316,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4018,6 +4328,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4029,6 +4340,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQOU2RflK46R4NVSod0NFcLAba5-T9QudmQctDW_be1ezs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://economictimes.indiatimes.com/tech/internet/india-is-worlds-most-digitally-dexterous-country-survey/articleshow/75178052.cms",
@@ -4050,6 +4362,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTcYGkoNqKLS69m6BsMEDp4Acyh3nclP3zh4H5zQthMdXA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://time.com/5237458/the-facebook-defect/",
@@ -4066,6 +4379,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4077,6 +4391,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4088,6 +4403,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4099,6 +4415,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQzGYF1DB6WS7ah-H137lVKAWsm8-pmqefXfUg7uqB_-tA",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4110,6 +4427,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ5gnFM6vhZRK1g94Y2-UnaAbf0kyKe5FYUfUvEusl-ImI",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.mygov.in/task/share-your-inputs-draft-non-personal-data-governance-framework/",
@@ -4126,6 +4444,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4137,6 +4456,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4148,6 +4468,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQKF3HjB21NQLbvwRlxSdnLAdTQxGIVXsHtIQ094Pov7qM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.indiatoday.in/india/story/white-house-donald-trump-unfollows-narendra-modi-twitter-pmo-president-ram-nath-kovind-1672344-2020-04-29",
@@ -4164,6 +4485,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4175,6 +4497,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQIPGGuefncQbNHfo9szuXzAQFNiXIECIb6zGoyqEmovK4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://economictimes.indiatimes.com/news/politics-and-nation/up-government-invites-top-varsities-for-kumbh-research/articleshow/66111831.cms",
@@ -4185,6 +4508,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQUlNLydfgdQ7beOlFlChX3AfYXhxxEXXMPhmZy4CzKSsU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://swarajyamag.com/insta/with-preparations-in-full-swing-yogi-adityanath-government-invites-the-worlds-best-universities-for-kumbh-research",
@@ -4201,6 +4525,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ-yWmouOe8T5aUvK3XBT5CAeTupKvJUL9XyuZrtD1TB_4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/india-news/amazon-google-face-tough-government-e-commerce-rules-report-2257678",
@@ -4211,6 +4536,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSZE3jb3Ns9QLGob3jgPkRNAbQ9RqY2DTHWXrW1CedNlOQ",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/startup/draft-e-commerce-policy-oyos-esops-and-other-top-startup-stories-of-the-day-6272771.htm",
@@ -4221,6 +4547,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRstjp-BKxySLlJo0yAbxGFAT7FRNAq63yLilxMryULevM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/technology/data-of-one-country-should-not-become-surreptitious-property-of-another-country-prasad-6298761.htm",
@@ -4237,6 +4564,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTpUKGEf2g1RYThHHubE_RPAeo5iNrQ9_7Aj-cjQ0dbxHc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.wired.com/story/cambridge-analytica-suspends-alexander-nix-amid-scandals/",
@@ -4253,6 +4581,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSkG4Rh-aQFTpafInhqFBLVAWOv6ckq-9ozrfj_pkIcUyw",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://qz.com/1239561/cambridge-analyticas-parent-firm-proposed-a-massive-political-machine-for-indias-2014-elections/",
@@ -4263,6 +4592,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT_twcXoNk7SpDnTx3xPu4kAbjbhl9kr8_wV73SaLhJgjc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.livemint.com/Politics/CHlxMZEbw24tzCoirSGdGJ/Cambrige-Analytica-whistleblower-Christopher-Wylie-tweets-de.html",
@@ -4273,6 +4603,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ9Z3MSFi6PQbsWuvYFmR59Aa8RWMIX2R-A9RdS81SB0q8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://qz.com/1239762/cambridge-analytica-scandal-all-the-countries-where-scl-elections-claims-to-have-worked/",
@@ -4289,6 +4620,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRFEZjKnDLTRb3ucXdTN_fpAYAwaKRN1Sm88CZgyYcW95k",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnn.com/2020/04/22/tech/facebook-india-reliance-jio/index.html",
@@ -4305,6 +4637,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT53hWYTWetQYod-rx_DZIiAT7k4CrFvf-T4Hn-a6fqnuU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/retail/jiomart-whatsapp-kirana-launch-how-to-place-order-thane-kalyan-5779521.htm",
@@ -4321,6 +4654,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQTn8Be8mSOTpcnLkT7a5rXATHFiTGOgRJIxu5v8hjP8Zc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.thestreet.com/investing/facebook-investment-jio-platforms-ambani-india",
@@ -4337,6 +4671,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRFEZjKnDLTRb3ucXdTN_fpAYAwaKRN1Sm88CZgyYcW95k",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnn.com/2020/04/22/tech/facebook-india-reliance-jio/index.html",
@@ -4353,6 +4688,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS6QmiDfoGWT69N5OrUbZNlAVP1sD9oW8Pt4d09mAJxuAs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloomberg.com/news/articles/2020-04-22/facebook-to-plow-5-7-billion-in-ambani-s-jio-wireless-platforms",
@@ -4369,6 +4705,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRFEZjKnDLTRb3ucXdTN_fpAYAwaKRN1Sm88CZgyYcW95k",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnn.com/2020/04/22/tech/facebook-india-reliance-jio/index.html",
@@ -4385,6 +4722,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS1RS2o_LZWTLMyL5w1QfNxATqL5kbtBNYUXvIx8f4dGII",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/india-news/facebook-buys-9-99-per-cent-in-reliance-jio-facebook-teams-up-with-mukesh-ambanis-jio-mark-zuckerber-2215960",
@@ -4401,6 +4739,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSENcF7vp8OSprnhSt-8iykAUciWBHS5yMyAV12gyvRzgA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.deccanherald.com/business/facebook-to-invest-rs-43574-crore-in-reliance-jio-for-99-stake-828352.html",
@@ -4417,6 +4756,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS6r5QZ2XICTaBZDyXechd3AfJENGRfk77IB7rg0KnKaWk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/india-news/reliance-jio-facebook-deal-bravo-mukesh-anand-mahindra-on-how-facebook-jio-deal-could-help-india-2216236",
@@ -4427,6 +4767,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSXmpaMbdnuQ58X8WrGqZGWAXR93t-oxofBbyzJc7406X8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/india-news/how-a-whatsapp-hi-could-end-up-transforming-a-1-trillion-industry-2220859",
@@ -4443,6 +4784,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSV786soMNVSpBh4mKQ6FkrAXnv7Y4tr4WmciJlkFRUNTU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.moneycontrol.com/news/trends/expert-columns-2/subramanian-swamy-writes-four-reasons-why-reliance-jio-facebook-deal-is-commercially-sensible-and-good-for-india-5198301.html",
@@ -4459,6 +4801,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSV786soMNVSpBh4mKQ6FkrAXnv7Y4tr4WmciJlkFRUNTU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.moneycontrol.com/news/trends/expert-columns-2/subramanian-swamy-writes-four-reasons-why-reliance-jio-facebook-deal-is-commercially-sensible-and-good-for-india-5198301.html",
@@ -4475,6 +4818,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSuLpMppDUFRoxXyn2E1cJnAZIhmFjSI3WpmBQRqc6tTUM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnbctv18.com/telecom/jios-sixth-deal-in-six-weeks-underscores-digital-india-opportunity-6076351.htm",
@@ -4491,6 +4835,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR26Rt2Be5GT6TnQuQ-NDrhARLw8ccA1QsXsw-fjNyRWGc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/business/after-jio-partnership-in-india-facebook-wants-to-expand-whatsapp-commerce-globally-6503951.htm",
@@ -4501,6 +4846,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQHOVFKWLKISJ3JySBn3BIaAVrCR5qFxQEtY9TkuZEmha0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.businesstoday.in/current/corporate/facebook-ril-deal-cci-raises-concerns-over-data-sharing-pact-fb-assures-limited/story/418090.html",
@@ -4511,6 +4857,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.bloombergquint.com/law-and-policy/data-sharing-not-the-purpose-of-deal-reliance-jio-facebook-tell-cci",
@@ -4527,6 +4874,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.wsj.com/articles/facebook-knows-it-encourages-division-top-executives-nixed-solutions-11590507499",
@@ -4543,6 +4891,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.wsj.com/articles/facebook-knows-it-encourages-division-top-executives-nixed-solutions-11590507499",
@@ -4559,6 +4908,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRksJlj_RH6QaPz9MaYzeAfARPACf4bTJHYXzaU_5tOYb0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.buzzfeednews.com/article/ryanmac/facebook-employee-leaks-show-they-feel-betrayed",
@@ -4575,6 +4925,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS-9ajgL-gzQrfWYXY-BZ9DAT2m4HjmAtmrNDrRGSHtKts",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://in.reuters.com/article/amazon-india-bharti-idINKBN23B1FH",
@@ -4591,6 +4942,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQnbNSqHwYtSqw_5MBtod5uAbd-P-F0z3rrCh6_QIIQ-ys",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.cnn.com/videos/business/2020/05/29/mukesh-ambani-jio-platforms-orig.cnn-business/video/playlists/atv-trending-videos/",
@@ -4607,6 +4959,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTnCJ7ndCxESZ9W5ZRfGC07Abciw_Db8tsqc_GE3_1Ad-I",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/business/what-googles-rs-75000-crore-india-investment-means-6318891.htm",
@@ -4617,6 +4970,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT0pCLhHpqTSJR9kb0bgjbGASvStfAYhjq2t0jkNrs8ZK0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/technology/google-india-digitization-fund-sundar-pichai-6317041.htm",
@@ -4633,6 +4987,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4644,6 +4999,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRDJUtvZi7jRbPGD-olDfcQAaTTvRC53WtdxJxVakTAqVY",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/business/ril-agm-jio-to-make-cheap-5g-phones-built-on-made-for-india-android-os-6334131.htm",
@@ -4660,6 +5016,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQzh-oYyuRnSpviVautAgwWAeCnkXWQ2PV1YHn0FVTZ-Ck",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.ndtv.com/world-news/why-does-google-steal-content-from-honest-businesses-us-congressman-2271102",
@@ -4670,6 +5027,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSGvlk8lHlSQ65qnEAgc3FsAQVngZDPkHyXgm64bQL8uKc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.foxnews.com/politics/rep-ken-buck-big-tech-google-china-violations",
@@ -4686,6 +5044,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQzuETMOjayT5w7RL0yKPKzAVhasVgyA1YeI5ExGLx7uJk",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www-nytimes-com.cdn.ampproject.org/c/s/www.nytimes.com/2020/07/30/technology/europe-new-phase-tech-amazon-apple-facebook-google.amp.html",
@@ -4696,6 +5055,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTrqnOw2TOUSbWHGhDkRGgZAR1Dj-js_22JiXsq0OPY6aU",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.accc.gov.au/system/files/Exposure%20Draft%20EM%20-%20NEWS%20MEDIA%20AND%20DIGITAL%20PLATFORMS%20MANDATORY%20BARGAINING%20CODE%20BILL%202020.pdf",
@@ -4717,6 +5077,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4728,6 +5089,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT7ctVTgPowS7lUlJFsL6zAAQ5DqJAFdre7xzbzt11vcxs",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4739,6 +5101,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT7ctVTgPowS7lUlJFsL6zAAQ5DqJAFdre7xzbzt11vcxs",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4750,6 +5113,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4761,6 +5125,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4772,6 +5137,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4783,6 +5149,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4794,6 +5161,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4805,6 +5173,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4816,6 +5185,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4827,6 +5197,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4838,6 +5209,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4849,6 +5221,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTtsXMDzDwITrggZIEyNBHsAdIUpGW_eL-QhacECYo6Uzs",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.dri.org.in/integral-humanism-booklet/",
@@ -4865,6 +5238,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTuLPX059SeQpvdLt3DH-9VAaVwvG5hWPhSEZ6ArEE7AK0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.speakingtree.in/blog/why-swadeshi-indology-is-required-part-2",
@@ -4875,6 +5249,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS8AhID5ZYETrqd5J8tA118AVsHB6bs_gzvkPvKkEWMniM",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.youtube.com/watch?v=XWeFa6jUiPw",
@@ -4891,6 +5266,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4902,6 +5278,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4918,6 +5295,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4929,6 +5307,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4940,6 +5319,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4951,6 +5331,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": true,
        "links": []
       }
      ]
@@ -4962,6 +5343,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -4973,6 +5355,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRFPABe79D9Tp1imW2kI-5nATV21DcV8aVGQC6V4la8pB4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://www.cnbctv18.com/healthcare/why-china-has-an-edge-over-india-in-api-manufacturing-6331911.htm",
@@ -4989,6 +5372,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRW_Z5cIq6YRKWfK-lzNV8WAfTirDeW1_y48a6-uyrq1Ec",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://timesofindia.indiatimes.com/india/not-just-galwan-we-need-to-win-these-5-battles/articleshow/76669128.cms",
@@ -5005,6 +5389,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTpSxOtodKkSKxfmBfNxAhcAYzjC8eIUzti7NY1Ajh_AG8",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5016,6 +5401,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTpSxOtodKkSKxfmBfNxAhcAYzjC8eIUzti7NY1Ajh_AG8",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5027,6 +5413,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTpSxOtodKkSKxfmBfNxAhcAYzjC8eIUzti7NY1Ajh_AG8",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5038,6 +5425,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTpSxOtodKkSKxfmBfNxAhcAYzjC8eIUzti7NY1Ajh_AG8",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5049,6 +5437,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQBr_hhnQA8SqAbofNrR4LvAY8pW7PvINPtHFsvgC8pl5A",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5060,6 +5449,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQScz5MYFvLARpP77TAGRFghAQJkiq4aCGLuha3K0GqN2R4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://openknowledge.worldbank.org/handle/10986/33477",
@@ -5076,6 +5466,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSNCsMf4TPCT7Y4YD7befDdARqw4YBpu5xaTuubtaHb6YA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.technologyreview.com/2020/07/31/1005824/decolonial-ai-for-everyone/",
@@ -5092,6 +5483,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQYCZqxblBTRrNEW5YC1jq0AcZAucM8e-WPmsGSOStjDSA",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5103,6 +5495,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqLmOErCZ7S6PSDNIGd7gUAe2AzIGKdr6wmiUFK-U_F4s",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5114,6 +5507,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqLmOErCZ7S6PSDNIGd7gUAe2AzIGKdr6wmiUFK-U_F4s",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5125,6 +5519,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDQzZCSffhTpA0_TaaiIrOAST8leDcg4HKEf-2tfcWmaA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://resources.oxfordeconomics.com/how-robots-change-the-world",
@@ -5141,6 +5536,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5152,6 +5548,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSDQzZCSffhTpA0_TaaiIrOAST8leDcg4HKEf-2tfcWmaA",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://resources.oxfordeconomics.com/how-robots-change-the-world",
@@ -5168,6 +5565,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5179,6 +5577,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRpIVQiZ4xaSJEkGTdAA73MAbiicbY8oouMejf40gcxLQ8",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5190,6 +5589,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQT2Hckyvi00Sq8GwqeHLAmmATKYiAg7lZyWGE0jRyv6X9E",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5201,6 +5601,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQScGN8YMAwtT4T6ZYTKjGJgAeEKtvZqiWGwZr-m1zOblr4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5212,6 +5613,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqLmOErCZ7S6PSDNIGd7gUAe2AzIGKdr6wmiUFK-U_F4s",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5223,6 +5625,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRqLmOErCZ7S6PSDNIGd7gUAe2AzIGKdr6wmiUFK-U_F4s",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5234,6 +5637,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRSXGQoh3lVTbvsAlejJgTwAT3utiOgBbvmO-fuCVsdAwo",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.oecd-ilibrary.org/social-issues-migration-health/the-risk-of-automation-for-jobs-in-oecd-countries_5jlz9h56dvq7-en",
@@ -5250,6 +5654,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRc7ZhpI2GdSqu2G0HKPbcvAUjjOpA9Q9DDv7ismsqq9Hw",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5261,6 +5666,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRc7ZhpI2GdSqu2G0HKPbcvAUjjOpA9Q9DDv7ismsqq9Hw",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5272,6 +5678,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRc7ZhpI2GdSqu2G0HKPbcvAUjjOpA9Q9DDv7ismsqq9Hw",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5283,6 +5690,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS6FOzC3MG7SbFdQxjz7U9PAWP81qi3qNt_Qnc2yoCO9D4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5294,6 +5702,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTbEt_iI3R6Qb14Cn1119ngAb6vhgJ1QgdtbjZv9xBAuUE",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.youtube.com/watch?v=2C-A797y8dA",
@@ -5310,6 +5719,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5321,6 +5731,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5332,6 +5743,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5343,6 +5755,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5354,6 +5767,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5365,6 +5779,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5376,6 +5791,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5387,6 +5803,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5403,6 +5820,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5414,6 +5832,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQVTrZi-RIPRaskgeLOjpxgAe9AdysNV7Gh8MTp3Qfp7Io",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.tandfonline.com/doi/full/10.1080/09552360600772645",
@@ -5430,6 +5849,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTbWGX17vqgQ64X5ww6YXW4AZA4clfATCs6RhAmk-JTllw",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5441,6 +5861,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://dbtindia.gov.in/sites/default/files/Call_comments.pdf",
@@ -5457,6 +5878,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS01qUN2spjTKMGapCJmaxvASy_Vx2TPZDJPyOspqjP44c",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5468,6 +5890,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5479,6 +5902,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQR4xF88Br-TSYofEwtoyY-eAQSs301KfcaDsrtKy-r-AHs",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5490,6 +5914,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSi_-RmXtpRQa695BuNtapOAUOV5PIDlll89FI7V5UK1v4",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.financialexpress.com/opinion/an-ai-innovation-engine-for-new-india/1649078/lite/",
@@ -5506,6 +5931,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5517,6 +5943,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQQ1ZGerU7jqR67dbfjMkpRqAV49QSU0sirFnDiWkSOiCuc",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5528,6 +5955,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRZmyFLd_BVRJrs-dYz58_sAYjNfRG7gQSu61tywdrpRv8",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.roboticsbusinessreview.com/ai/new-research-shows-how-ai-will-impact-the-workforce/",
@@ -5544,6 +5972,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQSama39biYiTZ97ulZMh629AfKp-Yb-4Lkrno8IzAx4nqc",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://singularityhub.com/2019/01/01/ai-will-create-millions-more-jobs-than-it-will-destroy-heres-how/",
@@ -5560,6 +5989,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5571,6 +6001,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5582,6 +6013,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "http://indiafacts.org/history-geopolitics-and-the-indian-predicament/",
@@ -5598,6 +6030,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5609,6 +6042,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQRDjlqWfKY5Qqz_wrKfNon5AenWxiUPTWXfsJi4j0DjRX0",
        "gone": false,
+       "comment": false,
        "links": [
         {
          "url": "https://www.transportation.gov/av/3/preparing-future-transportation-automated-vehicles-3",
@@ -5625,6 +6059,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQS51t5jZHf2SoDWXjAEbfHnAcb3mV9pZiwcNEShSWvaXTI",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5636,6 +6071,7 @@
       {
        "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQTnPowf0-BLQqFNbIGmd0MaAe33QUi2TfilJ4N5S3hDvI4",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]
@@ -5647,6 +6083,7 @@
       {
        "pdf": "",
        "gone": false,
+       "comment": false,
        "links": []
       }
      ]

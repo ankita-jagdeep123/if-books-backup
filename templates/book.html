@@ -26,6 +26,9 @@
   .btn.off { color: #8b93a3; border-color: #d3d8e0; background: #f4f6f9; cursor: not-allowed; }
   a.btn:hover, .wb:hover { text-decoration: underline; }
   .wb { font-size: .78rem; color: var(--soft); }
+  .progress { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .9rem; color: var(--ink); margin: 0 0 10px; }
+  .progress:empty { display: none; }
+  .cmt { font-size: .78rem; color: var(--soft); font-style: italic; }
   .gone { font-size: .78rem; color: #8a2323; font-style: italic; }
   .empty { color: var(--soft); font-style: italic; }
   footer { margin-top: 40px; font: .8rem system-ui, sans-serif; color: var(--soft); }
@@ -46,6 +49,7 @@
     <h1>{{TITLE}}</h1>
     <p>This page preserves copies of the sources cited in the book by {{AUTHOR}}.</p>
   </header>
+  <p class="progress" id="progress"></p>
   <p class="note">If an original link is no longer available, the saved PDF is the reference copy. Each PDF begins with an archive cover sheet; the source itself starts on page 2.</p>
   <input type="search" id="q" placeholder="Search the bibliography" aria-label="Search the bibliography" />
   <div id="list"></div>
@@ -59,6 +63,7 @@ window.BOOK_FALLBACK = /*DATA*/null;
   function addr(a) {
     var h = [];
     if (a.gone) h.push('<span class="btn off" aria-disabled="true">Copy not available</span>');
+    else if (a.comment) h.push('<span class="cmt">Author\u2019s comment, no source to save</span>');
     else if (a.pdf) h.push('<a class="btn pdf" href="' + esc(a.pdf) + '" target="_blank" rel="noopener">Open PDF</a>');
     else h.push('<span class="btn off" aria-disabled="true">PDF not saved yet</span>');
     a.links.forEach(function (l, i) {
@@ -79,7 +84,16 @@ window.BOOK_FALLBACK = /*DATA*/null;
     });
     box.innerHTML = out || '<p class="empty">No entries match your search.</p>';
   }
-  function boot(d) { D = d; q.addEventListener("input", render); render(); }
+  function progress(p) {
+    var el = document.getElementById("progress");
+    if (!p || !p.cite) return;
+    var t = p.saved >= p.cite
+      ? "All " + p.cite + " endnotes that cite a source have a saved copy."
+      : p.saved + " of the " + p.cite + " endnotes that cite a source have a saved copy so far; the rest are in progress.";
+    if (p.comments) t += " The other " + p.comments + " endnotes are the author\u2019s own comments, with no source to save.";
+    el.textContent = t;
+  }
+  function boot(d) { D = d; progress(d.progress); q.addEventListener("input", render); render(); }
   fetch("sources.json", { cache: "no-store" }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
     .then(boot).catch(function () { boot(window.BOOK_FALLBACK); });
 })();

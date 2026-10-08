@@ -47,7 +47,10 @@ def address(r):
     """One address block = one CSV row: its own PDF, original link(s) and wayback link(s)."""
     gone = get(r, "Status").lower() in GONE
     us, wb = urls(get(r, "URL")), urls(get(r, "Wayback link"))
-    return {"pdf": "" if gone else onedrive(r), "gone": gone,
+    pdf = "" if gone else onedrive(r)
+    comment = (not gone and not pdf and not us and not wb and not get(r, "Backup file")
+               and get(r, "Category").lower() == "unlinked note")
+    return {"pdf": pdf, "gone": gone, "comment": comment,
             "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
                      or ([{"url": "", "wayback": w} for w in wb])}
 
@@ -95,7 +98,11 @@ def build(folder):
     if bib:
         bib.sort(key=lambda e: e["text"].lower())
         chapters.append({"title": "Also in the bibliography (not cited in an endnote)", "entries": bib})
+    nl = list(notes.values())
+    comments = sum(1 for e in nl if all(a["comment"] for a in e["addr"]))
+    saved = sum(1 for e in nl if any(a["pdf"] for a in e["addr"]))
     data = {"code": meta["code"], "title": meta["title"], "author": meta.get("author", ""),
+            "progress": {"endnotes": len(nl), "cite": len(nl) - comments, "saved": saved, "comments": comments},
             "chapters": chapters}
     with open(os.path.join(folder, "sources.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
@@ -107,8 +114,9 @@ def build(folder):
     open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(page)
     A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
     print(f"{meta['code']}: {len(notes)} endnotes, {len(bib)} bibliography-only, {extras} extra-address rows grouped; "
-          f"buttons: Open PDF {sum(1 for a in A if a['pdf'])}, PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'])}, "
-          f"Copy not available {sum(1 for a in A if a['gone'])}")
+          f"buttons: Open PDF {sum(1 for a in A if a['pdf'])}, PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'])}, "
+          f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}; "
+          f"progress: {saved} of {len(nl) - comments} source endnotes saved")
     return meta
 
 
