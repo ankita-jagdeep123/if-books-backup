@@ -60,9 +60,8 @@
 <main>
   <header>
     <h1>Artificial Intelligence and the Future of Power: 5 Battlegrounds</h1>
-    <p>This page preserves copies of the sources cited in the book by Rajiv Malhotra.</p>
+    <p>This page preserves copies of the sources cited in Rajiv Malhotra’s book <cite>Artificial Intelligence and the Future of Power: 5 Battlegrounds</cite>.</p>
     <ul class="stats" id="stats"></ul>
-    <p class="stats-cap" id="stats-cap" hidden>Each endnote is counted once, by what it cites.</p>
   </header>
   <div class="progress" id="progress" hidden></div>
   <p class="note">If an original link is no longer available, the saved PDF is the reference copy. Each PDF begins with an archive cover sheet; the source itself starts on page 2.</p>
@@ -108,8 +107,6 @@ window.BOOK_FALLBACK = {"code":"AIFP","title":"Artificial Intelligence and the F
     var card = function (x, cls) { return '<li class="' + cls + '"><b>' + n(x[0]) + "</b><span>" + x[1] + "</span></li>"; };
     el.innerHTML = card([t.endnotes, "Endnotes"], "total") + '<li class="op" aria-hidden="true">=</li>' +
       parts.map(function (x) { return card(x, "part"); }).join('<li class="op" aria-hidden="true">+</li>');
-    var cap = document.getElementById("stats-cap");
-    if (cap) cap.hidden = false;
   }
   // PROGRESS BAR: set SHOW_PROGRESS = false to remove it (e.g. once the archive is complete).
   // It also hides itself automatically when every endnote that cites a source has a saved copy.
