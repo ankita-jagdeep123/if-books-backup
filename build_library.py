@@ -56,29 +56,30 @@ def address(r):
                      or ([{"url": "", "wayback": w} for w in wb])}
 
 
-def stats(rows, endnotes, comments):
+# Stats row: every numbered endnote (Row type "Note") counted once, by its Category.
+# The parts must add up to the total number of endnotes, or the build fails.
+STAT_PARTS = [("web", "url"), ("social", "social post"), ("books", "book/print"), ("comments", "unlinked note")]
+
+
+def stats(rows, endnotes):
     """Static counts for the stats row at the top of the page, all taken from the CSV.
-    endnotes      : numbered endnotes (Row type "Note")
-    bibliography  : distinct bibliography Source IDs (AIFP_B###), incl. "Bibliography only" rows
-    books         : distinct Source IDs (or citations, if no ID) with Category "Book/Print"
-                    (books, reports, journal articles and other printed works)
-    web           : distinct URLs with Category "URL" or "Social post" (web pages, articles, posts)
-    sites         : distinct websites (domains, without "www.") behind those URLs
-    comments      : endnotes that are the author's own comments (not counted as sources)"""
-    bib, books, web = set(), set(), set()
-    for r in rows:
-        cat, sid = get(r, "Category").lower(), get(r, "Source ID")
-        if re.match(r"[A-Z]+_B\d+$", sid):
-            bib.add(sid)
-        if cat.startswith("book"):
-            books.add(sid or get(r, "Source (full citation)") or get(r, "Note / citation text"))
-        elif cat in ("url", "social post"):
-            for u in urls(get(r, "URL")):
-                s = urlsplit(u)
-                web.add((s.netloc.lower().removeprefix("www."), s.path.rstrip("/") + ("?" + s.query if s.query else "")))
-    books.discard("")
-    return {"endnotes": endnotes, "bibliography": len(bib), "books": len(books),
-            "web": len(web), "sites": len({h for h, _ in web}), "comments": comments}
+    endnotes : numbered endnotes (Row type exactly "Note"; "Note (extra address)" and
+               "Bibliography only" rows are not counted)
+    web      : endnotes with Category "URL"          (cite a web page)
+    social   : endnotes with Category "Social post"  (cite a social media post)
+    books    : endnotes with Category "Book/Print"   (cite a book, report, article or other printed work)
+    comments : endnotes with Category "Unlinked note" (the author's own comment, no source)
+    web + social + books + comments == endnotes is asserted."""
+    cats = [get(r, "Category").lower() for r in rows if get(r, "Row type").lower() == "note"]
+    out = {"endnotes": len(cats)}
+    for key, cat in STAT_PARTS:
+        out[key] = sum(1 for c in cats if c == cat)
+    other = sorted({c for c in cats if c not in {cat for _, cat in STAT_PARTS}})
+    parts = sum(out[k] for k, _ in STAT_PARTS)
+    if other or parts != out["endnotes"] or out["endnotes"] != endnotes:
+        sys.exit(f"STATS DO NOT ADD UP: {out} (parts {parts}, endnotes on page {endnotes}); "
+                 f"unknown Category on Note rows: {other or 'none'}")
+    return out
 
 
 def build(folder):
@@ -128,7 +129,7 @@ def build(folder):
     comments = sum(1 for e in nl if all(a["comment"] for a in e["addr"]))
     saved = sum(1 for e in nl if any(a["pdf"] for a in e["addr"]))
     data = {"code": meta["code"], "title": meta["title"], "author": meta.get("author", ""),
-            "stats": stats(rows, len(nl), comments),
+            "stats": stats(rows, len(nl)),
             "progress": {"endnotes": len(nl), "cite": len(nl) - comments, "saved": saved, "comments": comments},
             "chapters": chapters}
     with open(os.path.join(folder, "sources.json"), "w", encoding="utf-8") as f:
