@@ -4,6 +4,7 @@ Every book gets one standalone page that lists its endnotes exactly as printed, 
 
 - Site: https://ankita-jagdeep123.github.io/if-books-backup/
 - AIFP: https://ankita-jagdeep123.github.io/if-books-backup/books/AIFP/ (short link: `/aifp/`)
+- BI (Breaking India): https://ankita-jagdeep123.github.io/if-books-backup/books/BI/ (short link: `/bi/`)
 
 The pages are plain static HTML with inline CSS and no outside dependencies. Each book page loads `sources.json` and carries an embedded copy, so it also works when opened from disk.
 
@@ -31,6 +32,9 @@ If you work locally instead: copy the new CSV over `books/AIFP/AIFP_sources.csv`
 - **Original link** is shown for each URL, plus a small **Wayback** link when the "Wayback link" column is filled in.
 - **Note (extra address)** rows are listed under their parent endnote, by Note #, or by the number in the ID such as `AIFP_N038…`. Each gets its own Open PDF / Original link / Wayback buttons.
 - Bibliography rows not cited in any endnote are listed at the end.
+
+## Optional per-book settings (book.json)
+See the comment above `address()` in `build_library.py`. AIFP uses none of them; BI uses `chaptersFromCsv` (note numbers restart per chapter, chapters taken from the CSV's `Chapter` / `Chapter name` columns), `requireBackupFile` (Open PDF only when Backup file and OneDrive link are both filled), `commentLabel`/`commentStat` ("Comment only"), `deadLinkNote` ("Original link is dead, but we found the following equivalent to serve the purpose.") and `fileLabels` ("Download EPUB" for non-PDF files).
 
 ## Adding a new book
 1. Create `books/<CODE>/` (for example `books/BI/`).

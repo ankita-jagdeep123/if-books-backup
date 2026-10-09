@@ -44,16 +44,52 @@ def onedrive(r):
     return od
 
 
-def address(r):
+# Optional per-book settings in book.json (all off unless set; AIFP sets none of them):
+#   "chaptersFromCsv": true     endnote numbers restart in each chapter; chapters come from the CSV's
+#                               "Chapter" (number, gives the order) and "Chapter name" columns
+#   "requireBackupFile": true   Open PDF only when BOTH "Backup file" and "OneDrive link" are filled
+#   "commentLabel": "..."       wording for Category "Unlinked note" rows (default: Author's comment...)
+#   "commentStat": "..."        wording of that card in the stats row
+#   "deadLinkNote": true        rows whose original address is dead (see dead()) get the sentence
+#                               DEAD_TEXT above their buttons, when a Wayback copy or saved file exists
+#   "fileLabels": true          a saved file that is not a .pdf gets "Download <EXT>" instead of "Open PDF"
+DEAD_TEXT = "Original link is dead, but we found the following equivalent to serve the purpose."
+DEAD_FAIL = re.compile(r"download failed - live page: ([^|]*)", re.I)
+
+
+def dead(r):
+    """The CSV marker for a dead original address, from the "Remarks" column:
+    - "... from Wayback snapshot ..." (the saved copy had to come from the Wayback Machine), or
+    - "download failed - live page: <reason>" where the reason is not HTTP 401/403 (those mean the
+      page exists but refused the robot), unless a later attempt says "... from live page ..."."""
+    rem = get(r, "Remarks")
+    if re.search(r"from wayback snapshot", rem, re.I):
+        return True
+    if re.search(r"from live page", rem, re.I):
+        return False
+    return any(not re.search(r"\b40[13]\b", m.group(1)) for m in DEAD_FAIL.finditer(rem))
+
+
+def address(r, opt=None):
     """One address block = one CSV row: its own PDF, original link(s) and wayback link(s)."""
+    opt = opt or {}
     gone = get(r, "Status").lower() in GONE
     us, wb = urls(get(r, "URL")), urls(get(r, "Wayback link"))
     pdf = "" if gone else onedrive(r)
+    if pdf and opt.get("requireBackupFile") and not get(r, "Backup file"):
+        print(f"WARNING {get(r, 'ID')}: OneDrive link but no Backup file; Open PDF not shown", file=sys.stderr)
+        pdf = ""
     comment = (not gone and not pdf and not us and not wb and not get(r, "Backup file")
                and get(r, "Category").lower() == "unlinked note")
-    return {"pdf": pdf, "gone": gone, "comment": comment,
-            "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
-                     or ([{"url": "", "wayback": w} for w in wb])}
+    a = {"pdf": pdf, "gone": gone, "comment": comment,
+         "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
+                  or ([{"url": "", "wayback": w} for w in wb])}
+    if opt.get("deadLinkNote") and not gone and (wb or pdf) and dead(r):
+        a["dead"] = True
+    ext = os.path.splitext(get(r, "Backup file"))[1].lstrip(".").upper()
+    if opt.get("fileLabels") and pdf and ext and ext != "PDF":
+        a["label"] = "Download " + ext
+    return a
 
 
 # Stats row: every numbered endnote (Row type "Note") counted once, by its Category.
@@ -88,7 +124,8 @@ def build(folder):
     for c in sorted(glob.glob(os.path.join(folder, "*_sources.csv"))):
         with open(c, encoding="utf-8-sig", newline="") as f:
             rows += list(csv.DictReader(f))
-    notes, bib, extras, pending = {}, [], 0, []
+    percsv = bool(meta.get("chaptersFromCsv"))
+    notes, bib, extras, pending, chnames = {}, [], 0, [], {}
     for r in rows:
         if not any((v or "").strip() for v in r.values() if isinstance(v, str)):
             continue  # blank row
@@ -98,23 +135,35 @@ def build(folder):
             m = re.search(r"_N(\d+)", get(r, "ID"))
             num = m.group(1) if m else num
         if rt.startswith("note") and num.isdigit():
-            n = int(num)
+            n = key = int(num)
+            if percsv:
+                ch = get(r, "Chapter")
+                if not ch.isdigit():
+                    sys.exit(f"{get(r, 'ID')}: Chapter must be a number when chaptersFromCsv is set")
+                key = (int(ch), n)
+                chnames.setdefault(int(ch), get(r, "Chapter name") or f"Chapter {ch}")
             if "extra" in rt:
                 extras += 1
-                pending.append((n, r))
+                pending.append((key, n, r))
                 continue
-            notes[n] = {"n": n, "text": get(r, "Note / citation text") or get(r, "Source (full citation)"),
-                        "addr": [address(r)]}
+            if key in notes:
+                print(f"WARNING {get(r, 'ID')}: duplicate note {key}; the later row wins", file=sys.stderr)
+            notes[key] = {"n": n, "text": get(r, "Note / citation text") or get(r, "Source (full citation)"),
+                          "addr": [address(r, meta)]}
         elif get(r, "Source (full citation)"):
-            bib.append({"n": "", "text": get(r, "Source (full citation)"), "addr": [address(r)]})
-    for n, r in pending:
-        if n in notes:
-            notes[n]["addr"].append(address(r))
+            bib.append({"n": "", "text": get(r, "Source (full citation)"), "addr": [address(r, meta)]})
+    for key, n, r in pending:
+        if key in notes:
+            notes[key]["addr"].append(address(r, meta))
         else:
-            print(f"WARNING {get(r, 'ID')}: extra address for note {n} has no parent note row", file=sys.stderr)
-            notes[n] = {"n": n, "text": get(r, "Note / citation text"), "addr": [address(r)]}
+            print(f"WARNING {get(r, 'ID')}: extra address for note {key} has no parent note row", file=sys.stderr)
+            notes[key] = {"n": n, "text": get(r, "Note / citation text"), "addr": [address(r, meta)]}
     chapters, used = [], set()
-    for ch in meta.get("chapters", []):
+    if percsv:
+        for c in sorted(chnames):
+            chapters.append({"title": chnames[c], "entries": [notes[k] for k in sorted(notes) if k[0] == c]})
+        used = set(notes)
+    for ch in [] if percsv else meta.get("chapters", []):
         items = [notes[n] for n in range(ch["from"], ch["to"] + 1) if n in notes]
         used.update(range(ch["from"], ch["to"] + 1))
         if items:
@@ -138,12 +187,20 @@ def build(folder):
     emb = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     page = (tpl.replace("{{TITLE}}", html.escape(meta["title"]))
                .replace("{{AUTHOR}}", html.escape(meta.get("author", "")))
+               .replace("{{COMMENT_LABEL}}", html.escape(meta.get("commentLabel", "Author\\u2019s comment, no source to save")))
+               .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
+               .replace("{{OPEN_LABEL}}", "' + esc(a.label || \"Open PDF\") + '" if meta.get("fileLabels") else "Open PDF")
+               .replace("{{DEAD_JS}}", "\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
+                        if meta.get("deadLinkNote") else "")
+               .replace("{{EXTRA_CSS}}", "\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
+                        if meta.get("deadLinkNote") else "")
                .replace("/*DATA*/null", emb))
     open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(page)
     A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
     print(f"{meta['code']}: {len(notes)} endnotes, {len(bib)} bibliography-only, {extras} extra-address rows grouped; "
           f"buttons: Open PDF {sum(1 for a in A if a['pdf'])}, PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'])}, "
-          f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}; "
+          f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}, "
+          f"dead-link sentence {sum(1 for a in A if a.get('dead'))}; "
           f"progress: {saved} of {len(nl) - comments} source endnotes saved; stats: {data['stats']}")
     return meta
 

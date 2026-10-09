@@ -53,7 +53,7 @@
     h2 { break-after: avoid; } li { break-inside: avoid; }
     .print-url { display: block !important; font: 8.5pt system-ui, sans-serif; color: #444; grid-column: 2; overflow-wrap: anywhere; }
   }
-  .print-url { display: none; }
+  .print-url { display: none; }{{EXTRA_CSS}}
 </style>
 </head>
 <body>
@@ -75,10 +75,10 @@ window.BOOK_FALLBACK = /*DATA*/null;
   var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
   var D, box = document.getElementById("list"), q = document.getElementById("q");
   function addr(a) {
-    var h = [];
+    var h = [];{{DEAD_JS}}
     if (a.gone) h.push('<span class="btn off" aria-disabled="true">Copy not available</span>');
-    else if (a.comment) h.push('<span class="cmt">Author\u2019s comment, no source to save</span>');
-    else if (a.pdf) h.push('<a class="btn pdf" href="' + esc(a.pdf) + '" target="_blank" rel="noopener">Open PDF</a>');
+    else if (a.comment) h.push('<span class="cmt">{{COMMENT_LABEL}}</span>');
+    else if (a.pdf) h.push('<a class="btn pdf" href="' + esc(a.pdf) + '" target="_blank" rel="noopener">{{OPEN_LABEL}}</a>');
     else h.push('<span class="btn off" aria-disabled="true">PDF not saved yet</span>');
     a.links.forEach(function (l, i) {
       if (l.url) h.push('<a class="btn" href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">Original link' + (a.links.length > 1 ? " " + (i + 1) : "") + "</a>");
@@ -103,7 +103,7 @@ window.BOOK_FALLBACK = /*DATA*/null;
     var el = document.getElementById("stats"), n = function (x) { return Number(x).toLocaleString("en-US"); };
     if (!t || !t.endnotes) return;
     var parts = [[t.web, "Cite a web page"], [t.social, "Cite a social media post"],
-                 [t.books, "Cite a book or printed work"], [t.comments, "Author\u2019s comment"]].filter(function (x) { return x[0]; });
+                 [t.books, "Cite a book or printed work"], [t.comments, "{{COMMENT_STAT}}"]].filter(function (x) { return x[0]; });
     var card = function (x, cls) { return '<li class="' + cls + '"><b>' + n(x[0]) + "</b><span>" + x[1] + "</span></li>"; };
     el.innerHTML = card([t.endnotes, "Endnotes"], "total") + '<li class="op" aria-hidden="true">=</li>' +
       parts.map(function (x) { return card(x, "part"); }).join('<li class="op" aria-hidden="true">+</li>');
