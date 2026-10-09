@@ -78,7 +78,7 @@ window.BOOK_FALLBACK = /*DATA*/null;
     var h = [];{{DEAD_JS}}
     if (a.gone) h.push('<span class="btn off" aria-disabled="true">Copy not available</span>');
     else if (a.comment) h.push('<span class="cmt">{{COMMENT_LABEL}}</span>');
-    else if (a.pdf) h.push('<a class="btn pdf" href="' + esc(a.pdf) + '" target="_blank" rel="noopener">{{OPEN_LABEL}}</a>');
+    else if (a.pdf) {{PDF_BTN}}
     else h.push('<span class="btn off" aria-disabled="true">PDF not saved yet</span>');
     a.links.forEach(function (l, i) {
       if (l.url) h.push('<a class="btn" href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">Original link' + (a.links.length > 1 ? " " + (i + 1) : "") + "</a>");

@@ -53,6 +53,12 @@ def onedrive(r):
 #   "deadLinkNote": true        rows whose original address is dead (see dead()) get the sentence
 #                               DEAD_TEXT above their buttons, when a Wayback copy or saved file exists
 #   "fileLabels": true          a saved file that is not a .pdf gets "Download <EXT>" instead of "Open PDF"
+# Button wording by the saved file's type, in every book (other types: "Open PDF", or with
+# "fileLabels" "Download <EXT>").
+FILE_LABELS = {"TXT": "Open text"}
+# Several saved files for one source: put all their links in "OneDrive link", separated by " | "
+# (space, pipe, space), in order. The page then shows "Part 1", "Part 2", ... buttons (styled like
+# Open PDF) instead of a single button; the source counts once as saved.
 DEAD_TEXT = "Original link is dead, but we found the following equivalent to serve the purpose."
 DEAD_FAIL = re.compile(r"download failed - live page: ([^|]*)", re.I)
 
@@ -87,8 +93,15 @@ def address(r, opt=None):
     if opt.get("deadLinkNote") and not gone and (wb or pdf) and dead(r):
         a["dead"] = True
     ext = os.path.splitext(get(r, "Backup file"))[1].lstrip(".").upper()
-    if opt.get("fileLabels") and pdf and ext and ext != "PDF":
+    if ext in FILE_LABELS and pdf:
+        a["label"] = FILE_LABELS[ext]
+    elif opt.get("fileLabels") and pdf and ext and ext != "PDF":
         a["label"] = "Download " + ext
+    parts = urls(pdf)
+    if len(parts) > 1:
+        # several saved files in one "OneDrive link" cell ("link1 | link2"): Part 1, Part 2, ...
+        a["pdf"] = parts[0]
+        a["files"] = [{"url": u, "label": f"Part {i + 1}"} for i, u in enumerate(parts)]
     return a
 
 
@@ -185,20 +198,36 @@ def build(folder):
         json.dump(data, f, ensure_ascii=False, indent=1)
     tpl = open(os.path.join(ROOT, "templates", "book.html"), encoding="utf-8").read()
     emb = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
+    # The button line only switches to the label/parts form when this book needs it, so a book
+    # without such rows gets exactly the same page as before.
+    labelled = meta.get("fileLabels") or any(a.get("label") for a in A)
+    if any(a.get("files") for a in A):
+        btn = ("(a.files || [{ url: a.pdf, label: a.label || \"Open PDF\" }]).forEach(function (f) { "
+               "h.push('<a class=\"btn pdf\" href=\"' + esc(f.url) + '\" target=\"_blank\" rel=\"noopener\">' + esc(f.label) + '</a>'); });")
+    else:
+        btn = ("h.push('<a class=\"btn pdf\" href=\"' + esc(a.pdf) + '\" target=\"_blank\" rel=\"noopener\">"
+               + ("' + esc(a.label || \"Open PDF\") + '" if labelled else "Open PDF") + "</a>');")
     page = (tpl.replace("{{TITLE}}", html.escape(meta["title"]))
                .replace("{{AUTHOR}}", html.escape(meta.get("author", "")))
                .replace("{{COMMENT_LABEL}}", html.escape(meta.get("commentLabel", "Author\\u2019s comment, no source to save")))
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
-               .replace("{{OPEN_LABEL}}", "' + esc(a.label || \"Open PDF\") + '" if meta.get("fileLabels") else "Open PDF")
+               .replace("{{PDF_BTN}}", btn)
                .replace("{{DEAD_JS}}", "\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
                         if meta.get("deadLinkNote") else "")
                .replace("{{EXTRA_CSS}}", "\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
                         if meta.get("deadLinkNote") else "")
                .replace("/*DATA*/null", emb))
     open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(page)
-    A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
+    other = {}
+    for a in A:
+        if a["pdf"] and (a.get("label") or a.get("files")):
+            k = (a.get("label") or "Open PDF") + (f" in {len(a['files'])} parts" if a.get("files") else "")
+            other[k] = other.get(k, 0) + 1
     print(f"{meta['code']}: {len(notes)} endnotes, {len(bib)} bibliography-only, {extras} extra-address rows grouped; "
-          f"buttons: Open PDF {sum(1 for a in A if a['pdf'])}, PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'])}, "
+          f"buttons: Open PDF {sum(1 for a in A if a['pdf'] and not a.get('label') and not a.get('files'))}, "
+          f"other saved files {other or 0} ({sum(len(a.get('files', [])) or 1 for a in A if a['pdf'] and (a.get('label') or a.get('files')))} buttons), "
+          f"PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'])}, "
           f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}, "
           f"dead-link sentence {sum(1 for a in A if a.get('dead'))}; "
           f"progress: {saved} of {len(nl) - comments} source endnotes saved; stats: {data['stats']}")

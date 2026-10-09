@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 217,
+  "saved": 220,
   "comments": 55
  },
  "chapters": [
@@ -3283,10 +3283,21 @@
      "text": "Tocqueville, Democracy in America, 692.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/t/c/ACD215A5F926CFCE/IQD29FMWDaI1Ro5c6CnyyFzGAVSJdEY_ownKlnsIpSvLtNY?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "label": "Open text",
+       "files": [
+        {
+         "url": "https://1drv.ms/t/c/ACD215A5F926CFCE/IQD29FMWDaI1Ro5c6CnyyFzGAVSJdEY_ownKlnsIpSvLtNY?download=1",
+         "label": "Part 1"
+        },
+        {
+         "url": "https://1drv.ms/t/c/ACD215A5F926CFCE/IQAUGVp7hOcqQ5yJ2WfczoYRAdFEP9j-TpqN4agP7dm14ZQ?download=1",
+         "label": "Part 2"
+        }
+       ]
       }
      ]
     }
@@ -4297,10 +4308,11 @@
      "text": "Sage Vasishtha to Shri Rama (Verse 2.5.18): Mitra, The Yoga Vasishtha Maharamayana of Valmiki, 1:143.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/t/c/ACD215A5F926CFCE/IQC71lFioky9QJV-eBTmKobjAW0RkTOiQYX7Rj4dX3ygQSI?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "label": "Open text"
       }
      ]
     },
@@ -5178,10 +5190,11 @@
      "text": "For e.g. Bhishma says to Yudhishthira, “Even Bhagavan Vishnu, who created the three worlds with the daityas and all the gods, even He is engaged in tapsaya in the ocean.” See: Ganguli, Mahabharata of Krishna-Dwaipayana Vyasa, 13:20",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/t/c/ACD215A5F926CFCE/IQBqWct6CQqQSpADLVVpUCxtAeofkDNdJ3UTcuZhxAt3eG4?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "label": "Open text"
       }
      ]
     },
