@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 1486,
   "cite": 1296,
-  "saved": 304,
+  "saved": 349,
   "comments": 190
  },
  "chapters": [
@@ -2923,19 +2923,20 @@
      "text": "(www.stthoma.com, 2002)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCX8GYruOpbTaUHTzg-FDOfAd5mIkReLyVmTFe9xgt7HRI?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "http://www.stthoma.com",
-         "wayback": ""
+         "url": "http://www.stthoma.com/museum/Sculptures/sculptures_carvings.php",
+         "wayback": "https://web.archive.org/web/2/http://www.stthoma.com/museum/Sculptures/sculptures_carvings.php"
         },
         {
          "url": "http://www.stthoma.com/museum/Sculptures/sculptures_carvings.php",
          "wayback": ""
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -3374,7 +3375,7 @@
      "text": "(Hinduism Today^ May-1999). This was modified in (murugan.org, 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCRt3pC7Dv8RKsk1SnOS1OrAe02_e70RMQSyp49KNYblyM?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -3382,7 +3383,11 @@
          "url": "http://www.murugan.org/evnts/nt_may99_article.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://hinduismtoday.com/magazine/may-1999/1999-05-om-muruga/",
+        "exact": false
+       }
       }
      ]
     },
@@ -4388,12 +4393,12 @@
      "text": "(Jeyamohan. B, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQC3Vz4-lMEZRbot8AMZKfD-AZ60BbHgLiVSRd8_5gtwTtQ?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "http://jeyamohan.in/?p=500",
+         "url": "http://jeyamohan.in/?p=600",
          "wayback": ""
         }
        ]
@@ -4565,7 +4570,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://niltindia.org/home.htm",
+         "url": "http://nihindia.org/home.htm",
          "wayback": ""
         }
        ]
@@ -4582,7 +4587,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://niltindia.org/home.htm",
+         "url": "http://nihindia.org/home.htm",
          "wayback": ""
         }
        ]
@@ -5314,7 +5319,7 @@
      "text": "Southworth, along with Michael witzel, directs the SARVA (South Asia Residual Vocabulary Assemblage) Project. The Project takes the form of a dictionary similar to the etymological dictionary prepared by Burrov/ and Emeneau.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDoEm5vBfL2RJoQ0cnzxfZ_AaWj4EInaWWFBXnVHCDuFog?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -5322,7 +5327,11 @@
          "url": "http://ccat.sas.upenn.edu/-fsouth/SARVAProject2005.pdf",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://coe.aa.tufs.ac.jp/sarva/unknown.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -5365,7 +5374,7 @@
      "text": "(Southworth. 2005)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDoEm5vBfL2RJoQ0cnzxfZ_AaWj4EInaWWFBXnVHCDuFog?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -5373,7 +5382,11 @@
          "url": "http://ccat.sas.upenn.edu/-fsouth/SARVAProject2005.pdf",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://coe.aa.tufs.ac.jp/sarva/unknown.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -5621,7 +5634,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://tamil.berkeley.edu/Tami!%20Chair/Backgr(",
+         "url": "http://tamil.berkeley.edu/Tamil%20Chair/Background.html",
          "wayback": ""
         }
        ]
@@ -5701,7 +5714,7 @@
      "text": "(G. Hart, 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDyP2m_WM9QTZIVMovg-fuqAf7tMc2hfJX_hkUwEh_cSJk?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -5709,7 +5722,11 @@
          "url": "http://tamil.berkeley.edu/Tamil%20Chair/TamilClassicalLanguage/TamilClassicalLgeLtr.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://southasia.berkeley.edu/language/tamilberkeley/statement-tamil-classical-language",
+        "exact": true
+       }
       }
      ]
     },
@@ -6403,12 +6420,12 @@
      "text": "It is a colonial research organization which has been reinvented as centre for sponsoring Afro-centric research (Wikipaedia Entry, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAvITcDusQQRYfVo6NpMyCYAfJgMOQfBlk_6OprfsplFjI?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "http://en.wikipedla.org/wiki/lnstitut_Fondam.ental_d",
+         "url": "https://en.wikipedia.org/wiki/Institut_fondamental_d%27Afrique_noire",
          "wayback": ""
         }
        ]
@@ -6605,7 +6622,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://wv/w",
+         "url": "http://www.dalitvoice.org/Templates/jan2006/articles.htm",
          "wayback": ""
         }
        ]
@@ -6982,7 +6999,7 @@
      "text": "(Lausanne website, 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAJ52OTtenkSL_re7PcVfYcAQtFJdulqfK9jHLSf3VEs-0?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -6990,7 +7007,11 @@
          "url": "http://www.lausanne.org/nairobi-2000/overview.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://lausanne.org/gathering/deliver-us-from-evil-consultation-2",
+        "exact": true
+       }
       }
      ]
     },
@@ -7016,7 +7037,7 @@
      "text": "(Francis, 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDHWRx0fAe2Q7O7wlyD1yotAfQZjrpU8lxq1Nn-99ZieRk?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -7024,7 +7045,11 @@
          "url": "http://www.lausanne.org/nairobi-2000/indian-case-study.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://lausanne.org/occasional-paper/spiritual-conflict-todays-mission-lop-29",
+        "exact": false
+       }
       }
      ]
     },
@@ -7033,7 +7058,7 @@
      "text": "(Francis, 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDHWRx0fAe2Q7O7wlyD1yotAfQZjrpU8lxq1Nn-99ZieRk?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -7041,7 +7066,11 @@
          "url": "http://www.lausanne.org/nairobi-2000/indian-case-study.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://lausanne.org/occasional-paper/spiritual-conflict-todays-mission-lop-29",
+        "exact": false
+       }
       }
      ]
     },
@@ -7594,7 +7623,7 @@
      "text": "(Franks, 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCHGbl3tCjBT5i-B1lFcWthAcuAQPgd1oEh1DesNW0EKhw?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -7602,7 +7631,11 @@
          "url": "http://www.house.gov/list/press/az02_franks/dalit_resolution.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.utica.edu/academic/institutes/ihrec/announcements/dalit.cfm",
+        "exact": true
+       }
       }
      ]
     },
@@ -7611,7 +7644,7 @@
      "text": "(Dalit Solidarity, 2007) The confusion is perhaps understandable and perhaps intentional. ‘Joint resolutions’ include matters of great import. such as the authorization for the Iraq war. ‘Concurrent resolutions’ are of interest mainly as public relations.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQALPlT3LO81TYDhZrRAh_alAQkHaGa7bbh7Uyj73pP6nr8?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -7619,7 +7652,11 @@
          "url": "http://www.dalitsolidarity.org/untouchability._legislation.php",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.congress.gov/110/bills/hconres139/BILLS-110hconres139eh.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -7814,7 +7851,7 @@
      "text": "(US Commission Global Human Rights, 2005)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCdPxVR9OKySZC_FExP_aPIARKIs9OysDqActo18vP4E34?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -7822,7 +7859,11 @@
          "url": "http://commdocs.house.gov/committees/intlrel/hfa23825.000/hfa23825_0f.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://commdocs.house.gov/committees/intlrel/hfa23825.000/hfa23825_0.htm",
+        "exact": true
+       }
       }
      ]
     },
@@ -8158,7 +8199,7 @@
      "text": "(MNN, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQD4ZUtrVbX5Q62OBCwYC8RsAY5t821ZrsGR5rpvMqER0U0?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -8166,7 +8207,11 @@
          "url": "http://mobile.mnnonline.org/article.php?id=5665",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.mnnonline.org/?p=68422",
+        "exact": true
+       }
       }
      ]
     },
@@ -8285,7 +8330,7 @@
      "text": "(EPPC, 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCtqnSvgVUzQpFrPyqVBB0mAdN3LUmQpdeHry1QK4Vgzzw?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -8293,7 +8338,11 @@
          "url": "http://www.eppc.org/news/newsid.2818/news_detail.asp",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.nationalreview.com/2007/01/ricks-return-john-j-miller/amp/",
+        "exact": false
+       }
       }
      ]
     },
@@ -8731,7 +8780,7 @@
      "text": "(EPPC, 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBZedb0dcO9TaPo2RDpmGp5AZo8Q7KzI41EtsxQfPfObgE?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -8739,7 +8788,11 @@
          "url": "http://www.eppc.org/programs/ecl/programID.31/default.asp",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://eppc.org/program/evangelicals-in-civic-life/",
+        "exact": false
+       }
       }
      ]
     },
@@ -8871,7 +8924,7 @@
      "text": "(Marsh, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQD8JPv_kxQTSJDsEaKGGsT8AfGNvUwHIqaw6oP-ladHXoU?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -8879,7 +8932,11 @@
          "url": "http://freethedalit.blogspot.com/2008/11/more-on-obama-advisor-sonal-shah.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.nextgov.com/digital-government/2008/12/controversy-mounts-over-obama-transition-team-members-ties-to-hindu-group/42736/",
+        "exact": false
+       }
       }
      ]
     },
@@ -8888,7 +8945,7 @@
      "text": "(Marsh, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQD8JPv_kxQTSJDsEaKGGsT8AfGNvUwHIqaw6oP-ladHXoU?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -8896,7 +8953,11 @@
          "url": "http://freethedalit.blogspot.com/2008/11/more-on-obama-advisor-sonal-shah.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.nextgov.com/digital-government/2008/12/controversy-mounts-over-obama-transition-team-members-ties-to-hindu-group/42736/",
+        "exact": false
+       }
       }
      ]
     },
@@ -8905,7 +8966,7 @@
      "text": "(Marsh, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQD8JPv_kxQTSJDsEaKGGsT8AfGNvUwHIqaw6oP-ladHXoU?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -8913,7 +8974,11 @@
          "url": "http://freethedalit.blogspot.com/2008/11/more-on-obama-advisor-sonal-shah.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.nextgov.com/digital-government/2008/12/controversy-mounts-over-obama-transition-team-members-ties-to-hindu-group/42736/",
+        "exact": false
+       }
       }
      ]
     },
@@ -9865,7 +9930,7 @@
      "text": "(Franks, Cleaver and Pitts, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQC_KJYYVnLxTZYcGy6VFb_9Af33z6FG1Xul_F-JZ9CMpNI?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -9873,7 +9938,11 @@
          "url": "http://www.fiacona.org/newsdetail.php?catid=1008&newsid=755",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://wrf.global/blog/blog-3/september-8-report-violence-india",
+        "exact": false
+       }
       }
      ]
     },
@@ -10578,7 +10647,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.ivarta.com",
+         "url": "http://www.ivarta.com/columns/OL_041114.htm",
          "wayback": ""
         },
         {
@@ -10630,7 +10699,7 @@
      "text": "(UNHCR, 2005)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBiQ655xe6KTLgjHs0T2BQRAbVq8GQhZaTD_-E7v8GShmc?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -10638,7 +10707,11 @@
          "url": "http://www.unhcr.org/refworld/docid/42c928902.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.refworld.org/node/35869",
+        "exact": true
+       }
       }
      ]
     },
@@ -10680,7 +10753,7 @@
      "text": "(in.crossmap.com, 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAljnCtmL3fQa3vMLAo7cKZASk6qHAvL5r7SiplvS60niw?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -10688,7 +10761,11 @@
          "url": "http://in.crossmap.com/cmboard/view.php./&:bbs_id=news&page=8cdoc_.num=204",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.mnnonline.org/news/christians-disappointed-with-religious-freedom-commission/",
+        "exact": false
+       }
       }
      ]
     },
@@ -10844,7 +10921,7 @@
      "text": "(Pew Research Center, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDM8vp2HLQuQYovOc3wBppLAVdEUOUGObU2o5tPvu7XHao?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -10852,7 +10929,11 @@
          "url": "http://pewforum.org/docs/?DocID=491",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.pewresearch.org/wp-content/uploads/sites/7/2009/12/restrictions-fullreport1.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -10861,7 +10942,7 @@
      "text": "(Pew Research Center, 2009). The only source of information from the countries being reported is taken from their constitutions.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDM8vp2HLQuQYovOc3wBppLAVdEUOUGObU2o5tPvu7XHao?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -10869,7 +10950,11 @@
          "url": "http://pewforum.org/docs/?DocID=491",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.pewresearch.org/wp-content/uploads/sites/7/2009/12/restrictions-fullreport1.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -10890,7 +10975,7 @@
      "text": "(Pew Research Center, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDM8vp2HLQuQYovOc3wBppLAVdEUOUGObU2o5tPvu7XHao?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -10898,7 +10983,11 @@
          "url": "http://pewforum.org/docs/?DocID=491",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.pewresearch.org/wp-content/uploads/sites/7/2009/12/restrictions-fullreport1.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -10907,7 +10996,7 @@
      "text": "(Marshal, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQD-1oSKJpA_SqB_LqFkB0dmAUPRn0_9iJhLdCRPuRmKJns?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -10915,7 +11004,11 @@
          "url": "http://www.hudson.org/index.cfm?fuseaction=publication_details&cid=4575",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.firstthings.com/article/2004/06/hinduism-and-terror",
+        "exact": true
+       }
       }
      ]
     },
@@ -11255,7 +11348,7 @@
      "text": "The members of this council described are those who served the first one-year term beginning in March, 2009. A full copy of its first-year report may be downloaded at: http://www.whitehouse.gov/sites/default/files/microsites/ofbnp-council-final-report.pdf (valid as of April 2010). All quotes in this section are from the government website on faith-based initiatives.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBd5m4xbixsRoCcSaDU-_1TAUS1fxLLCM7YpX85_b_Ne8w?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -11263,7 +11356,11 @@
          "url": "http://www.whitehouse.gov/sites/default/files/microsites/ofbnp-council-final-report.pdf",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://obamawhitehouse.archives.gov/sites/default/files/microsites/ofbnp-council-final-report.pdf",
+        "exact": true
+       }
       }
      ]
     }
@@ -11563,7 +11660,7 @@
      "text": "Its predecessor organization was called SPG, which sent missionaries to India in 1820. SPG ‘was a slave-owner in Barbados in the eighteenth and early nineteenth centuries, with several hundred slaves on the Codrington Plantation. The plantation was bequeathed to the Society in 1710 by Christopher Codrington and was run by managers on behalf of the Church of England, represented by the archbishop of Canterbury and a committee of bishops. It relied on a steady new stream of slaves from West Africa as, by 1740, thirty years after the Church took over, four out of every ten slaves bought by the plantation died within three years. This contrasted with some Southern US plantations where the death rate was lower, suggesting a deliberate “work to death” policy was in operation, as was commonly the case in the West Indies and South America.’ See: (Wikipedia)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDoghFrXYj8SaO5BmtO3hbDAWxU_aMxsNMmMbUptRH2v-o?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -11571,7 +11668,11 @@
          "url": "http://en.wikipedia.org/wiki/Society._for_the_Propagation_of_the_Gospel_in_America#Slave_owning_by_the_.SPG",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://en.wikipedia.org/wiki/United_Society_Partners_in_the_Gospel",
+        "exact": true
+       }
       }
      ]
     },
@@ -11724,19 +11825,20 @@
      "text": "(www.khalistan-affairs.org, 2002)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBhUNQFu9izS7hyY15ozFhMAVC3qGl5Z8tVuxBtpdxaQOI?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "http://www.khalistan-affairs.org",
-         "wayback": ""
+         "url": "http://www.khalistan-affairs.org/Main/K_Calling/kc09252002.htm",
+         "wayback": "https://web.archive.org/web/2/http://www.khalistan-affairs.org/Main/K_Calling/kc09252002.htm"
         },
         {
          "url": "http://www.khalistan-affairs.org/Main/K_Calling/kc09252002.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -11998,7 +12100,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://nccidalittaskforce.com/dalit-task-force/about.htm",
+         "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
          "wayback": ""
         }
        ]
@@ -12015,7 +12117,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://nccidalittaskforce.com/dalit-task-force/about.htm",
+         "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
          "wayback": ""
         }
        ]
@@ -12050,7 +12152,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.focnou.com",
+         "url": "http://www.focnou.com/blog/200705/ProgramRome2007.pdf",
          "wayback": ""
         },
         {
@@ -12071,7 +12173,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://nccidalittaskforce.com/dalit-task-force/about.htm",
+         "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
          "wayback": ""
         }
        ]
@@ -12542,7 +12644,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.dalits.nl/pdf/wezrenotuntouchable.pdf",
+         "url": "http://www.dalits.nl/pdf/wearenotuntouchable.pdf",
          "wayback": ""
         }
        ]
@@ -12584,7 +12686,7 @@
      "text": "(WCC, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAQrLT9j5rFRoiojjdMnZhyAVgzsdCS0j5FI70nEhUwOig?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -12592,7 +12694,11 @@
          "url": "http://www.oikoumene.org/ru/news/news-management/a/rus/article/1634/dalits-inner-strength-de.html?tx_ttnews[cat]=89&cHash=f4db884ddf15.04.09",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://oikoumene.org/news/dalits-inner-strength-defeats-caste-based-discrimination",
+        "exact": true
+       }
       }
      ]
     },
@@ -12601,7 +12707,7 @@
      "text": "(WCC, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAQrLT9j5rFRoiojjdMnZhyAVgzsdCS0j5FI70nEhUwOig?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -12609,7 +12715,11 @@
          "url": "http://www.oikoumene.org/ru/news/news-management/a/rus/article/1634/dalits-inner-strength-de.html?tx_ttnews[cat]=89&cHash=f4db884ddf15.04.09",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://oikoumene.org/news/dalits-inner-strength-defeats-caste-based-discrimination",
+        "exact": true
+       }
       }
      ]
     },
@@ -12675,7 +12785,7 @@
      "text": "(WCC, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAQrLT9j5rFRoiojjdMnZhyAVgzsdCS0j5FI70nEhUwOig?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -12683,7 +12793,11 @@
          "url": "http://www.oikoumene.org/ru/news/news-management/a/rus/article/1634/dalits-inner-strength-de.html?tx_ttnews[cat]=89&cHash=f4db884ddf15.04.09",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://oikoumene.org/news/dalits-inner-strength-defeats-caste-based-discrimination",
+        "exact": true
+       }
       }
      ]
     },
@@ -12958,7 +13072,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://nccidalittaskforce.com/dalit-task-force/about.htm",
+         "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
          "wayback": ""
         }
        ]
@@ -12994,7 +13108,7 @@
      "text": "(WCC, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAQrLT9j5rFRoiojjdMnZhyAVgzsdCS0j5FI70nEhUwOig?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -13002,7 +13116,11 @@
          "url": "http://www.oikoumene.org/ru/news/news-management/a/rus/article/1634/dalits-inner-strength-de.html?tx_ttnews[cat]=89&cHash=f4db884ddf15.04.09",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://oikoumene.org/news/dalits-inner-strength-defeats-caste-based-discrimination",
+        "exact": true
+       }
       }
      ]
     },
@@ -13281,7 +13399,7 @@
      "text": "(Aloys, 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDUv0-cCTVNT5qYzvKhQRJVAewfaF6WsoIo5KKG5nmHbSs?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -13289,7 +13407,11 @@
          "url": "http://journalchretien.net/spip.php?page=imprimir_articulo&cid_article=10306",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.asianews.it/news-en/US-House-declares-caste-discrimination-illegal-9950.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -13378,7 +13500,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.dalits.nl/pdf/wezrenotuntouchable.pdf",
+         "url": "http://www.dalits.nl/pdf/wearenotuntouchable.pdf",
          "wayback": ""
         }
        ]
@@ -13482,15 +13604,16 @@
      "text": "(DRC, 2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBalUMgh9SdS7T_a4eQYknTAZqxk7MeeylRVFNcUWu2H28?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "http://dretts.com/DRC_htm/Home.htm",
-         "wayback": ""
+         "url": "http://drctts.com/DRC_htm/Home.htm",
+         "wayback": "https://web.archive.org/web/2/http://drctts.com/DRC_htm/Home.htm"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -14264,15 +14387,16 @@
      "text": "He solicits funds for hi s missionary activity through BOM International, which is based at Pasadena California, (www.vishalmangalwadi.com, 2000:2009). He also networks with academic centers. For example, his links section show the Maclaurin Institute at the University of Minnesota ‘provides a forum for integrating the Christian faith into the world of academics.’ (www.vishalmangalwadi.com, 2000:2009)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJirhR89kFSLJSlVUhSeLuAaC3eFljKQY-TvVzIDIHfno?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
          "url": "http://www.vishalmangalwadi.com/vkmWebSite/links.php",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://www.vishalmangalwadi.com/vkmWebSite/links.php"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -14486,7 +14610,7 @@
      "text": "(Time-CNN, 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQD2DgJhCPHcRrBBr1doL2p5AdsYhMcZMrzUpVsNvfM_QiQ?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -14494,7 +14618,11 @@
          "url": "http://www.time.com/fime/politics/article/0,8599,16684",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://content.time.com/time/politics/article/0",
+        "exact": true
+       }
       }
      ]
     },
@@ -15223,15 +15351,16 @@
      "text": "This webpage has been since mid-2009 moved web admin: into the zone forbidden for outsiders by http://people.biola.edu/faculty/georgea/Peoplesoflndia.htm",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCusNnB7BtUQJv1q9_Gxc6dAcnjJjmla98of49hQfN8FWU?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
          "url": "http://people.biola.edu/faculty/georgea/PeoplesofIndia.htm",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://people.biola.edu/faculty/georgea/PeoplesofIndia.htm"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -15281,7 +15410,7 @@
      "text": "{Maranatha Christian Journal, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAeureKD7ZBQqMdgyqiXfkEAdkzV0A4nIanZnbgsEOUqeI?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -15289,7 +15418,11 @@
          "url": "http://www.mcjoriline.com/news/04a/20040601e.shtml",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.hinduismtoday.com/hpi/?p=4314",
+        "exact": false
+       }
       }
      ]
     },
@@ -17363,7 +17496,7 @@
      "text": "(www.satp.org, 2002)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCecXg02nzbSazXXoMKE-R6ATsPywSitVzoWBNIR-Hp80Q?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -17371,7 +17504,11 @@
          "url": "http://www.satp.org/satporgtp/countries/india/terroristoutfits/simi",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.satp.org/satporgtp/countries/india/terroristoutfits/simi.htm",
+        "exact": true
+       }
       }
      ]
     },
@@ -17633,7 +17770,7 @@
      "text": "(www.satp.org, 2002)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCecXg02nzbSazXXoMKE-R6ATsPywSitVzoWBNIR-Hp80Q?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -17641,7 +17778,11 @@
          "url": "http://www.satp.org/satporgtp/countries/india/terroristoutfits/simi",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.satp.org/satporgtp/countries/india/terroristoutfits/simi.htm",
+        "exact": true
+       }
       }
      ]
     },
@@ -17856,7 +17997,7 @@
      "text": "(V. Kumar, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBvNkJOTgHVSr_aSP1byZAoATN2gpQiJkwZju1jQGDd5CI?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -17864,7 +18005,11 @@
          "url": "http://www.idsa.in/publications/stratcomments/VinodKumar111108.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://idsa.in/publisher/comments/keralas-emergence-as-a-terror-hub-repeated-warnings-ignored",
+        "exact": true
+       }
       }
      ]
     },
@@ -18403,15 +18548,16 @@
      "text": "For more details on the One versus Two Nation Theories, see ‘The Roots of India-Pakistan Conflicts,’ by Rajiv Malhotra, posted at: http://rajivmalhotra.sulekha.com/blog/post/2002/02/the-root-of-india-pakistan-conflicts.htm",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQC1QQJ7lz9uR5dSotgEFaduAeCIstO1aU1_McJ8tek-b9U?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
          "url": "http://rajivmalhotra.sulekha.com/blog/post/2002/02/the-root-of-india-pakistan-conflicts.htm",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/20020215/http://rajivmalhotra.sulekha.com/blog/post/2002/02/the-root-of-india-pakistan-conflicts.htm"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     }
@@ -19388,7 +19534,7 @@
      "text": "The same process was at work in attempts to explain remnants of a great civilization in the Mississippi Valley region of what is now the United States. ‘A lost tribe of Israel’ was invented, since the Native Americans surely could not have built such enormous earthworks. For a brief summary see: (Hirst, 2005)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQA9xRuqHKTCRa8436CM3tfkAaz0vECfDkv06Qev-Kx2IE4?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -19396,7 +19542,11 @@
          "url": "http://archaeology.about.com/od/Iterms/g/lostraces.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.ohiohistory.org/the-moundbuilder-myth/",
+        "exact": false
+       }
       }
      ]
     },
@@ -20002,7 +20152,7 @@
      "text": "(Maranatha Christian Journal, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAeureKD7ZBQqMdgyqiXfkEAdkzV0A4nIanZnbgsEOUqeI?download=1",
        "gone": false,
        "comment": false,
        "links": [
@@ -20010,7 +20160,11 @@
          "url": "http://www.mcjoriline.com/news/04a/20040601e.shtml",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.hinduismtoday.com/hpi/?p=4314",
+        "exact": false
+       }
       }
      ]
     },
@@ -22153,19 +22307,20 @@
      "text": "tnpolice.gov.in (c). ‘Wanted Terrorists/Extremists’. Tamil Nadu Government Police website. 2008. http://tnpolice.gov.in/Wanted/Want4.html; http://tnpolice.gov.in/Wanted/WantlO.html (accessed 10 January 2009).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAkxTbJMxf_SJZXXVyPUggcAVwIJ71Uv-rK1y8XrgSm0E4?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
          "url": "http://tnpolice.gov.in/Wanted/Want4.html",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/20090110/http://tnpolice.gov.in/Wanted/Want4.html"
         },
         {
          "url": "http://tnpolice.gov.in/Wanted/WantlO.html",
          "wayback": ""
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -23341,15 +23496,16 @@
      "text": "— ‘Christmas May Become (Bloody) Good Fr.day in India’. 8 December 2008. http://masihivandana.conL''blog?'2008/12/08/christmas-may-become-bloody-good friday-in-india-vishal-mangalwadi/ (accessed 17 February 2010).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCb0ZFZQEliS4CIudsWwTIRAVpMAvPtwEa-Q1NGa1Pm7ss?download=1",
        "gone": false,
        "comment": false,
        "links": [
         {
          "url": "http://masihivandana.com",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/20100217/http://masihivandana.com"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },

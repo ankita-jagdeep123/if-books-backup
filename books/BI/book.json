@@ -8,5 +8,6 @@
   "commentLabel": "Comment only",
   "commentStat": "Comment only",
   "deadLinkNote": true,
-  "fileLabels": true
+  "fileLabels": true,
+  "equivalents": "BI_equivalents_done.csv"
 }
