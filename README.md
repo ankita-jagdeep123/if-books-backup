@@ -5,6 +5,7 @@ Every book gets one standalone page that lists its endnotes exactly as printed, 
 - Site: https://ankita-jagdeep123.github.io/if-books-backup/
 - AIFP: https://ankita-jagdeep123.github.io/if-books-backup/books/AIFP/ (short link: `/aifp/`)
 - BI (Breaking India): https://ankita-jagdeep123.github.io/if-books-backup/books/BI/ (short link: `/bi/`)
+- BS (The Battle for Sanskrit): https://ankita-jagdeep123.github.io/if-books-backup/books/BS/ (short link: `/bs/`)
 
 The pages are plain static HTML with inline CSS and no outside dependencies. Each book page loads `sources.json` and carries an embedded copy, so it also works when opened from disk.
 

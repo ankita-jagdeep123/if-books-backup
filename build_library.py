@@ -47,6 +47,8 @@ def onedrive(r):
 # Optional per-book settings in book.json (all off unless set; AIFP sets none of them):
 #   "chaptersFromCsv": true     endnote numbers restart in each chapter; chapters come from the CSV's
 #                               "Chapter" (number, gives the order) and "Chapter name" columns
+#   "chapterTitles": {"0": "...", "1": "..."}  with chaptersFromCsv: heading for each CSV "Chapter" number,
+#                               used instead of the CSV's "Chapter name" (for CSVs whose names are bare numbers)
 #   "requireBackupFile": true   Open PDF only when BOTH "Backup file" and "OneDrive link" are filled
 #   "commentLabel": "..."       wording for Category "Unlinked note" rows (default: Author's comment...)
 #   "commentStat": "..."        wording of that card in the stats row
@@ -212,7 +214,8 @@ def build(folder):
                 if not ch.isdigit():
                     sys.exit(f"{get(r, 'ID')}: Chapter must be a number when chaptersFromCsv is set")
                 key = (int(ch), n)
-                chnames.setdefault(int(ch), get(r, "Chapter name") or f"Chapter {ch}")
+                chnames.setdefault(int(ch), (meta.get("chapterTitles") or {}).get(str(int(ch)))
+                                   or get(r, "Chapter name") or f"Chapter {ch}")
             if "extra" in rt:
                 extras += 1
                 pending.append((key, n, r))
@@ -283,6 +286,10 @@ def build(folder):
                          if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") else "")
                         + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
                .replace("/*DATA*/null", emb))
+    if meta["title"].rstrip()[-1:] in "?!.":
+        # a title that ends in ? or ! does not get the subtitle's closing full stop ("Alive?." -> "Alive?")
+        cite = "<cite>" + html.escape(meta["title"]) + "</cite>"
+        page = page.replace(cite + ".</p>", cite + "</p>", 1)
     open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(page)
     other = {}
     for a in A:
