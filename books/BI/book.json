@@ -9,5 +9,6 @@
   "commentStat": "Comment only",
   "deadLinkNote": true,
   "fileLabels": true,
-  "equivalents": "BI_equivalents_done.csv"
+  "equivalents": "BI_equivalents_done.csv",
+  "savedEquivalents": "BI_equivalents_round3.csv"
 }

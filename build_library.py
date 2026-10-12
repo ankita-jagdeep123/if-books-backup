@@ -58,6 +58,11 @@ def onedrive(r):
 #                               its Equivalent URL as a link (new tab), plus EXACT_TEXT when Match is
 #                               EXACT. This replaces the DEAD_TEXT sentence on those rows; rows not in the
 #                               file keep the "deadLinkNote" behaviour. To update: replace the file, push.
+#   "savedEquivalents": "<file>.csv"  same columns, round-3 wording (rows in "equivalents" keep theirs):
+#                               EXACT      -> the note SAVED_TEXT, and the Equivalent URL becomes the row's
+#                                             "Original link" button (replacing the CSV URL, if any)
+#                               EQUIVALENT -> EQUIV_TEXT followed by the Equivalent URL (new tab)
+#                               An ID listed in both files: the "equivalents" file wins (warning).
 # Button wording by the saved file's type, in every book (other types: "Open PDF", or with
 # "fileLabels" "Download <EXT>").
 FILE_LABELS = {"TXT": "Open text"}
@@ -67,6 +72,7 @@ FILE_LABELS = {"TXT": "Open text"}
 DEAD_TEXT = "Original link is dead, but we found the following equivalent to serve the purpose."
 EQUIV_TEXT = "Original link is dead, but we found the following equivalent to serve the purpose:"
 EXACT_TEXT = " (same article, now at a new address)"
+SAVED_TEXT = "Saved copy of the cited source"
 DEAD_FAIL = re.compile(r"download failed - live page: ([^|]*)", re.I)
 
 
@@ -122,7 +128,20 @@ def address(r, opt=None):
          "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
                   or ([{"url": "", "wayback": w} for w in wb])}
     eq = (opt.get("_equiv") or {}).get(get(r, "ID"))
-    if eq and not gone:
+    sv = (opt.get("_saved_equiv") or {}).get(get(r, "ID"))
+    if eq and sv:
+        print(f"WARNING {get(r, 'ID')}: in both equivalents files; the \"equivalents\" file wins", file=sys.stderr)
+        sv = None
+    if sv and not gone:
+        opt.setdefault("_saved_equiv_used", set()).add(get(r, "ID"))
+        if sv["exact"]:
+            a["saved"] = True
+            if us:
+                print(f"WARNING {get(r, 'ID')}: EXACT equivalent replaces the CSV URL for Original link", file=sys.stderr)
+            a["links"] = [{"url": sv["url"], "wayback": wb[0] if wb else ""}]
+        else:
+            a["equiv"] = {"url": sv["url"], "exact": False}
+    elif eq and not gone:
         a["equiv"] = eq
         opt.setdefault("_equiv_used", set()).add(get(r, "ID"))
     elif opt.get("deadLinkNote") and not gone and (wb or pdf) and dead(r):
@@ -170,6 +189,8 @@ def build(folder):
     meta = json.load(open(os.path.join(folder, "book.json"), encoding="utf-8"))
     if meta.get("equivalents"):
         meta["_equiv"] = equivalents(folder, meta["equivalents"])
+    if meta.get("savedEquivalents"):
+        meta["_saved_equiv"] = equivalents(folder, meta["savedEquivalents"])
     rows = []
     for c in sorted(glob.glob(os.path.join(folder, "*_sources.csv"))):
         with open(c, encoding="utf-8-sig", newline="") as f:
@@ -235,6 +256,8 @@ def build(folder):
         json.dump(data, f, ensure_ascii=False, indent=1)
     for i in sorted(set(meta.get("_equiv", {})) - meta.get("_equiv_used", set())):
         print(f"WARNING equivalents {i}: ID not found on the page (or Status is Cannot obtain); not shown", file=sys.stderr)
+    for i in sorted(set(meta.get("_saved_equiv", {})) - meta.get("_saved_equiv_used", set())):
+        print(f"WARNING savedEquivalents {i}: ID not found on the page (or Status is Cannot obtain); not shown", file=sys.stderr)
     tpl = open(os.path.join(ROOT, "templates", "book.html"), encoding="utf-8").read()
     emb = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
@@ -252,12 +275,13 @@ def build(folder):
                .replace("{{COMMENT_LABEL}}", html.escape(meta.get("commentLabel", "Author\\u2019s comment, no source to save")))
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
                .replace("{{PDF_BTN}}", btn)
-               .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") else "")
+               .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") or meta.get("savedEquivalents") else "")
+                        + (SAVED_JS if meta.get("savedEquivalents") else "")
                         + ("\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
                            if meta.get("deadLinkNote") else ""))
                .replace("{{EXTRA_CSS}}", ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
-                         if meta.get("deadLinkNote") or meta.get("equivalents") else "")
-                        + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") else ""))
+                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") else "")
+                        + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
                .replace("/*DATA*/null", emb))
     open(os.path.join(folder, "index.html"), "w", encoding="utf-8").write(page)
     other = {}
@@ -272,7 +296,8 @@ def build(folder):
           f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}, "
           f"dead-link sentence {sum(1 for a in A if a.get('dead'))}"
           + (f", equivalent-link sentence {sum(1 for a in A if a.get('equiv'))} "
-             f"({sum(1 for a in A if a.get('equiv', {}).get('exact'))} EXACT)" if meta.get("equivalents") else "") + "; "
+             f"({sum(1 for a in A if a.get('equiv', {}).get('exact'))} EXACT)" if meta.get("equivalents") else "")
+          + (f", saved-copy note {sum(1 for a in A if a.get('saved'))}" if meta.get("savedEquivalents") else "") + "; "
           f"progress: {saved} of {len(nl) - comments} source endnotes saved; stats: {data['stats']}")
     return meta
 
@@ -282,6 +307,8 @@ EQUIV_JS = ("\n    if (a.equiv) h.push('<span class=\"dead\">" + EQUIV_TEXT + " 
             "'\" target=\"_blank\" rel=\"noopener noreferrer\">' + esc(a.equiv.url) + '</a>' + "
             "(a.equiv.exact ? \"" + EXACT_TEXT + "\" : \"\") + '</span>');")
 # a row never has both "equiv" and "dead" (address() sets one or the other)
+# Round-3 EXACT note (only for books with "savedEquivalents"), same small-note style.
+SAVED_JS = "\n    if (a.saved) h.push('<span class=\"dead\">" + SAVED_TEXT + "</span>');"
 
 
 def main():

@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 1486,
   "cite": 1296,
-  "saved": 349,
+  "saved": 399,
   "comments": 190
  },
  "chapters": [
@@ -1250,10 +1250,16 @@
      "text": "(H.H. Risley, 1891, 247)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJrb9YqnNuS5Z_95X2UEpMAZH2VklN1kScD45mOhtigyc?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://zenodo.org/records/2197610",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1274,10 +1280,16 @@
      "text": "(H.H. Risley, 1891, 253)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJrb9YqnNuS5Z_95X2UEpMAZH2VklN1kScD45mOhtigyc?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://zenodo.org/records/2197610",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5806,10 +5818,14 @@
      "text": "(Chicago Tribune 23 August 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQA98S-4gyvfSa-IPNxZvpAZATljgorU78mjvxeMtUDCmeQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oakpark.com/2006/09/12/davis-says-he-was-unaware-of-trip-funding-by-tamil-tigers/",
+        "exact": false
+       }
       }
      ]
     },
@@ -5859,10 +5875,14 @@
      "text": "(Chicago Tribune, 23 August 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQA98S-4gyvfSa-IPNxZvpAZATljgorU78mjvxeMtUDCmeQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oakpark.com/2006/09/12/davis-says-he-was-unaware-of-trip-funding-by-tamil-tigers/",
+        "exact": false
+       }
       }
      ]
     },
@@ -5925,10 +5945,16 @@
      "text": "(Malten, 17 March 1998)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAZPu1VR3pWT6FRvJHqRoEAARoYpEq09HRUlsilYgUCDyk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://archive.madrasmusings.com/Vol%2018%20No%2026/tamil-studies-in-germany.html",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5937,10 +5963,16 @@
      "text": "(Malten, 17 March 1998)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAZPu1VR3pWT6FRvJHqRoEAARoYpEq09HRUlsilYgUCDyk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://archive.madrasmusings.com/Vol%2018%20No%2026/tamil-studies-in-germany.html",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -6545,10 +6577,16 @@
      "text": "(Kamau, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCmwoV7QFWzRLOzJvtwYQpxAY3RhwiRo7nxbd65ELGkFmY?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://countercurrents.org/dalit-kamau040504.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -6557,10 +6595,16 @@
      "text": "(Kamau, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCmwoV7QFWzRLOzJvtwYQpxAY3RhwiRo7nxbd65ELGkFmY?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://countercurrents.org/dalit-kamau040504.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -6721,10 +6765,16 @@
      "text": "The anti-Indian lobby of IDSN is discussed in detail in the chapter on European interventions in India",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCX_cTBWip2R4foZQThZe9fAY0a1VElHTEX8sVI4IPukdQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/fileadmin/user_folder/pdf/Old_files/un/pdf/IndiaUPRpdf.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -8047,10 +8097,16 @@
      "text": "(Towns, 2 August 2001, 18 March 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAecl6_HiRnT6fJ_Guk9Hv_AT-pmCfkMOMdD-z3GVPRFAo?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.govinfo.gov/content/pkg/CREC-2001-08-02/pdf/CREC-2001-08-02-pt1-PgE1502-2.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -8501,10 +8557,16 @@
      "text": "(Towns, 2 Augyst 2001, 18 March 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQAecl6_HiRnT6fJ_Guk9Hv_AT-pmCfkMOMdD-z3GVPRFAo?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.govinfo.gov/content/pkg/CREC-2001-08-02/pdf/CREC-2001-08-02-pt1-PgE1502-2.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -10444,10 +10506,14 @@
      "text": "(Catholic World News Service, 14 September 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDhgH8Xbt4sSLVtb_AJAirGAU_H_IpunBCVGTinwLd0kWk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://csmonitor.com/2000/1019/p14s1.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -10456,10 +10522,14 @@
      "text": "(Catholic World News Service, 14 September 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDhgH8Xbt4sSLVtb_AJAirGAU_H_IpunBCVGTinwLd0kWk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://csmonitor.com/2000/1019/p14s1.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -10468,10 +10538,14 @@
      "text": "(Catholic World News Service, 14 September 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDhgH8Xbt4sSLVtb_AJAirGAU_H_IpunBCVGTinwLd0kWk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://csmonitor.com/2000/1019/p14s1.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -10741,10 +10815,16 @@
      "text": "(USCIRF, 2006, 1)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBk_wrfetBRSoq4pR_OHsunAR8Rh8bngNjxUcBYiPf__8Q?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.uscirf.gov/sites/default/files/resources/AR_2006/india.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -10774,10 +10854,16 @@
      "text": "(USCIRF, 2006, 3)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBk_wrfetBRSoq4pR_OHsunAR8Rh8bngNjxUcBYiPf__8Q?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.uscirf.gov/sites/default/files/resources/AR_2006/india.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -11705,10 +11791,16 @@
      "text": "(DSN-UK, July 2006, 11)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDP4X1-gAwbT6Q_-VrIKRVjAVcION-XPz9qf3ccMwOZlqQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/fileadmin/user_folder/pdf/New_files/Other_documents/No_Escape_-_Caste_Discrimination_in_the_UK.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12083,10 +12175,16 @@
      "text": "Examples of major funding sources are: Comite Catholique contre la Faim et Pour le Development (Catholic Committee against Hunger and for Development - CCFD), DanChurchAid, Cordaid, ICCO and Christian Aid. (IDSN, 2005, 33)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDmcRuZVX5gSa0xy64svs4MAYEXL0nt254ku81LvqW4rP8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2005ANREPORT.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12244,10 +12342,16 @@
      "text": "(IDSN, 2005, 6)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDmcRuZVX5gSa0xy64svs4MAYEXL0nt254ku81LvqW4rP8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2005ANREPORT.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12291,10 +12395,16 @@
      "text": "(IDSN, 2005, 9)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDmcRuZVX5gSa0xy64svs4MAYEXL0nt254ku81LvqW4rP8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2005ANREPORT.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12303,10 +12413,16 @@
      "text": "(IDSN, 2006, 6)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12315,10 +12431,16 @@
      "text": "(IDSN, 2006, 8)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12327,10 +12449,16 @@
      "text": "(IDSN, 2006, 11-12)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12339,10 +12467,16 @@
      "text": "(IDSN, 2006, 6)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12351,10 +12485,16 @@
      "text": "(IDSN, 2005, 16)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDmcRuZVX5gSa0xy64svs4MAYEXL0nt254ku81LvqW4rP8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2005ANREPORT.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12363,10 +12503,16 @@
      "text": "(IDSN, 2005, 16)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDmcRuZVX5gSa0xy64svs4MAYEXL0nt254ku81LvqW4rP8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2005ANREPORT.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12387,10 +12533,16 @@
      "text": "(IDSN 2006, 15)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12437,10 +12589,16 @@
      "text": "(IDSN, 2006, 20)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12482,10 +12640,16 @@
      "text": "(IDSN 2006, 48)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12494,10 +12658,16 @@
      "text": "(IDSN, 2006, 24)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12615,10 +12785,16 @@
      "text": "(DSN-DK, 24 September 2008, 2)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDx78w1MSyaRZgGjccC6a5gAWMrWGmQNgdGJMg5MT0TfrY?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://ft.dk/samling/20081/almdel/URU/bilag/3/597452.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12818,10 +12994,16 @@
      "text": "(IDSN, 2006, 6)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -13008,10 +13190,16 @@
      "text": "(IDSN, 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCX_cTBWip2R4foZQThZe9fAY0a1VElHTEX8sVI4IPukdQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/fileadmin/user_folder/pdf/Old_files/un/pdf/IndiaUPRpdf.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -13096,10 +13284,16 @@
      "text": "(IDSN 2008, 6)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCX_cTBWip2R4foZQThZe9fAY0a1VElHTEX8sVI4IPukdQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/fileadmin/user_folder/pdf/Old_files/un/pdf/IndiaUPRpdf.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -13322,10 +13516,16 @@
      "text": "(IDSN, 2006, 9)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBJWey5mL5SRqv0eGSCQ_tDAZxYljQBg2J7U4Ise_jdqno?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/12/2006AnnReport.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -13334,10 +13534,16 @@
      "text": "(IDSN, 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCo_K47juAoQ7UU8fHTCraHAUlsiZwYJouD8gM4hExwOAQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/wp-content/uploads/2014/11/IDSNAnnualReport2007.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -13512,10 +13718,16 @@
      "text": "(DSN-UK 2006, 7)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDP4X1-gAwbT6Q_-VrIKRVjAVcION-XPz9qf3ccMwOZlqQ?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://idsn.org/fileadmin/user_folder/pdf/New_files/Other_documents/No_Escape_-_Caste_Discrimination_in_the_UK.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -14329,10 +14541,16 @@
      "text": "(Mangalwadi, 1998)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBh1Rsyp4vKSpxg0Ri7bd3jAdONJ6qnVp2-Da3Wrr9Fu2o?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.christianitytoday.com/ct/1998/january12/8t1042.html",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -14405,10 +14623,16 @@
      "text": "(Mangalwadi, 1998)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBh1Rsyp4vKSpxg0Ri7bd3jAdONJ6qnVp2-Da3Wrr9Fu2o?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.christianitytoday.com/ct/1998/january12/8t1042.html",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -17517,10 +17741,14 @@
      "text": "(The Hindu, 9 March 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCnbAsZl1YWRIwxRpJQhffVAUnaFqksyelkN8OVADbqAyg?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oneindia.com/2008/10/26/is-kerala-turning-into-a-terrorist-hub-1225017247.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -17791,10 +18019,14 @@
      "text": "{The Hindu, 16 March 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDTsY60Fw_ATKbv0TUPXOSSAUCxpBzmRTe3dqmkKUzRJq8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oneindia.com/2006/06/24/pdp-alleges-madani-not-getting-proper-medical-treatment-1151146294.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -17985,10 +18217,14 @@
      "text": "{The Hindu, 10 October 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCnbAsZl1YWRIwxRpJQhffVAUnaFqksyelkN8OVADbqAyg?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oneindia.com/2008/10/26/is-kerala-turning-into-a-terrorist-hub-1225017247.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -18035,10 +18271,14 @@
      "text": "{The Hindu, 10 January 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDTsY60Fw_ATKbv0TUPXOSSAUCxpBzmRTe3dqmkKUzRJq8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oneindia.com/2006/06/24/pdp-alleges-madani-not-getting-proper-medical-treatment-1151146294.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -18595,10 +18835,14 @@
      "text": "(Ananthaswamy, 2001).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCuIX8ilhheQpBRhZn4P1GKAaWrizjklgYLxQjs6zBr7Xk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.sciencedaily.com/releases/2001/05/010515080044.htm",
+        "exact": false
+       }
       }
      ]
     },
@@ -18607,10 +18851,14 @@
      "text": "(Ananthaswamy, 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCuIX8ilhheQpBRhZn4P1GKAaWrizjklgYLxQjs6zBr7Xk?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.sciencedaily.com/releases/2001/05/010515080044.htm",
+        "exact": false
+       }
       }
      ]
     },
@@ -18619,10 +18867,14 @@
      "text": "(Ramachandran, R., 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBPhGjJnb7-QK1Igxhv5t-pATsgPUnZ7RKZG-ZNJWxPHPU?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://genome.cshlp.org/content/11/6/994.long",
+        "exact": false
+       }
       }
      ]
     },
@@ -18631,10 +18883,14 @@
      "text": "(Ramachandran, R., 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQBPhGjJnb7-QK1Igxhv5t-pATsgPUnZ7RKZG-ZNJWxPHPU?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://genome.cshlp.org/content/11/6/994.long",
+        "exact": false
+       }
       }
      ]
     },
@@ -18643,10 +18899,16 @@
      "text": "(Cordaux, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCjq9CXQa7KR7LDxPrKpHF-AZTaQOwzotf2JS85dcjS0Tg?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.csueastbay.edu/museum/files/docs/exhibit/dna/dna-independent-origins.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -18655,10 +18917,16 @@
      "text": "(Cordaux, 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQCjq9CXQa7KR7LDxPrKpHF-AZTaQOwzotf2JS85dcjS0Tg?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.csueastbay.edu/museum/files/docs/exhibit/dna/dna-independent-origins.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -19983,10 +20251,14 @@
      "text": "{The Hindu, 1 May 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://1drv.ms/b/c/ACD215A5F926CFCE/IQDTsY60Fw_ATKbv0TUPXOSSAUCxpBzmRTe3dqmkKUzRJq8?download=1",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.oneindia.com/2006/06/24/pdp-alleges-madani-not-getting-proper-medical-treatment-1151146294.html",
+        "exact": false
+       }
       }
      ]
     },
