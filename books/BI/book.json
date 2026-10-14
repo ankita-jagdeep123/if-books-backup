@@ -10,5 +10,6 @@
   "deadLinkNote": true,
   "fileLabels": true,
   "equivalents": "BI_equivalents_done.csv",
-  "savedEquivalents": "BI_equivalents_round3.csv"
+  "savedEquivalents": "BI_equivalents_round3.csv",
+  "fileHost": "https://if-books-files.ankita-b5a.workers.dev"
 }

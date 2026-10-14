@@ -9,7 +9,7 @@ and the root index.html (list of books in rajivmalhotra.com/books/ order).
 The CSV is only read, never changed. No network access, no API keys.
 """
 import csv, glob, html, json, os, re, sys
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, quote
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GONE = {"cannot obtain"}
@@ -50,6 +50,8 @@ def onedrive(r):
 #   "chapterTitles": {"0": "...", "1": "..."}  with chaptersFromCsv: heading for each CSV "Chapter" number,
 #                               used instead of the CSV's "Chapter name" (for CSVs whose names are bare numbers)
 #   "requireBackupFile": true   Open PDF only when BOTH "Backup file" and "OneDrive link" are filled
+#   "fileHost": "https://..."  Open PDF / Open text / Part n buttons link to <fileHost>/<URL-encoded
+#                               Backup file name> (the file proxy) instead of the CSV's OneDrive link
 #   "commentLabel": "..."       wording for Category "Unlinked note" rows (default: Author's comment...)
 #   "commentStat": "..."        wording of that card in the stats row
 #   "deadLinkNote": true        rows whose original address is dead (see dead()) get the sentence
@@ -158,6 +160,22 @@ def address(r, opt=None):
         # several saved files in one "OneDrive link" cell ("link1 | link2"): Part 1, Part 2, ...
         a["pdf"] = parts[0]
         a["files"] = [{"url": u, "label": f"Part {i + 1}"} for i, u in enumerate(parts)]
+    host = opt.get("fileHost")
+    if host and pdf:
+        # buttons point to the file proxy (Cloudflare Worker) by Backup file name; the OneDrive
+        # links stay in the CSV only. Part n of "x_part-a.txt" is "x_part-<n-th letter>.txt".
+        name = get(r, "Backup file")
+        def hosted(i):
+            n = name if i == 0 else re.sub(r"part-a(\.[^.]+)$", "part-" + "abcdefghij"[i] + r"\1", name)
+            if i and n == name:
+                print(f"WARNING {get(r, 'ID')}: cannot name Part {i + 1} from Backup file {name!r}", file=sys.stderr)
+            return host.rstrip("/") + "/" + quote(n)
+        if not name:
+            print(f"WARNING {get(r, 'ID')}: fileHost set but no Backup file; OneDrive link used", file=sys.stderr)
+        else:
+            a["pdf"] = hosted(0)
+            for i, f in enumerate(a.get("files", [])):
+                f["url"] = hosted(i)
     return a
 
 
