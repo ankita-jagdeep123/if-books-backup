@@ -161,6 +161,9 @@ def address(r, opt=None):
         a["pdf"] = parts[0]
         a["files"] = [{"url": u, "label": f"Part {i + 1}"} for i, u in enumerate(parts)]
     fr = (opt.get("fileRemarks") or {}).get(get(r, "Backup file"))
+    if not fr and get(r, "ID") in (opt.get("noteRemarks") or []):
+        # book.json "noteRemarks": ["<ID>", ...] shows that one note's Remarks the same way
+        fr = "remarks"
     if fr and pdf:
         # book.json "fileRemarks": {"<Backup file>": "remarks"} shows the last " | " part of that
         # row's Remarks (e.g. "this copy is a reprint ...") as a small note next to the button;
@@ -311,9 +314,9 @@ def build(folder):
                         + ("\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
                            if meta.get("deadLinkNote") else "")
                         + ("\n    if (a.remark) h.push('<span class=\"dead\">' + esc(a.remark) + '</span>');"
-                           if meta.get("fileRemarks") else ""))
+                           if meta.get("fileRemarks") or meta.get("noteRemarks") else ""))
                .replace("{{EXTRA_CSS}}", ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
-                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") else "")
+                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") or meta.get("noteRemarks") else "")
                         + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
                .replace("/*DATA*/null", emb))
     if meta["title"].rstrip()[-1:] in "?!.":
