@@ -18,5 +18,12 @@
   "requireBackupFile": true,
   "commentLabel": "Comment only",
   "commentStat": "Comment only",
-  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev"
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "noteRemarks": [
+    "BD_Ch04_107",
+    "BD_Ch04_108",
+    "BD_Ch06_22",
+    "BD_Ch06_23",
+    "BD_Ch06_32"
+  ]
 }

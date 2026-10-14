@@ -54,6 +54,7 @@
     .print-url { display: block !important; font: 8.5pt system-ui, sans-serif; color: #444; grid-column: 2; overflow-wrap: anywhere; }
   }
   .print-url { display: none; }
+  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }
 </style>
 </head>
 <body>
@@ -76,6 +77,7 @@ window.BOOK_FALLBACK = {"code":"BD","title":"Being Different: An Indian Challeng
   var D, box = document.getElementById("list"), q = document.getElementById("q");
   function addr(a) {
     var h = [];
+    if (a.remark) h.push('<span class="dead">' + esc(a.remark) + '</span>');
     if (a.gone) h.push('<span class="btn off" aria-disabled="true">Copy not available</span>');
     else if (a.comment) h.push('<span class="cmt">Comment only</span>');
     else if (a.pdf) h.push('<a class="btn pdf" href="' + esc(a.pdf) + '" target="_blank" rel="noopener">' + esc(a.label || "Open PDF") + '</a>');
