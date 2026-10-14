@@ -1,0 +1,22 @@
+{
+  "code": "BD",
+  "title": "Being Different: An Indian Challenge to Western Universalism",
+  "author": "Rajiv Malhotra",
+  "year": 2011,
+  "chaptersFromCsv": true,
+  "chapterTitles": {
+    "0": "Introduction",
+    "1": "Chapter 1: The Audacity of Difference",
+    "2": "Chapter 2: Yoga: Embodied Knowing",
+    "3": "Chapter 3: Integral Unity versus Synthetic Unity",
+    "4": "Chapter 4: Order and Chaos",
+    "5": "Chapter 5: Non-translatable Sanskrit versus Digestion",
+    "6": "Chapter 6: Contested Cosmopolitanism",
+    "7": "Conclusion: Purva Paksha and the Way Forward",
+    "8": "Appendix A: The Integral Unity of Dharma"
+  },
+  "requireBackupFile": true,
+  "commentLabel": "Comment only",
+  "commentStat": "Comment only",
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev"
+}
