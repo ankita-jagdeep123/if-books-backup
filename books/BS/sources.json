@@ -4,16 +4,16 @@
  "author": "Rajiv Malhotra",
  "stats": {
   "endnotes": 554,
-  "web": 26,
+  "web": 34,
   "social": 1,
-  "books": 450,
-  "comments": 77
+  "books": 444,
+  "comments": 75
  },
  "progress": {
   "endnotes": 554,
-  "cite": 477,
-  "saved": 263,
-  "comments": 77
+  "cite": 479,
+  "saved": 350,
+  "comments": 75
  },
  "chapters": [
   {
@@ -161,10 +161,11 @@
      "text": "Pollock 1993b: 288.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -250,7 +251,7 @@
      "text": "Madhu Kishwar’s blog: htcp://www.infinityfoundation.com/ mandala/h_es/h_es_kishw_mythic_frameset.htm accessed on 16 April 2015.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch02_06_infinityfoundation-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -488,7 +489,7 @@
      "text": "Pollock 1993a: 81.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1427,7 +1428,7 @@
      "text": "Pollock 1993a: 111.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1439,7 +1440,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1451,7 +1452,7 @@
      "text": "Ibid: 77. In fairness to him, he also sees similar tendencies in some of the other world cultures, but his target is Sanskrit.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1463,7 +1464,7 @@
      "text": "Ibid.: 101.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1475,7 +1476,7 @@
      "text": "Ibid.: 80.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1487,7 +1488,7 @@
      "text": "Ibid: 111.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1499,7 +1500,7 @@
      "text": "Ibid.: 115.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1511,7 +1512,7 @@
      "text": "Ibid.: 113.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1523,7 +1524,7 @@
      "text": "Ibid.: 115-16. Italics mine.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1535,7 +1536,7 @@
      "text": "Ibid.: 116.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1547,7 +1548,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1559,7 +1560,7 @@
      "text": "Ibid. Italics mine.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1708,7 +1709,7 @@
      "text": "Pollock 1993a: 116.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1720,7 +1721,7 @@
      "text": "Ibid.: 77.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1732,7 +1733,7 @@
      "text": "Ibid.: 98.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1744,7 +1745,7 @@
      "text": "Ibid.: 105. “The monopolization of “access to authoritative resources” — the most authoritative of all resources, Sanskrit (vaidika) learning — becomes - itself a basic component in the construction and reproduction of the idea of inequality and thus in what, again, can be viewed as a process analogous to colonization in precolonial India.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2205,7 +2206,7 @@
      "text": "Pollock 1993a: 77: ‘... indigenous discourses of power — the various systematized and totalized constructions of inequality in traditional India — might be viewed as a preform of orientalism. Raising such a possibility, at all events, might encourage extending to premodern Indian cultures the problematics of power and domination necessary to help us interpret their products.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2217,7 +2218,7 @@
      "text": "Pollock does want to ‘isolate the morphology of domination that many such discourses share’. In plain language, this means that Sanskrit knowledge needs to be analysed alongside other oppressive systems in different parts of the world. However, the goal in Pollock’s own work seems to be to specifically prove how Sanskrit is ‘creating the idea of race and concurrently legislating racial exclusivity, asserting linguistic hierarchy and claiming superiority for the language of the masters’ (Pollock 1993a: 78).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2229,7 +2230,7 @@
      "text": "Pollock 1993a: 107.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2241,7 +2242,7 @@
      "text": "Ibid.: 107.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2265,7 +2266,7 @@
      "text": "Pollock 1993a: 107. Italics mine.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2366,7 +2367,7 @@
      "text": "Pollock 1993a: 115-16. Italics mine.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2378,7 +2379,7 @@
      "text": "Ibid.: 116.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2390,7 +2391,7 @@
      "text": "Ibid.: 40.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2402,7 +2403,7 @@
      "text": "Ibid.: 293.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2414,7 +2415,7 @@
      "text": "Ibid. :",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2426,7 +2427,7 @@
      "text": "Ibid.: 116-17",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2438,7 +2439,7 @@
      "text": "Ibid.: 104.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2450,7 +2451,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2462,7 +2463,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2474,7 +2475,7 @@
      "text": "Ibid: 114.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2486,7 +2487,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2498,7 +2499,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B077_Pollock_1993a.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2539,7 +2540,7 @@
      "text": "Pollock cites the Maitrayani Sambita version of the Yajurveda to illustrate the Vedic roots of the divinization-demonization dichotomy. He cites the following passage here: ‘(The gods wanted to recover their realm from the demons.] They turned Visnu into a dwarf and brought him [to the demons]. “Whatever he might cover in three strides shall belong to us [the rest to you].” He strode first over this, then this, then that [= earth, sky, heaven].’ (Maitrayani Samhita III.7.9) (Pollock 1984: 519-20)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2551,7 +2552,7 @@
      "text": "Pollock 1984: 521.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2563,7 +2564,7 @@
      "text": "Ibid: 522.‘... man’s natural incapacity is emphatically demonstrated by the need for the infusion in him of Visnu's power (narayana tejab, 9.69, M Bh. III.195.18). Filled with the divine potency, this extraordinary new creature, the earthly king — and only he, no god or man — can protect the brahmanical world order (represented by Uttanka) by destroying evil.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2575,7 +2576,7 @@
      "text": "Pollock 1984: 522.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2587,7 +2588,7 @@
      "text": "Ibid.: 523.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2599,7 +2600,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2611,7 +2612,7 @@
      "text": "Ibid. Explaining them away, Pollock says: “While the important passage cited from the Mahabharata seems representative for much of the epic period, it has often been noted that stony silence if not outright contradiction with respect to the king's divinity can be found elsewhere; many of the early law- books, for example, seem thoroughly indifferent or sometimes even hostile to the notion. Now, it is not in the least clear that the silence encountered in the early dharmasastras should be interpreted negatively, nor that the outright denials we do meet are necessarily applicable to the period with which we are dealing.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2623,7 +2624,7 @@
      "text": "Ibid. ‘Even if these denials are contemporaneous with our text, the fact thar they at the same time imply a widespread belief is something we should not ignore ... Yet determining as cogently as possible the stance of the Ramayana on this issue will prove essential to support the interpretation proposed of the thematic significance of the work.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2635,7 +2636,7 @@
      "text": "Ibid: 524. ‘It is kings — make no mistake of it — who confer righteous merit, something so hard to acquire, and precious life itself, One must never harm them, never criticize, insult or oppose them. Kings are gods who walk the earth in the form of men.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2647,7 +2648,7 @@
      "text": "Ibid.: 525.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2659,7 +2660,7 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2683,7 +2684,7 @@
      "text": "Pollock 1984: 525.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2719,7 +2720,7 @@
      "text": "Pollock 1984: 505.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2731,7 +2732,7 @@
      "text": "Ibid.: 516.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2743,7 +2744,7 @@
      "text": "Ibid.: 517.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2755,7 +2756,7 @@
      "text": "Ibid.: 22.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B071_Pollock_1984.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2899,10 +2900,11 @@
      "text": "Pollock 1993b: 288.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2911,10 +2913,11 @@
      "text": "Ibid.: 263.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2923,10 +2926,11 @@
      "text": "Ibid.: 265.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2935,10 +2939,11 @@
      "text": "Pollock 1993b: 265. Admittedly, he is aware that Rama references were in the form of devotion to Vishnu. Traditional scholars feel that Vishnu bhakti is also evidence of Rama bhakti.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2947,10 +2952,11 @@
      "text": "Ibid.: 263.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2959,10 +2965,11 @@
      "text": "Pollock 1993b: 264",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2971,10 +2978,11 @@
      "text": "Pollock 1993b: 269",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -2983,10 +2991,11 @@
      "text": "Pollock 1993b: 277. “Whereas the Ramayana may certainly have played a substantial role, in some instances a central role, in the political imagination of earlier India, ic comes to be deployed with a fuller and more referentially direct expression — in royal cultic, documentary, and textual representations — from the twelfth century onward ... it was in reaction to the transformative encounter with the polities of Central Asia — with Ghaznavids, Ghurids, Khaljis ... and the resultant new social and political order instituted by the establishment of the Sultanate that the Ramayaaa lived anew in royal discourse. ... Although Mahmud died in 1030, Ghaznavid military campaigns continued, and within half a century or so of the death of Mahmud, the Gahadavalas began to transform Ayodhya into a major Vaishnava center, a building program that was to continue for a century.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3007,10 +3016,11 @@
      "text": "Pollock 1993b: 283.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3019,10 +3029,11 @@
      "text": "Ibid.: 286.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3031,10 +3042,11 @@
      "text": "Ibid.: 282-83.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3091,10 +3103,11 @@
      "text": "Pollock 1993b.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3115,10 +3128,11 @@
      "text": "Pollock 1993b: 261.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3127,10 +3141,11 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -3139,10 +3154,11 @@
      "text": "Ibid.: 293. 6: Politicizing Indian Literature",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     }
@@ -5478,7 +5494,7 @@
      "text": "Hanneder 2002: 293-310.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5490,7 +5506,7 @@
      "text": "Ibid.: 293-310.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5502,7 +5518,7 @@
      "text": "Ibid.: 293-310. ‘Furthermore, Pollock's analysis of the court of Sultan Zain relies on a poet named Srivara, but he is inconsistent in his deployment. Pollock calls Srivara “the most interesting intellectual at the court”, but he is later presented by Pallocle as being “unable to create serious original work himself’.’ Hanneder wonders ifhe happens to be the only random example Pollock knows ofand poe exaggerates the importance of this one poet in drawing conclusions.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5514,7 +5530,7 @@
      "text": "Ibid.: 306.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5526,7 +5542,7 @@
      "text": "Ibid. 307.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5538,7 +5554,7 @@
      "text": "Ibid.: 294.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5562,7 +5578,7 @@
      "text": "Ibid.: 301.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5574,7 +5590,7 @@
      "text": "Ibid.: 417.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5586,7 +5602,7 @@
      "text": "Ibid.: 309.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5610,7 +5626,7 @@
      "text": "Hanneder 2002: 309.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B030_Hanneder_2002.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5959,10 +5975,11 @@
      "text": "Pollock has consistently held such views for many decades. As far back as 1993, he blamed Valmiki, saying: ‘Valmiki's monumental text is doubtless the starting point, to establish a hegemonic version, and thar the television serial Ramayana serial merely continued this Indian method of rewriting and adapting the old ‘myth’ co deal with new political threats. He wrote: ‘Medieval codings of the Ramayana are an instance ofa mythopolitical strategy available for recurrent deployment, such as is taking place in India today’ (Pollock 1993b: 289).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B078_Pollock_1993b.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same article as cited, but this copy is the reprint in D. N. Lorenzen (ed.), Religious Movements in South Asia 600-1800 (Oxford University Press, 2004), chapter 5. Its page numbers differ from the Journal of Asian Studies pagination (261-97) cited in the book; the text is the same article."
       }
      ]
     },
@@ -6046,10 +6063,15 @@
      "text": "Accessed from http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_ pollock.pdf on 14 April 2015.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -6058,10 +6080,15 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -6070,10 +6097,15 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -6082,10 +6114,15 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -6094,10 +6131,15 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -6106,34 +6148,49 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
     {
      "n": 28,
-     "text": "hrep://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf on",
+     "text": "Accessed from http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf on 29 June 2015.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
     {
      "n": 29,
-     "text": "June 2015. 29 Ibid. Italics mine.",
+     "text": "Ibid. Italics mine.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch10_22.pdf",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [
+        {
+         "url": "http://im.rediff.com/news/2014/jul/09_iapoy_sheldon_pollock.pdf",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -6864,13 +6921,13 @@
      "text": "Accessed from http://beenasarwar.com/2009/09/04/hey-ram-the-things-the-financial-times-group-does/ on 13 April 2015.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_Ch14_05_beenasarwar-com_hey-ram-the-things-the-financial-times.pdf",
        "gone": false,
        "comment": false,
        "links": [
         {
          "url": "http://beenasarwar.com/2009/09/04/hey-ram-the-things-the-financial-times-group-does/",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/20090904/http://beenasarwar.com/2009/09/04/hey-ram-the-things-the-financial-times-group-does/"
         }
        ]
       }
