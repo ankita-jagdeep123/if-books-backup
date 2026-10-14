@@ -51,3 +51,6 @@ Settings → Pages → Deploy from branch `main`, folder `/ (root)`.
 PDF buttons link only to OneDrive. Until a row has its OneDrive link, it shows "PDF not saved yet".
 
 Never commit API keys, passwords or edit links.
+
+## File proxy
+Open PDF / Open text buttons link to https://if-books-files.ifbooks-archive.workers.dev/<Backup file> (book.json "fileHost"), a Cloudflare Worker that streams the file from its OneDrive view-only link. The OneDrive links stay in the CSVs. After new uploads: regenerate the worker map, redeploy worker.js, then rebuild.
