@@ -1,0 +1,50 @@
+name: Deploy site (built files only)
+
+# Publishes only the built site (HTML + sources.json). The CSVs, book.json,
+# README, build script and templates stay in the repo but are NOT served.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build
+        run: python3 build_library.py
+      - name: Assemble _site (allow-list)
+        run: |
+          set -e
+          mkdir -p _site
+          touch _site/.nojekyll
+          cp index.html _site/
+          for d in aifp bi bs; do [ -f "$d/index.html" ] && mkdir -p "_site/$d" && cp "$d/index.html" "_site/$d/"; done
+          for b in books/*/; do
+            b=${b%/}; mkdir -p "_site/$b"
+            for f in index.html sources.json; do [ -f "$b/$f" ] && cp "$b/$f" "_site/$b/"; done
+          done
+          if find _site -name '*.csv' -o -name '*.md' -o -name '*.py' | grep -q .; then echo "forbidden file in _site"; exit 1; fi
+          if grep -rlE 'ACD215A5F926CFCE|1drv\.ms' _site; then echo "OneDrive link in _site"; exit 1; fi
+          find _site -type f | sort
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
