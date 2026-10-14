@@ -24,5 +24,8 @@
   "requireBackupFile": true,
   "commentLabel": "Comment only",
   "commentStat": "Comment only",
-  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev"
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "fileRemarks": {
+    "BS_B078_Pollock_1993b.pdf": "remarks"
+  }
 }

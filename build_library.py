@@ -160,6 +160,16 @@ def address(r, opt=None):
         # several saved files in one "OneDrive link" cell ("link1 | link2"): Part 1, Part 2, ...
         a["pdf"] = parts[0]
         a["files"] = [{"url": u, "label": f"Part {i + 1}"} for i, u in enumerate(parts)]
+    fr = (opt.get("fileRemarks") or {}).get(get(r, "Backup file"))
+    if fr and pdf:
+        # book.json "fileRemarks": {"<Backup file>": "remarks"} shows the last " | " part of that
+        # row's Remarks (e.g. "this copy is a reprint ...") as a small note next to the button;
+        # any other value is shown as fixed text. Rows of other files are not affected.
+        rem = get(r, "Remarks").split(" | ")[-1].strip() if fr == "remarks" else fr
+        if rem:
+            a["remark"] = rem
+        else:
+            print(f"WARNING {get(r, 'ID')}: fileRemarks set but Remarks is empty", file=sys.stderr)
     host = opt.get("fileHost")
     if host and pdf:
         # buttons point to the file proxy (Cloudflare Worker) by Backup file name; the OneDrive
@@ -299,9 +309,11 @@ def build(folder):
                .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") or meta.get("savedEquivalents") else "")
                         + (SAVED_JS if meta.get("savedEquivalents") else "")
                         + ("\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
-                           if meta.get("deadLinkNote") else ""))
+                           if meta.get("deadLinkNote") else "")
+                        + ("\n    if (a.remark) h.push('<span class=\"dead\">' + esc(a.remark) + '</span>');"
+                           if meta.get("fileRemarks") else ""))
                .replace("{{EXTRA_CSS}}", ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
-                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") else "")
+                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") else "")
                         + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
                .replace("/*DATA*/null", emb))
     if meta["title"].rstrip()[-1:] in "?!.":
