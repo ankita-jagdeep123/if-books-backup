@@ -20,11 +20,22 @@
   "commentStat": "Comment only",
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
   "noteRemarks": [
+    "BD_Ch01_04",
+    "BD_Ch04_94",
+    "BD_Ch04_95",
+    "BD_Ch04_96",
+    "BD_Ch04_97",
+    "BD_Ch04_99",
+    "BD_Ch04_100",
     "BD_Ch04_107",
     "BD_Ch04_108",
     "BD_Ch06_22",
     "BD_Ch06_23",
-    "BD_Ch06_32"
+    "BD_Ch06_32",
+    "BD_Ch08_17",
+    "BD_Ch08_18",
+    "BD_Ch08_19",
+    "BD_Ch08_24"
   ],
   "screenshotLabel": "Page screenshot"
 }
