@@ -56,6 +56,7 @@ def onedrive(r):
 #   "commentStat": "..."        wording of that card in the stats row
 #   "deadLinkNote": true        rows whose original address is dead (see dead()) get the sentence
 #                               DEAD_TEXT above their buttons, when a Wayback copy or saved file exists
+#   "screenshotLabel": "Page screenshot"  rows with Status "Screenshots saved" get that text next to the button
 #   "fileLabels": true          a saved file that is not a .pdf gets "Download <EXT>" instead of "Open PDF"
 #   "equivalents": "<file>.csv" a CSV in the book folder with columns ID, Match, Equivalent URL,
 #                               Original (dead) URL. Each listed endnote ID gets EQUIV_TEXT followed by
@@ -173,6 +174,11 @@ def address(r, opt=None):
             a["remark"] = rem
         else:
             print(f"WARNING {get(r, 'ID')}: fileRemarks set but Remarks is empty", file=sys.stderr)
+    if opt.get("screenshotLabel") and pdf and get(r, "Status") == "Screenshots saved" and not a.get("remark"):
+        # book.json "screenshotLabel": "Page screenshot" marks rows whose CSV Status is
+        # "Screenshots saved" (the saved file is screenshots of the cited book pages) with that
+        # text next to the button, shown the same way as a remark. Other books are not affected.
+        a["remark"] = opt["screenshotLabel"]
     host = opt.get("fileHost")
     if host and pdf:
         # buttons point to the file proxy (Cloudflare Worker) by Backup file name; the OneDrive
