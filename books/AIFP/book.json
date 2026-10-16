@@ -4,7 +4,7 @@
   "title": "Artificial Intelligence and the Future of Power: 5 Battlegrounds",
   "author": "Rajiv Malhotra",
   "year": 2021,
-  "noteRemarks": ["AIFP_N074", "AIFP_N081", "AIFP_N084", "AIFP_N100", "AIFP_N111", "AIFP_N131", "AIFP_N132", "AIFP_N139", "AIFP_N141", "AIFP_N142", "AIFP_N143", "AIFP_N359"],
+  "noteRemarks": ["AIFP_N074", "AIFP_N081", "AIFP_N084", "AIFP_N100", "AIFP_N111", "AIFP_N131", "AIFP_N132", "AIFP_N139", "AIFP_N141", "AIFP_N142", "AIFP_N143", "AIFP_N291", "AIFP_N325", "AIFP_N331", "AIFP_N359"],
   "rmPage": "https://rajivmalhotra.com/ai-and-the-future-of-power/",
   "chapters": [
     {"title": "Introduction", "from": 1, "to": 10},
