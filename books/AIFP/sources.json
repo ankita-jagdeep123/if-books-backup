@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 235,
+  "saved": 238,
   "comments": 55
  },
  "chapters": [
@@ -837,7 +837,7 @@
      "text": "See: https://www.wsj.com/amp/articles/chinas-efforts-to-lead-the-way-in-ai-start-in-its-classrooms-11571958181 (accessed July 20, 2020).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N050_wsj-com_chinas-efforts-to-lead-the-way-in.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -845,7 +845,8 @@
          "url": "https://www.wsj.com/amp/articles/chinas-efforts-to-lead-the-way-in-ai-start-in-its-classrooms-11571958181",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
@@ -4903,7 +4904,7 @@
      "text": "Horwitz and Seetharaman, “Facebook Executives Shut Down Efforts to Make the Site Less Divisive”.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B024_Horwitz_Facebook-Executives-Shut-Down-Efforts-to-Make_wsj-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4911,7 +4912,8 @@
          "url": "https://www.wsj.com/articles/facebook-knows-it-encourages-division-top-executives-nixed-solutions-11590507499",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
@@ -4920,7 +4922,7 @@
      "text": "Horwitz and Seetharaman, “Facebook Executives Shut Down Efforts to Make the Site Less Divisive”.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B024_Horwitz_Facebook-Executives-Shut-Down-Efforts-to-Make_wsj-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4928,7 +4930,8 @@
          "url": "https://www.wsj.com/articles/facebook-knows-it-encourages-division-top-executives-nixed-solutions-11590507499",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
