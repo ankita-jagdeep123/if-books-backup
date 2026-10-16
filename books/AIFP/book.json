@@ -5,6 +5,10 @@
   "author": "Rajiv Malhotra",
   "year": 2021,
   "noteRemarks": ["AIFP_N074", "AIFP_N081", "AIFP_N084", "AIFP_N100", "AIFP_N111", "AIFP_N131", "AIFP_N132", "AIFP_N139", "AIFP_N141", "AIFP_N142", "AIFP_N143", "AIFP_N291", "AIFP_N325", "AIFP_N331", "AIFP_N359"],
+  "fileRemarks": {
+    "AIFP_N050_wsj-com_chinas-efforts-to-lead-the-way-in.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article.",
+    "AIFP_B024_Horwitz_Facebook-Executives-Shut-Down-Efforts-to-Make_wsj-com.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
+  },
   "rmPage": "https://rajivmalhotra.com/ai-and-the-future-of-power/",
   "chapters": [
     {"title": "Introduction", "from": 1, "to": 10},
