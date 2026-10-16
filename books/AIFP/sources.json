@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 232,
+  "saved": 235,
   "comments": 55
  },
  "chapters": [
@@ -4431,10 +4431,11 @@
      "text": "Joglekar, Bhartrihari Niti and Vairagya Shatakas, 15.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B028_Joglekar_Bhartrihari-Niti-and-Vairagya-Shatakas.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Whole book from an open copy on archive.org (Joglekar, Oriental Publishing Company, Bombay 1911, the edition cited). The book cites 15. The quoted lines (kings give up their pride before the learned) are verse 16 of the Niti Shataka, on PDF page 35 (printed page 3); verse 15 is on the same page."
       }
      ]
     },
@@ -5105,10 +5106,11 @@
      "text": "Joglekar, Bhartrihari Niti and Vairagya Shatakas, 21.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B028_Joglekar_Bhartrihari-Niti-and-Vairagya-Shatakas.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Whole book from an open copy on archive.org (Joglekar, Oriental Publishing Company, Bombay 1911, the edition cited). The book cites 21. The quote ('weak-minded men do not begin...') is verse 27 of the Niti Shataka, on PDF page 37 (printed page 6). No page or verse 21 matches it, so use verse 27."
       }
      ]
     },
@@ -5177,10 +5179,11 @@
      "text": "Joglekar, Bhartrihari Niti and Vairagya Shatakas, 13.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B028_Joglekar_Bhartrihari-Niti-and-Vairagya-Shatakas.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Whole book from an open copy on archive.org (Joglekar, Oriental Publishing Company, Bombay 1911, the edition cited). The book cites 13. This is verse 13 of the Niti Shataka, which matches the quote. It is on PDF page 35 (printed page 3 of the Sanskrit text)."
       }
      ]
     },
