@@ -8,5 +8,17 @@
   "requireBackupFile": true,
   "commentLabel": "Comment only",
   "commentStat": "Comment only",
-  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev"
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "fileRemarks": {
+    "BIT_N125_wsj-com_companies-have-promised-billions-toward-racial-equity.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article.",
+    "BIT_N126_wsj-com_the-unfinished-business-of-office-diversity-training.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article.",
+    "BIT_B049_The-Wall_2022_wsj-com.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
+  },
+  "buyLinks": {
+    "BIT_B053": "https://www.amazon.com/dp/0593230256",
+    "BIT_B036": "https://www.amazon.com/dp/0374289980",
+    "BIT_B024": "https://www.amazon.com/dp/1683640810"
+  },
+  "buyLabel": "Buy this book (Amazon)",
+  "buyText": "This book is still in copyright, so we link to a store page instead of copying it."
 }

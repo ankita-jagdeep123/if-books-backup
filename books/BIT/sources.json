@@ -4,9 +4,9 @@
  "author": "Rajiv Malhotra",
  "stats": {
   "endnotes": 190,
-  "web": 139,
+  "web": 141,
   "social": 17,
-  "books": 27,
+  "books": 25,
   "comments": 7
  },
  "progress": {
@@ -80,7 +80,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -109,7 +114,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.isabelwilkerson.com",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -138,7 +148,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -150,7 +165,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -162,7 +182,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -174,7 +199,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -186,7 +216,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -198,7 +233,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -210,7 +250,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -222,7 +267,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -234,7 +284,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -246,7 +301,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -258,7 +318,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -270,7 +335,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -282,7 +352,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -385,7 +460,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -414,7 +494,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0593230256",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -899,7 +984,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0374289980",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },
@@ -911,7 +1001,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.theguardian.com/books/2020/sep/06/michael-sandel-the-populist-backlash-has-been-a-revolt-against-the-tyranny-of-merit",
+         "wayback": ""
+        }
+       ]
       }
      ]
     },
@@ -2389,7 +2484,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/1683640810",
+        "label": "Buy this book (Amazon)",
+        "text": "This book is still in copyright, so we link to a store page instead of copying it."
+       }
       }
      ]
     },

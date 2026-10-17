@@ -68,6 +68,12 @@ def onedrive(r):
 #                                             "Original link" button (replacing the CSV URL, if any)
 #                               EQUIVALENT -> EQUIV_TEXT followed by the Equivalent URL (new tab)
 #                               An ID listed in both files: the "equivalents" file wins (warning).
+#   "buyLinks": {"<Source ID or row ID>": "https://store page", ...}  a note citing that source (Source ID,
+#                               or the row's own ID) that has no saved copy shows a "buyLabel" button to the
+#                               store page instead of "PDF not saved yet", with the line "buyText" above it.
+#                               Such notes do NOT count as saved. Value may also be {"url": ..., "label": ...}.
+#   "buyLabel": "..."           button text (default BUY_LABEL)
+#   "buyText": "..."            line above the button (default BUY_TEXT)
 # Button wording by the saved file's type, in every book (other types: "Open PDF", or with
 # "fileLabels" "Download <EXT>").
 FILE_LABELS = {"TXT": "Open text"}
@@ -78,6 +84,8 @@ DEAD_TEXT = "Original link is dead, but we found the following equivalent to ser
 EQUIV_TEXT = "Original link is dead, but we found the following equivalent to serve the purpose:"
 EXACT_TEXT = " (same article, now at a new address)"
 SAVED_TEXT = "Saved copy of the cited source"
+BUY_LABEL = "Buy this book"
+BUY_TEXT = "This book is still in copyright, so we link to a store page instead of copying it."
 DEAD_FAIL = re.compile(r"download failed - live page: ([^|]*)", re.I)
 
 
@@ -179,6 +187,18 @@ def address(r, opt=None):
         # "Screenshots saved" (the saved file is screenshots of the cited book pages) with that
         # text next to the button, shown the same way as a remark. Other books are not affected.
         a["remark"] = opt["screenshotLabel"]
+    bl = opt.get("buyLinks") or {}
+    buy = bl.get(get(r, "ID")) or bl.get(get(r, "Source ID"))
+    if buy and not pdf and not gone:
+        # book.json "buyLinks": store-page button for an in-copyright book (not counted as saved)
+        if isinstance(buy, str):
+            buy = {"url": buy}
+        if not str(buy.get("url", "")).startswith("https://"):
+            print(f"WARNING {get(r, 'ID')}: buyLinks url is not https; not shown", file=sys.stderr)
+        else:
+            a["buy"] = {"url": buy["url"], "label": buy.get("label") or opt.get("buyLabel") or BUY_LABEL,
+                        "text": opt.get("buyText") or BUY_TEXT}
+            opt.setdefault("_buy_used", set()).update(k for k in (get(r, "ID"), get(r, "Source ID")) if k in bl)
     host = opt.get("fileHost")
     if host and pdf:
         # buttons point to the file proxy (Cloudflare Worker) by Backup file name; the OneDrive
@@ -298,6 +318,8 @@ def build(folder):
         print(f"WARNING equivalents {i}: ID not found on the page (or Status is Cannot obtain); not shown", file=sys.stderr)
     for i in sorted(set(meta.get("_saved_equiv", {})) - meta.get("_saved_equiv_used", set())):
         print(f"WARNING savedEquivalents {i}: ID not found on the page (or Status is Cannot obtain); not shown", file=sys.stderr)
+    for i in sorted(set(meta.get("buyLinks") or {}) - meta.get("_buy_used", set())):
+        print(f"WARNING buyLinks {i}: no unsaved row with that ID or Source ID; not shown", file=sys.stderr)
     tpl = open(os.path.join(ROOT, "templates", "book.html"), encoding="utf-8").read()
     emb = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     A = [a for c in chapters for e in c["entries"] for a in e["addr"]]
@@ -315,6 +337,7 @@ def build(folder):
                .replace("{{COMMENT_LABEL}}", html.escape(meta.get("commentLabel", "Author\\u2019s comment, no source to save")))
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
                .replace("{{PDF_BTN}}", btn)
+               .replace("{{BUY_JS}}", BUY_JS if meta.get("buyLinks") else "")
                .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") or meta.get("savedEquivalents") else "")
                         + (SAVED_JS if meta.get("savedEquivalents") else "")
                         + ("\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
@@ -322,7 +345,7 @@ def build(folder):
                         + ("\n    if (a.remark) h.push('<span class=\"dead\">' + esc(a.remark) + '</span>');"
                            if meta.get("fileRemarks") or meta.get("noteRemarks") else ""))
                .replace("{{EXTRA_CSS}}", ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
-                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") or meta.get("noteRemarks") else "")
+                         if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") or meta.get("noteRemarks") or meta.get("buyLinks") else "")
                         + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
                .replace("/*DATA*/null", emb))
     if meta["title"].rstrip()[-1:] in "?!.":
@@ -338,9 +361,10 @@ def build(folder):
     print(f"{meta['code']}: {len(notes)} endnotes, {len(bib)} bibliography-only, {extras} extra-address rows grouped; "
           f"buttons: Open PDF {sum(1 for a in A if a['pdf'] and not a.get('label') and not a.get('files'))}, "
           f"other saved files {other or 0} ({sum(len(a.get('files', [])) or 1 for a in A if a['pdf'] and (a.get('label') or a.get('files')))} buttons), "
-          f"PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'])}, "
+          f"PDF not saved yet {sum(1 for a in A if not a['pdf'] and not a['gone'] and not a['comment'] and not a.get('buy'))}, "
           f"Copy not available {sum(1 for a in A if a['gone'])}, Author's comment {sum(1 for a in A if a['comment'])}, "
           f"dead-link sentence {sum(1 for a in A if a.get('dead'))}"
+          + (f", buy-link button {sum(1 for a in A if a.get('buy'))}" if meta.get("buyLinks") else "")
           + (f", equivalent-link sentence {sum(1 for a in A if a.get('equiv'))} "
              f"({sum(1 for a in A if a.get('equiv', {}).get('exact'))} EXACT)" if meta.get("equivalents") else "")
           + (f", saved-copy note {sum(1 for a in A if a.get('saved'))}" if meta.get("savedEquivalents") else "") + "; "
@@ -352,6 +376,10 @@ def build(folder):
 EQUIV_JS = ("\n    if (a.equiv) h.push('<span class=\"dead\">" + EQUIV_TEXT + " <a href=\"' + esc(a.equiv.url) + "
             "'\" target=\"_blank\" rel=\"noopener noreferrer\">' + esc(a.equiv.url) + '</a>' + "
             "(a.equiv.exact ? \"" + EXACT_TEXT + "\" : \"\") + '</span>');")
+# Store-page button (only for books with "buyLinks"): the line above it, then the button, in place of
+# "PDF not saved yet". Same look as Open PDF; opens in a new tab.
+BUY_JS = ("\n    else if (a.buy) { h.push('<span class=\"dead\">' + esc(a.buy.text) + '</span>'); "
+          "h.push('<a class=\"btn pdf\" href=\"' + esc(a.buy.url) + '\" target=\"_blank\" rel=\"noopener noreferrer\">' + esc(a.buy.label) + '</a>'); }")
 # a row never has both "equiv" and "dead" (address() sets one or the other)
 # Round-3 EXACT note (only for books with "savedEquivalents"), same small-note style.
 SAVED_JS = "\n    if (a.saved) h.push('<span class=\"dead\">" + SAVED_TEXT + "</span>');"
