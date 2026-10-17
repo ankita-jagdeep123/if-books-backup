@@ -9,6 +9,7 @@
   "commentLabel": "Comment only",
   "commentStat": "Comment only",
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "screenshotLabel": "Page screenshot",
   "fileRemarks": {
     "BIT_N125_wsj-com_companies-have-promised-billions-toward-racial-equity.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article.",
     "BIT_N126_wsj-com_the-unfinished-business-of-office-diversity-training.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article.",
