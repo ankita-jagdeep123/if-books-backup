@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 238,
+  "saved": 241,
   "comments": 55
  },
  "chapters": [
@@ -665,7 +665,7 @@
      "text": "See: https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-first-game-based-digital-therapeutic-improve-attention-function-children-adhd (accessed July 20, 2020).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N039_fda-gov_fda-permits-marketing-first-game-based-digital.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -673,7 +673,8 @@
          "url": "https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-first-game-based-digital-therapeutic-improve-attention-function-children-adhd",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "The original page on fda.gov no longer opens. This is a copy of the same FDA press release (15 June 2020) as reprinted by BioSpace."
       }
      ]
     },
@@ -2634,7 +2635,7 @@
      "text": "See: https://www.ai.mil/about.html. The JAIC has also been working in collaboration with various federal, state, and local agencies to help disaster response operations by providing crucial intelligence support. For example, JAIC’s AI detection system has been instrumental in providing critical support to first responders battling wildfires by automatically analyzing video captured from aircraft sensors and sharing accurate wildfire-related intelligence. See: https://www.ai.mil/blog_09_16_19.html (accessed July 20, 2020).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N176_ai-mil_about.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2642,10 +2643,11 @@
          "url": "https://www.ai.mil/about.html",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine)."
       },
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N176_u2_ai-mil_blog-09-16-19.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2653,7 +2655,8 @@
          "url": "https://www.ai.mil/blog_09_16_19.html",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine)."
       }
      ]
     },
@@ -4002,7 +4005,7 @@
      "text": "See: https://coe-dsai.nasscom.in/ (accessed July 20, 2020).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N266_coe-dsai-nasscom-in.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4010,7 +4013,8 @@
          "url": "https://coe-dsai.nasscom.in/",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine)."
       }
      ]
     },
