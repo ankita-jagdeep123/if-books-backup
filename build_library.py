@@ -85,7 +85,7 @@ EQUIV_TEXT = "Original link is dead, but we found the following equivalent to se
 EXACT_TEXT = " (same article, now at a new address)"
 SAVED_TEXT = "Saved copy of the cited source"
 BUY_LABEL = "Buy this book"
-BUY_TEXT = "This book is still in copyright, so we link to a store page instead of copying it."
+BUY_TEXT = "Link to buy from Amazon"
 DEAD_FAIL = re.compile(r"download failed - live page: ([^|]*)", re.I)
 
 
