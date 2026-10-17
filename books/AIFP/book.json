@@ -6,6 +6,10 @@
   "year": 2021,
   "noteRemarks": ["AIFP_N074", "AIFP_N081", "AIFP_N084", "AIFP_N100", "AIFP_N111", "AIFP_N131", "AIFP_N132", "AIFP_N139", "AIFP_N141", "AIFP_N142", "AIFP_N143", "AIFP_N291", "AIFP_N325", "AIFP_N331", "AIFP_N359"],
   "fileRemarks": {
+    "AIFP_N039_fda-gov_fda-permits-marketing-first-game-based-digital.pdf": "The original page on fda.gov no longer opens. This is a copy of the same FDA press release (15 June 2020) as reprinted by BioSpace.",
+    "AIFP_N176_ai-mil_about.pdf": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine).",
+    "AIFP_N176_u2_ai-mil_blog-09-16-19.pdf": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine).",
+    "AIFP_N266_coe-dsai-nasscom-in.pdf": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine).",
     "AIFP_N050_wsj-com_chinas-efforts-to-lead-the-way-in.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article.",
     "AIFP_B024_Horwitz_Facebook-Executives-Shut-Down-Efforts-to-Make_wsj-com.pdf": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
   },
