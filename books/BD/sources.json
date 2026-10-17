@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 513,
   "cite": 316,
-  "saved": 127,
+  "saved": 129,
   "comments": 197
  },
  "chapters": [
@@ -353,7 +353,7 @@
      "text": "(Samuel 2008). This Bible is called the New Community Bible.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B189_Samuel_Indian-Bible-Draws-Fire-Over-Hindu-References_christianpost-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -361,7 +361,8 @@
          "url": "http://www.christianpost.com/news/new-indian-bible-",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "The original address no longer opens. This is the same article at its current address on christianpost.com."
       }
      ]
     },
@@ -1947,7 +1948,7 @@
      "text": "(Infinity Foundation n.d.).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B099_Infinity-Foundation_Indic-Mandala_infinityfoundation-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -1955,7 +1956,8 @@
          "url": "http://www.infinityfoundation.com/mandala/indic_mandala_frameset.htm",
          "wayback": "http://web.archive.org/web/20261003013131/http://www.infinityfoundation.com/mandala/indic_mandala_frameset.htm"
         }
-       ]
+       ],
+       "remark": "The original page no longer opens. This is the archived copy saved by the Internet Archive (Wayback Machine)."
       }
      ]
     },
