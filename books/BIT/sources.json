@@ -12,7 +12,7 @@
  "progress": {
   "endnotes": 190,
   "cite": 183,
-  "saved": 141,
+  "saved": 149,
   "comments": 7
  },
  "chapters": [
@@ -65,10 +65,11 @@
      "text": "(Horkheimer, Critical Theory Selected Essays 1982, 244)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N004_Horkheimer_1982.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Page screenshot"
       }
      ]
     },
@@ -111,7 +112,7 @@
      "text": "See: ‘Isabel Wilkerson’. Isabel Wilkerson. Retrieved on February 15, 2022 (https://www.isabelwilkerson.com)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N007_isabelwilkerson-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -952,7 +953,7 @@
      "text": "(Weber 1905)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_B052_Weber_1905.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -998,7 +999,7 @@
      "text": "See: ‘Michael Sandel: “The populist backlash has been a revolt against the tyranny of merit”’. The Guardian. Retrieved on February 15, 2022 (https://www.theguardian.com/books/2020/sep/06/michael-sandel-the-populist- backlash-has-been-a-revolt-against-the-tyranny-of-merit)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N060_theguardian-com_michael-sandel-the-populist-backlash-has-been.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2096,7 +2097,7 @@
      "text": "See: ‘Companies Have Promised $35 Billion Toward Racial Equity. Where Is the Money Going?’ The Wall Street Journal. Retrieved on February 15, 2022 (https://www.wsj.com/articles/companies-have-promised-billions-toward-racial-equity-where-is-the-money-going-11608570864)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N125_wsj-com_companies-have-promised-billions-toward-racial-equity.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2104,7 +2105,8 @@
          "url": "https://www.wsj.com/articles/companies-have-promised-billions-toward-racial-equity-where-is-the-money-going-11608570864",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
@@ -2113,7 +2115,7 @@
      "text": "See: ‘The Unfinished Business of Office Diversity Training’. The Wall Street Journal. Retrieved on February 15, 2022 (https://www.wsj.com/articles/the-unfinished-business-of-office-diversity-training-11608512401)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N126_wsj-com_the-unfinished-business-of-office-diversity-training.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2121,7 +2123,8 @@
          "url": "https://www.wsj.com/articles/the-unfinished-business-of-office-diversity-training-11608512401",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
@@ -3131,7 +3134,7 @@
      "text": "(The Wall Street Journal 2022)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_B049_The-Wall_2022_wsj-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -3139,7 +3142,8 @@
          "url": "https://www.wsj.com/articles/the-stanford-guide-to-acceptable-words-elimination-of-harmful-language-initiative-11671489552",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
@@ -3148,7 +3152,7 @@
      "text": "(The Wall Street Journal 2022)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_B049_The-Wall_2022_wsj-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -3156,7 +3160,8 @@
          "url": "https://www.wsj.com/articles/the-stanford-guide-to-acceptable-words-elimination-of-harmful-language-initiative-11671489552",
          "wayback": ""
         }
-       ]
+       ],
+       "remark": "Paywalled: the original article is on wsj.com, which needs a paid subscription. This is the copy saved from that page, so it may not show the full article."
       }
      ]
     },
