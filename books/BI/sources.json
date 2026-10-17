@@ -9247,7 +9247,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -9259,7 +9265,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -9271,7 +9283,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -9307,7 +9325,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -9319,7 +9343,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -9331,7 +9361,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -9361,7 +9397,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.countercurrents.org/nussbaum220607.htm",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -12200,9 +12242,10 @@
        "links": [
         {
          "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://nccidalittaskforce.com/dalit-task-force/about.html"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -12217,9 +12260,10 @@
        "links": [
         {
          "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://nccidalittaskforce.com/dalit-task-force/about.html"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -12273,9 +12317,10 @@
        "links": [
         {
          "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://nccidalittaskforce.com/dalit-task-force/about.html"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -12822,9 +12867,10 @@
        "links": [
         {
          "url": "http://www.dalits.nl/pdf/wearenotuntouchable.pdf",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://www.dalits.nl/pdf/wearenotuntouchable.pdf"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -13262,9 +13308,10 @@
        "links": [
         {
          "url": "http://nccidalittaskforce.com/dalit-task-force/about.html",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://nccidalittaskforce.com/dalit-task-force/about.html"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -13708,9 +13755,10 @@
        "links": [
         {
          "url": "http://www.dalits.nl/pdf/wearenotuntouchable.pdf",
-         "wayback": ""
+         "wayback": "https://web.archive.org/web/2/http://www.dalits.nl/pdf/wearenotuntouchable.pdf"
         }
-       ]
+       ],
+       "dead": true
       }
      ]
     },
@@ -24110,7 +24158,7 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.drbarboza.com/purush",
+         "url": "http://www.drbarboza.com/purush.htm",
          "wayback": ""
         }
        ]
