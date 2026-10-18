@@ -27,5 +27,31 @@
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
   "fileRemarks": {
     "BS_B078_Pollock_1993b.pdf": "remarks"
-  }
+  },
+  "buyLinks": {
+    "BS_B108": "https://www.amazon.com/s?k=Arvind+Sharma+Hindu+Egalitarianism&i=stripbooks",
+    "BS_B089": "https://www.amazon.com/s?k=Sheldon+Pollock+An+Intellectual+History+of+Rasa&i=stripbooks",
+    "BS_B022": "https://www.amazon.com/s?k=Michael+Franklin+Orientalist+Jones+Sir+William+Jones&i=stripbooks",
+    "BS_B084": "https://www.amazon.com/s?k=Sheldon+Pollock+Ramayana+Book+Two+Ayodhya&i=stripbooks",
+    "BS_B054": "https://www.amazon.com/s?k=Rajiv+Malhotra+Aravindan+Neelakandan+Breaking+India&i=stripbooks",
+    "BS_B011": "https://www.amazon.com/s?k=Ananda+Coomaraswamy+Hinduism+and+Buddhism&i=stripbooks",
+    "BS_B026": "https://www.amazon.com/s?k=Robert+Goldman+Ramayana+of+Valmiki+Balakanda&i=stripbooks",
+    "BS_B035": "https://www.amazon.com/s?k=Daniel+Ingalls+Anthology+of+Sanskrit+Court+Poetry+Vidyakara&i=stripbooks",
+    "BS_B100": "https://www.amazon.com/s?k=Edward+Said+Orientalism&i=stripbooks",
+    "BS_B096": "https://www.amazon.com/s?k=Andrew+Rotter+Comrades+at+Odds+United+States+and+India&i=stripbooks",
+    "BS_B004": "https://www.amazon.com/s?k=Isaiah+Berlin+Against+the+Current&i=stripbooks",
+    "BS_B064": "https://www.amazon.com/s?k=U+R+Anantha+Murthy+Samskara+A+Rite+for+a+Dead+Man&i=stripbooks",
+    "BS_B058": "https://www.amazon.com/s?k=McKim+Marriott+India+through+Hindu+Categories&i=stripbooks",
+    "BS_B066": "https://www.amazon.com/s?k=Walter+Ong+Orality+and+Literacy&i=stripbooks",
+    "BS_B124": "https://www.amazon.com/s?k=Kapila+Vatsyayan+Classical+Indian+Dance+in+Literature+and+the+Arts&i=stripbooks",
+    "BS_B056": "https://www.amazon.com/s?k=Rajiv+Malhotra+Indra%27s+Net&i=stripbooks",
+    "BS_B090": "https://www.amazon.com/s?k=Alan+Machado+Prabhu+Sarasvati%27s+Children&i=stripbooks",
+    "BS_B029": "https://www.amazon.com/s?k=Wilhelm+Halbfass+Research+and+Reflection+Beyond+Orientalism&i=stripbooks",
+    "BS_B025": "https://www.amazon.com/s?k=Jonardon+Ganeri+The+Lost+Age+of+Reason&i=stripbooks",
+    "BS_B038": "https://www.amazon.com/s?k=Christophe+Jaffrelot+The+Hindu+Nationalist+Movement+and+Indian+Politics&i=stripbooks",
+    "BS_B018": "https://www.amazon.com/s?k=Wendy+Doniger+The+Hindus+An+Alternative+History&i=stripbooks",
+    "BS_B041": "https://www.amazon.com/s?k=Meenakshi+Jain+Rama+and+Ayodhya&i=stripbooks"
+  },
+  "buyLabel": "Buy this book (Amazon)",
+  "buyText": "A copy of this book is not on our site."
 }
