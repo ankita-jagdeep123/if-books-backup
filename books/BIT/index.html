@@ -112,13 +112,13 @@ window.BOOK_FALLBACK = {"code":"BIT","title":"The Battle for IITs: A Defense of 
       parts.map(function (x) { return card(x, "part"); }).join('<li class="op" aria-hidden="true">+</li>');
   }
   // PROGRESS BAR: set SHOW_PROGRESS = false to remove it (e.g. once the archive is complete).
-  // It also hides itself automatically when every endnote that cites a source is covered (saved copy or purchase link).
+  // It also hides itself automatically when every endnote that cites a source is covered (a saved copy or a buy-link button).
   var SHOW_PROGRESS = true;
   function progress(p) {
     var el = document.getElementById("progress");
     var c = p && (p.covered != null ? p.covered : p.saved);
     if (!SHOW_PROGRESS || !p || !p.cite || c >= p.cite) return;
-    el.innerHTML = '<div class="cap"><b>' + c + "</b> of " + p.cite + " notes covered (saved copy or purchase link)</div>" +
+    el.innerHTML = '<div class="cap"><b>' + c + "</b> of " + p.cite + " notes covered</div>" +
       '<div class="track" role="progressbar" aria-label="Notes covered" aria-valuemin="0" aria-valuemax="' + p.cite + '" aria-valuenow="' + c + '">' +
       '<div class="fill" style="width:' + (100 * c / p.cite).toFixed(1) + '%"></div></div>';
     el.hidden = false;
