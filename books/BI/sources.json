@@ -13,8 +13,8 @@
   "endnotes": 1486,
   "cite": 1294,
   "saved": 524,
-  "buy": 100,
-  "covered": 624,
+  "buy": 102,
+  "covered": 626,
   "comments": 192
  },
  "chapters": [
@@ -3133,7 +3133,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/Sacred-Mountains-Martin-Goodman/dp/1872883583",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3891,7 +3896,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/Muvalur-Ramamirthammals-Web-Deceit-Colonial/dp/8186706615",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
