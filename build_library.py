@@ -308,9 +308,17 @@ def build(folder):
     nl = list(notes.values())
     comments = sum(1 for e in nl if all(a["comment"] for a in e["addr"]))
     saved = sum(1 for e in nl if any(a["pdf"] for a in e["addr"]))
+    # Covered = saved copy OR (no saved copy and) a book.json buyLinks store button; author's-comment-only notes are not counted.
+    buy = sum(1 for e in nl if not any(a["pdf"] for a in e["addr"]) and not all(a["comment"] for a in e["addr"])
+              and any(a.get("buy") for a in e["addr"]))
+    covered = saved + buy
+    uncovered = sum(1 for e in nl if not all(a["comment"] for a in e["addr"])
+                    and not any(a["pdf"] or a.get("buy") for a in e["addr"]))
+    if covered + uncovered != len(nl) - comments:
+        sys.exit(f"PROGRESS DOES NOT ADD UP: saved {saved} + buy {buy} + not covered {uncovered} != {len(nl) - comments}")
     data = {"code": meta["code"], "title": meta["title"], "author": meta.get("author", ""),
             "stats": stats(rows, len(nl)),
-            "progress": {"endnotes": len(nl), "cite": len(nl) - comments, "saved": saved, "comments": comments},
+            "progress": {"endnotes": len(nl), "cite": len(nl) - comments, "saved": saved, "buy": buy, "covered": covered, "comments": comments},
             "chapters": chapters}
     with open(os.path.join(folder, "sources.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
@@ -368,7 +376,7 @@ def build(folder):
           + (f", equivalent-link sentence {sum(1 for a in A if a.get('equiv'))} "
              f"({sum(1 for a in A if a.get('equiv', {}).get('exact'))} EXACT)" if meta.get("equivalents") else "")
           + (f", saved-copy note {sum(1 for a in A if a.get('saved'))}" if meta.get("savedEquivalents") else "") + "; "
-          f"progress: {saved} of {len(nl) - comments} source endnotes saved; stats: {data['stats']}")
+          f"progress: {covered} of {len(nl) - comments} notes covered (saved {saved} + buy-link {buy}); stats: {data['stats']}")
     return meta
 
 
