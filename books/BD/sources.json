@@ -13,8 +13,8 @@
   "endnotes": 513,
   "cite": 316,
   "saved": 129,
-  "buy": 0,
-  "covered": 129,
+  "buy": 92,
+  "covered": 221,
   "comments": 197
  },
  "chapters": [
@@ -46,7 +46,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/World-Flat-History-Twenty-first-Century/dp/0374292884",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -487,7 +492,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Postmodernism-Other-Ziauddin-Sardar/dp/0745307493",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -499,7 +509,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Containment-revolution-David-Horowitz/dp/B00005VOUL",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -540,7 +555,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Orientalism-Edward-W-Said/dp/039474067X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -683,7 +703,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/New-Oxford-Annotated-Bible-Apocrypha/dp/0190276088",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -743,7 +768,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Myth-Faith-Hermeneutics-Cross-Cultural-Studies/dp/0809102323",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -755,7 +785,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lies-My-Teacher-Told-Everything/dp/156584100X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -767,7 +802,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Heideggers-Philosophy-Guide-Basic-Thought/dp/063108410X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -796,7 +836,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -849,7 +894,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Inner-Revolution-Robert-Thurman/dp/1573227196",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -861,7 +911,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Inner-Revolution-Robert-Thurman/dp/1573227196",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -873,7 +928,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Inner-Revolution-Robert-Thurman/dp/1573227196",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -885,7 +945,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Inner-Revolution-Robert-Thurman/dp/1573227196",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1099,7 +1164,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Catholicism-Christ-Common-Destiny-Man/dp/0898702038",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1135,7 +1205,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/New-Oxford-Annotated-Bible-Apocrypha/dp/0190276088",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1210,7 +1285,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Amor-Dei-Study-Religion-Augustine/dp/1556355017",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1256,7 +1336,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Principles-Psychology-James-William-Paperback/dp/B00ZT0WIEW",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1345,7 +1430,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/New-Oxford-Annotated-Bible-Apocrypha/dp/0190276088",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1386,7 +1476,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meister-Eckhart-Sermons-treatises-v/dp/0906540976",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1398,7 +1493,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meister-Eckhart-Modern-Translation/dp/B00125MIFW",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1434,7 +1534,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Principles-Psychology-James-William-Paperback/dp/B00ZT0WIEW",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1547,7 +1652,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Remasculinization-America-Vietnam-Theories-Contempo/dp/0253205301",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1686,7 +1796,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Pinckaers-Reader-Renewing-Thomistic-Theology/dp/0813213940",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1710,7 +1825,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Mysticism-Physics-Compass-Michael-Talbot/dp/0140193286",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1722,7 +1842,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1758,7 +1883,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Square-Circle-Indian-Arts/dp/8170173620",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1794,7 +1924,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Complementary-Nature-MIT-Press/dp/0262112914",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1917,7 +2052,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Seven-Works-Vasubandhu-Stefan-Anacker/dp/B000LA3IAI",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2048,7 +2188,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Modern-Physics-Vedanta-Swami-Jitatmananda/dp/8172765681",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2173,7 +2318,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/New-Oxford-Annotated-Bible-Apocrypha/dp/0190276088",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2415,7 +2565,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Freedom-Making-Western-Culture/dp/0465025323",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2499,7 +2654,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Constantines-Sword-Church-Jews-History/dp/0618219080",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2511,7 +2671,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Constantines-Sword-Church-Jews-History/dp/0618219080",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2523,7 +2688,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Asoka-Buddhist-Vincent-Arthur-Smith/dp/1425499996",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2559,7 +2729,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Intellectual-History-Psychology-Robinson-Hardcover/dp/B011MCRCZU",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2571,7 +2746,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/history-Western-philosophy-W-Jones/dp/B0006ASY0C",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2607,7 +2787,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Sacred-Profane-Nature-Religion/dp/015679201X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2619,7 +2804,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Cosmopolis-Hidden-Modernity-Stephen-Toulmin/dp/0029326311",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2643,7 +2833,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oriental-Renaissance-Rediscovery-1680-1880-Foundations/dp/023104139X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2786,7 +2981,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Scratches-Our-Minds-American-Images/dp/0873321618",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2810,7 +3010,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Face-Mother-India-Katherine-Mayo/dp/B002BAGWEK",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3147,7 +3352,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oriental-Heritage-Civilization-Durant-Hardcover/dp/B00HUC0LKA",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3220,7 +3430,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hindus-Alternative-History-Wendy-Doniger/dp/014311669X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3232,7 +3447,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hindus-Alternative-History-Wendy-Doniger/dp/014311669X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3485,7 +3705,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Dharmashastra-Volumes-parts-Kane/dp/8194715113",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3546,7 +3771,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Bhagavadgita-S-Radhakrishnan/dp/0061317594",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3763,7 +3993,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Race-Enlightenment-Emmanuel-Chukwudi-Eze/dp/0631201378",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3775,7 +4010,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Race-Enlightenment-Emmanuel-Chukwudi-Eze/dp/0631201378",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3835,7 +4075,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Dangerous-Nation-Americas-Earliest-Century/dp/0375411054",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3978,7 +4223,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/System-Analysis-Ancient-Mythology-Part/dp/0766168875",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4562,7 +4812,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Pura%CC%84n%CC%A3as-acculturation-historico-anthropological-Vijay-Nath/dp/8121509955",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4574,7 +4829,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Pura%CC%84n%CC%A3as-acculturation-historico-anthropological-Vijay-Nath/dp/8121509955",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4586,7 +4846,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Banaras-Light-Diana-L-Eck/dp/069102023X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4659,7 +4924,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Greater-India-Arun-Bhattacharjee/dp/8121501814",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4671,7 +4941,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Greater-India-Arun-Bhattacharjee/dp/8121501814",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4796,7 +5071,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vidhi-Viveka-Mandana-Misra-Understanding/dp/8170304385",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4886,7 +5166,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Freedom-Making-Western-Culture/dp/0465025323",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4995,7 +5280,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Sri-Aurobindo-Hour-God-Selections/dp/8172018886",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5055,7 +5345,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Sri-Aurobindo-Hour-God-Selections/dp/8172018886",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5067,7 +5362,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Sri-Aurobindo-Hour-God-Selections/dp/8172018886",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5127,7 +5427,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/God-Against-Gods-Monotheism-Polytheism/dp/0142196339",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5139,7 +5444,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/God-Against-Gods-Monotheism-Polytheism/dp/0142196339",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5151,7 +5461,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/God-Against-Gods-Monotheism-Polytheism/dp/0142196339",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5163,7 +5478,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/God-Against-Gods-Monotheism-Polytheism/dp/0142196339",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5175,7 +5495,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/God-Against-Gods-Monotheism-Polytheism/dp/0142196339",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5187,7 +5512,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Blood-Martyrs-Unintended-Consequences-Violence/dp/0415941296",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5502,7 +5832,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Sri-Aurobindo-Hour-God-Selections/dp/8172018886",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5572,7 +5907,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5584,7 +5924,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5596,7 +5941,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Invention-Americas-Eclipse-Other-Modernity/dp/082640796X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5608,7 +5958,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Culture-Imperialism-Edward-W-Said/dp/0679750541",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5620,7 +5975,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5632,7 +5992,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Invention-Americas-Eclipse-Other-Modernity/dp/082640796X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5656,7 +6021,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5692,7 +6062,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oriental-Enlightenment-Encounter-Between-Western/dp/0415133769",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5765,7 +6140,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oubli-linde-l-droit-roger-pol/dp/2130424538",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5815,7 +6195,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5827,7 +6212,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5839,7 +6229,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5851,7 +6246,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5863,7 +6263,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5875,7 +6280,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5887,7 +6297,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5899,7 +6314,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Lectures-Philosophy-Introduction-Cambridge-Politics/dp/0521281458",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5953,7 +6373,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Eastern-Religions-Western-Thought-Paperbacks/dp/0195624564",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5965,7 +6390,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Central-Philosophy-Buddhism-T-Murti/dp/0042940338",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5977,7 +6407,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Ever-Present-Origin-Part-Aperspectival-Manifestations/dp/B01FIW2C96",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -6039,7 +6474,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Sacred-Profane-Nature-Religion/dp/015679201X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -6051,7 +6491,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Reawakening-Secular-Hindu-Nation-Dharmasapeksa/dp/1439214441",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -6087,7 +6532,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-B-Inden/dp/0631169237",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -6294,7 +6744,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Buddhist-Scriptures-Penguin-Classics-Donald/dp/014044758X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -6466,7 +6921,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Introduction-Middle-Way-Chandrakirtis-Madhyamakavatara/dp/1590300092",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
