@@ -26,5 +26,29 @@
     {"title": "Chapter 8. Digital Colonization", "from": 288, "to": 324},
     {"title": "Chapter 9. Psychological Hijacking", "from": 325, "to": 340},
     {"title": "Chapter 10. How Robust Is the Rashtra?", "from": 341, "to": 380}
-  ]
+  ],
+  "buyLinks": {
+    "AIFP_B021": "https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464345",
+    "AIFP_B006": "https://www.amazon.in/Bridgital-Nation-Solving-Technologys-Problem/dp/067009336X",
+    "AIFP_B032": "https://www.amazon.com/-/es/Kai-Fu-Lee/dp/132854639X",
+    "AIFP_B060": "https://www.amazon.com/Mahabharata-Krishna-Dwaipayana-Vyasa-Set-Hardcover/dp/8121261309",
+    "AIFP_B072": "https://www.amazon.com/World-Without-Work-Technology-Automation/dp/0241321093",
+    "AIFP_B027": "https://www.amazon.com/Philosophical-Works-David-Hume-alterations/dp/0543688224",
+    "AIFP_B091": "https://www.amazon.com/Wit-Wisdom-Lee-Kuan-Yew/dp/981438528X",
+    "AIFP_B095": "https://us.amazon.com/Age-Surveillance-Capitalism-Future-Frontier/dp/1541758005",
+    "AIFP_B023": "https://www.amazon.com/Manufacturing-Consent-Political-Economy-Media/dp/0679720340",
+    "AIFP_B008": "https://www.amazon.com/Actionable-Gamification-Beyond-Points-Leaderboards/dp/1511744049",
+    "AIFP_B046": "https://us.amazon.com/Platform-Revolution-Networked-Markets-Transforming/dp/0393354350",
+    "AIFP_B054": "https://us.amazon.com/Mahabharata-Krishna-Dwaipayana-Vyasa-Kisari-Ganguli/dp/1024111687",
+    "AIFP_B063": "https://www.amazon.in/China-AI-Report-2020-businesses-ebook/dp/B085VRL13T",
+    "AIFP_B013": "https://us.amazon.com/Hooked-How-Build-Habit-Forming-Products/dp/1591847788",
+    "AIFP_B015": "https://www.amazon.com/Power-Knowledge-Selected-Interviews-1972-1977/dp/039473954X",
+    "AIFP_B062": "https://www.amazon.com/New-Digital-Age-Transforming-Businesses/dp/030794705X",
+    "AIFP_B012": "https://www.amazon.com/Im-Feeling-Lucky-Confessions-Employee/dp/0547416997",
+    "AIFP_B050": "https://www.amazon.com/Historical-Developmental-Classical-Indian-Philosophy/dp/8180695956",
+    "AIFP_B074": "https://us.amazon.com/Holy-Geeta-Swami-Chinmayananda/dp/817597074X",
+    "AIFP_B025": "https://www.amazon.com/agricultural-testament-Albert-Howard/dp/B0007J7OIA"
+  },
+  "buyLabel": "Buy this book (Amazon)",
+  "buyText": "A copy of this book is not on our site."
 }
