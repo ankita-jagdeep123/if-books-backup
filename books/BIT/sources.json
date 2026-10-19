@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 190,
   "cite": 183,
-  "saved": 157,
+  "saved": 158,
   "buy": 18,
-  "covered": 175,
+  "covered": 176,
   "comments": 7
  },
  "chapters": [
@@ -528,7 +528,7 @@
      "text": "See: ‘Roland LARDINOIS’. Center de Sciences Humaines. Retrieved on December       27,    2022     (https://www.csh-delhi.com/team_member/roland-lardinois-2)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N031_csh-delhi-com_roland-lardinois-2.pdf",
        "gone": false,
        "comment": false,
        "links": [
