@@ -35,7 +35,7 @@ jobs:
           mkdir -p _site
           touch _site/.nojekyll
           cp index.html _site/
-          for d in aifp bi bs bd bit; do [ -f "$d/index.html" ] && mkdir -p "_site/$d" && cp "$d/index.html" "_site/$d/"; done
+          for d in aifp bi bs bd bit ah; do [ -f "$d/index.html" ] && mkdir -p "_site/$d" && cp "$d/index.html" "_site/$d/"; done
           for b in books/*/; do
             b=${b%/}; mkdir -p "_site/$b"
             for f in index.html sources.json; do [ -f "$b/$f" ] && cp "$b/$f" "_site/$b/"; done
