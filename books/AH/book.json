@@ -5,18 +5,22 @@
   "year": 2016,
   "chaptersFromCsv": true,
   "chapterTitles": {
+    "1": "Chapter 1: The Academic Cult of Eroticizing Hindus",
     "2": "Chapter 2: The Asymmetric Dialog of Civilizations",
     "3": "Chapter 3: The Axis of Neocolonialism",
     "4": "Chapter 4: RISA Lila – 1: Wendy’s Child Syndrome",
     "5": "Chapter 5: RISA Lila – 2: Limp Scholarship and Demonology",
     "6": "Chapter 6: Wendy Doniger on the Couch: A Tantric Psychoanalysis",
     "7": "Chapter 7: The Insider/Outsider: Academic Game of Sarah Caldwell",
+    "8": "Chapter 8: Response to Jeffrey Kripal’s Sulekha Article",
     "9": "Chapter 9: The Bindi as a Drop of Menstrual Blood",
+    "10": "Chapter 10: The Interpretation of Gods",
     "11": "Chapter 11: The Washington Post and Hinduphobia",
-    "12": "Chapter 12: Challenging The Washington Post"
+    "12": "Chapter 12: Challenging The Washington Post",
+    "13": "Chapter 13: Hinduism in American Classrooms"
   },
+  "showEmptyChapters": true,
   "requireBackupFile": true,
-  "commentLabel": "Comment only",
-  "commentStat": "Comment only",
-  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev"
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "publisher": "Voice of India"
 }

@@ -94,7 +94,7 @@ window.BOOK_FALLBACK = /*DATA*/null;
     var s = q.value.trim().toLowerCase(), out = "";
     D.chapters.forEach(function (c) {
       var es = c.entries.filter(function (e) { return !s || (e.n + " " + e.text + " " + e.addr.map(function (a) { return a.links.map(function (l) { return l.url; }).join(" "); }).join(" ")).toLowerCase().indexOf(s) > -1; });
-      if (es.length) out += "<h2>" + esc(c.title) + "</h2><ol>" + es.map(li).join("") + "</ol>";
+      if (es.length) out += "<h2>" + esc(c.title) + "</h2><ol>" + es.map(li).join("") + "</ol>";{{EMPTY_JS}}
     });
     box.innerHTML = out || '<p class="empty">No entries match your search.</p>';
   }

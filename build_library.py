@@ -47,6 +47,8 @@ def onedrive(r):
 # Optional per-book settings in book.json (all off unless set; AIFP sets none of them):
 #   "chaptersFromCsv": true     endnote numbers restart in each chapter; chapters come from the CSV's
 #                               "Chapter" (number, gives the order) and "Chapter name" columns
+#   "showEmptyChapters": true  with chaptersFromCsv: also list chapterTitles chapters that have no endnotes
+#                               ("No notes in this chapter"); not counted in any total.
 #   "chapterTitles": {"0": "...", "1": "..."}  with chaptersFromCsv: heading for each CSV "Chapter" number,
 #                               used instead of the CSV's "Chapter name" (for CSVs whose names are bare numbers)
 #   "requireBackupFile": true   Open PDF only when BOTH "Backup file" and "OneDrive link" are filled
@@ -291,8 +293,14 @@ def build(folder):
             notes[key] = {"n": n, "text": get(r, "Note / citation text"), "addr": [address(r, meta)]}
     chapters, used = [], set()
     if percsv:
+        if meta.get("showEmptyChapters"):
+            # book.json "showEmptyChapters": true lists every chapterTitles chapter, in order; one with no
+            # endnotes gets a muted "No notes in this chapter" line (hidden while searching). Not counted anywhere.
+            for k, t in (meta.get("chapterTitles") or {}).items():
+                chnames.setdefault(int(k), t)
         for c in sorted(chnames):
-            chapters.append({"title": chnames[c], "entries": [notes[k] for k in sorted(notes) if k[0] == c]})
+            ents = [notes[k] for k in sorted(notes) if k[0] == c]
+            chapters.append({"title": chnames[c], "entries": ents, **({} if ents else {"empty": True})})
         used = set(notes)
     for ch in [] if percsv else meta.get("chapters", []):
         items = [notes[n] for n in range(ch["from"], ch["to"] + 1) if n in notes]
@@ -346,6 +354,7 @@ def build(folder):
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
                .replace("{{PDF_BTN}}", btn)
                .replace("{{BUY_JS}}", BUY_JS if meta.get("buyLinks") else "")
+               .replace("{{EMPTY_JS}}", EMPTY_JS if meta.get("showEmptyChapters") else "")
                .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") or meta.get("savedEquivalents") else "")
                         + (SAVED_JS if meta.get("savedEquivalents") else "")
                         + ("\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
@@ -384,6 +393,9 @@ def build(folder):
 EQUIV_JS = ("\n    if (a.equiv) h.push('<span class=\"dead\">" + EQUIV_TEXT + " <a href=\"' + esc(a.equiv.url) + "
             "'\" target=\"_blank\" rel=\"noopener noreferrer\">' + esc(a.equiv.url) + '</a>' + "
             "(a.equiv.exact ? \"" + EXACT_TEXT + "\" : \"\") + '</span>');")
+# Empty chapter heading (only for books with "showEmptyChapters"): shown in order, with a muted line, when not searching.
+EMPTY_JS = ("\n      else if (!s && c.empty) out += \"<h2>\" + esc(c.title) + '</h2><p class=\"empty\">No notes in this chapter</p>';")
+
 # Store-page button (only for books with "buyLinks"): the line above it, then the button, in place of
 # "PDF not saved yet". Same look as Open PDF; opens in a new tab.
 BUY_JS = ("\n    else if (a.buy) { h.push('<span class=\"dead\">' + esc(a.buy.text) + '</span>'); "
