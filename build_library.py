@@ -47,6 +47,7 @@ def onedrive(r):
 # Optional per-book settings in book.json (all off unless set; AIFP sets none of them):
 #   "chaptersFromCsv": true     endnote numbers restart in each chapter; chapters come from the CSV's
 #                               "Chapter" (number, gives the order) and "Chapter name" columns
+#   "publisherLine": "Voice of India, 2016"  small line under the intro sentence (header); only for books that set it
 #   "showEmptyChapters": true  with chaptersFromCsv: also list chapterTitles chapters that have no endnotes
 #                               ("No notes in this chapter"); not counted in any total.
 #   "chapterTitles": {"0": "...", "1": "..."}  with chaptersFromCsv: heading for each CSV "Chapter" number,
@@ -354,6 +355,7 @@ def build(folder):
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
                .replace("{{PDF_BTN}}", btn)
                .replace("{{BUY_JS}}", BUY_JS if meta.get("buyLinks") else "")
+               .replace("{{PUBLISHER_LINE}}", f'    <p class="pub">{html.escape(meta["publisherLine"])}</p>\n' if meta.get("publisherLine") else "")
                .replace("{{EMPTY_JS}}", EMPTY_JS if meta.get("showEmptyChapters") else "")
                .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") or meta.get("savedEquivalents") else "")
                         + (SAVED_JS if meta.get("savedEquivalents") else "")
@@ -361,7 +363,7 @@ def build(folder):
                            if meta.get("deadLinkNote") else "")
                         + ("\n    if (a.remark) h.push('<span class=\"dead\">' + esc(a.remark) + '</span>');"
                            if meta.get("fileRemarks") or meta.get("noteRemarks") else ""))
-               .replace("{{EXTRA_CSS}}", ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
+               .replace("{{EXTRA_CSS}}", ("\n  header p.pub { margin-top: 4px; font-size: .82rem; color: #7a8396; }" if meta.get("publisherLine") else "") + ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
                          if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") or meta.get("noteRemarks") or meta.get("buyLinks") else "")
                         + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
                .replace("/*DATA*/null", emb))

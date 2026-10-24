@@ -13,8 +13,8 @@
   "endnotes": 307,
   "cite": 194,
   "saved": 42,
-  "buy": 0,
-  "covered": 42,
+  "buy": 83,
+  "covered": 125,
   "comments": 113
  },
  "chapters": [
@@ -34,7 +34,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Colonizers-Model-World-Geographical-Diffusionism/dp/0898623480",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -46,7 +51,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Invention-Americas-Eclipse-Other-Modernity/dp/082640796X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -58,7 +68,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Wretched-Earth-Frantz-Fanon/dp/0802141323",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -70,7 +85,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Cross-Cultural-Conversation-New-Way-Learning/dp/0367172984",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -82,7 +102,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/India-Europe-Understanding-Wilhelm-Halbfass/dp/0887067948",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -106,7 +131,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Cross-Cultural-Conversation-New-Way-Learning/dp/0367172984",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -166,7 +196,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/White-Mythologies-Writing-History-West/dp/0415053714",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -178,7 +213,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Conquest-America-Question-Other/dp/0060912146",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -202,7 +242,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oriental-Enlightenment-Encounter-Between-Western/dp/0415133769",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -214,7 +259,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Wretched-Earth-Frantz-Fanon/dp/0802141323",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -226,7 +276,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -238,7 +293,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -250,7 +310,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -262,7 +327,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -286,7 +356,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -332,7 +407,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Intimate-Enemy-Recovery-Colonialism-Paperbacks/dp/0198062176",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -409,7 +489,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-Inden/dp/0253213584",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -471,7 +556,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Interpretation-Cultures-Selected-Essays/dp/046503425X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -483,7 +573,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -555,7 +650,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-Inden/dp/0253213584",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -567,7 +667,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-Inden/dp/0253213584",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -579,7 +684,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-Inden/dp/0253213584",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -591,7 +701,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-Inden/dp/0253213584",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -603,7 +718,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagining-India-Ronald-Inden/dp/0253213584",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -699,7 +819,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Limit-World-History-Ranajit-Guha/dp/023112418X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -798,7 +923,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -810,7 +940,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -822,7 +957,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -834,7 +974,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -846,7 +991,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Indias-Agony-Religion-Religious-Studies/dp/079142412X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -882,7 +1032,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1216,7 +1371,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1245,7 +1405,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hindu-God-Christian-Boundaries-Religions/dp/0199738726",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1281,7 +1446,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1293,7 +1463,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1305,7 +1480,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1317,7 +1497,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1329,7 +1514,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1341,7 +1531,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1353,7 +1548,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1365,7 +1565,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1377,7 +1582,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1389,7 +1599,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1401,7 +1616,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1413,7 +1633,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1437,7 +1662,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1449,7 +1679,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kalis-Child-Mystical-Teachings-Ramakrishna/dp/0226453774",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1514,7 +1749,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1538,7 +1778,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1550,7 +1795,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1562,7 +1812,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1574,7 +1829,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oh-Terrifying-Mother-Sexuality-Violence/dp/019564462X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1634,7 +1894,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1675,7 +1940,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Ganesa-Lord-Obstacles-Beginnings/dp/0195057422",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1687,7 +1957,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Ganesa-Lord-Obstacles-Beginnings/dp/0195057422",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1699,7 +1974,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Ganesa-Lord-Obstacles-Beginnings/dp/0195057422",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1735,7 +2015,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Awakening-Introduction-History-Eastern-Thought/dp/0130989088",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1771,7 +2056,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1783,7 +2073,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/All-Mothers-Are-Stanley-Kurtz/dp/0231078692",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1819,7 +2114,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/All-Mothers-Are-Stanley-Kurtz/dp/0231078692",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1831,7 +2131,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/All-Mothers-Are-Stanley-Kurtz/dp/0231078692",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1843,7 +2148,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Dowry-Murder-Imperial-Origins-Cultural/dp/0195150724",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1916,7 +2226,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Women-Androgynes-Other-Mythical-Beasts/dp/0226618498",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1940,7 +2255,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Asceticism-Eroticism-Mythology-Doniger-OFlaherty/dp/B0012UG32Q",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1952,7 +2272,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Asceticism-Eroticism-Mythology-Doniger-OFlaherty/dp/B0012UG32Q",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1964,7 +2289,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/New-Religious-America-Christian-Religiously/dp/0060621591",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1976,7 +2306,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Skandapur%C4%81%E1%B9%87a-I-R-Adriaensen/dp/906980106X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2000,7 +2335,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hermeneutic-Tradition-Intersections-Philosophy-Critical/dp/0791401375",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2060,7 +2400,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Eastern-Thought-Transpersonal-Humanistic-Psychology/dp/088706051X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2096,7 +2441,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2149,7 +2499,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Colonial-Indology-Sociopolitics-Ancient-Indian/dp/8121507502",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2161,7 +2516,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/India-History-John-Keay/dp/0802137970",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2197,7 +2557,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Colonial-Indology-Sociopolitics-Ancient-Indian/dp/8121507502",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2802,7 +3167,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Asian-Art-Walters-Gallery-Selection/dp/0911886389",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     }
@@ -3276,7 +3646,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3288,7 +3663,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3300,7 +3680,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3312,7 +3697,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oh-Terrifying-Mother-Sexuality-Violence/dp/019564462X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3348,7 +3738,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oh-Terrifying-Mother-Sexuality-Violence/dp/019564462X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3447,7 +3842,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Kiss-Yogini-Tantric-South-Contexts/dp/0226894835",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3506,7 +3906,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Powershift-Knowledge-Wealth-Violence-Century/dp/0553292153",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3518,7 +3923,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Culture-Contentment-John-Kenneth-Galbraith/dp/0395572282",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4131,7 +4541,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Impressing-Whites-New-International-Slavery/dp/1469906295",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     }
