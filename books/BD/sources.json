@@ -79,7 +79,11 @@
          "url": "http://www.atimes.com/atimes/China/EG09Ad01.html",
          "wayback": "http://web.archive.org/web/20210210232331/http://www.atimes.com/atimes/China/EG09Ad01.html"
         }
-       ]
+       ],
+       "equiv": {
+        "url": "http://large.stanford.edu/history/kaist/references/confucius/liu1/",
+        "exact": false
+       }
       }
      ]
     },
@@ -168,10 +172,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.rickross.com/reference/fundamentalists/fund211.html",
+         "url": "https://culteducation.com/group/936-christian-fundamentalists/7411-who-goes-to-hell.html",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
@@ -333,7 +338,11 @@
          "url": "http://articles.timesofindia.indiatimes.com/2007-10-",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.hinduismtoday.com/hpi/?p=6370",
+        "exact": false
+       }
       }
      ]
     },
@@ -691,7 +700,11 @@
          "url": "http://www.state.nj.us/rpa/Diwali%20Celebration.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://pub.njleg.gov/bills/2006/PL07/1006_.PDF",
+        "exact": false
+       }
       }
      ]
     },
@@ -893,7 +906,13 @@
        "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B031_Biema_The-End-How-It-Got-That-Way.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://time.com/archive/6666730/the-end-how-it-got-that-way/",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -905,7 +924,13 @@
        "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B031_Biema_The-End-How-It-Got-That-Way.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://time.com/archive/6666730/the-end-how-it-got-that-way/",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1918,7 +1943,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.academia.edu/45095300/Ritual_Masks_and_Sacrifice",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -4658,7 +4689,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11699342/",
+        "exact": false
+       }
       }
      ]
     },
@@ -6785,7 +6820,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://read.dukeupress.edu/south-atlantic-quarterly/article-abstract/103/2-3/523/88706/Righting-Wrongs",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     }
