@@ -1,0 +1,32 @@
+{
+  "code": "FRP",
+  "title": "Fighting Rama Phobia in the United States of America",
+  "author": "Rajiv Malhotra",
+  "chaptersFromCsv": true,
+  "chapterTitles": {
+    "0": "Introduction",
+    "1": "Chapter 1: Fighting Rama Phobia in the American K-12 Education Establishment",
+    "2": "Chapter 2: Fighting Rama Phobia in Academic Research",
+    "3": "Chapter 3: Reclaiming the Ramayana",
+    "4": "Chapter 4: Launching International Ramayana Conferences in the USA",
+    "5": "Chapter 5: Hindu Influences on the Star Wars Film Series",
+    "6": "Chapter 6: The Indentured Indian Diaspora: Where the Ramcharitmanas Rules"
+  },
+  "showEmptyChapters": true,
+  "requireBackupFile": true,
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "buyLinks": {
+    "FRP_B021": "https://www.amazon.com/Rasa-Reader-Aesthetics-Historical-Sourcebooks/dp/0231173903",
+    "FRP_B024": "https://www.amazon.com/Language-Gods-World-Men-Premodern/dp/0520245008",
+    "FRP_B023": "https://www.amazon.in/Literary-Cultures-History-Reconstructions-South/dp/0520228219",
+    "FRP_B005": "https://www.amazon.com/Illuminations-Essays-Reflections-Walter-Benjamin/dp/0805202412",
+    "FRP_B011": "https://www.amazon.com/Walter-Benjamin-Bertolt-Brecht-Friendship/dp/0300136951",
+    "FRP_B014": "https://www.amazon.com/Hindu-Nationalist-Movement-India/dp/0231103344",
+    "FRP_B010": "https://us.amazon.com/Hindus-Alternative-History-Wendy-Doniger/dp/1594202052",
+    "FRP_B026": "https://www.amazon.com/Jedi-Lotus-Star-Hindu-Tradition/dp/1907166114",
+    "FRP_B018": "https://www.amazon.com/Benevolent-neutrality-government-migration-1854-1884/dp/1870518101",
+    "FRP_B015": "https://www.amazon.com/Veil-Women-Writers-History-Politics/dp/0520255186"
+  },
+  "buyLabel": "Buy this book (Amazon)",
+  "buyText": ""
+}

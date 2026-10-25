@@ -1,7 +1,7 @@
 {"source": "https://rajivmalhotra.com/books/ (Books menu order, checked 2026-10-07)",
  "order": [
   {"title": "Who Is Raising Your Children?"},
-  {"title": "Fighting Rama Phobia in the United States of America"},
+  {"title": "Fighting Rama Phobia in the United States of America", "code": "FRP"},
   {"title": "The Global Renaissance of Dharma"},
   {"title": "Battle For Consciousness Theory"},
   {"title": "Varna Jati Caste"},
