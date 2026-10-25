@@ -13,8 +13,8 @@
   "endnotes": 1486,
   "cite": 1294,
   "saved": 524,
-  "buy": 119,
-  "covered": 643,
+  "buy": 172,
+  "covered": 696,
   "comments": 192
  },
  "chapters": [
@@ -251,7 +251,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Mythical-Image-Ideal-German-Romanticism/dp/B0007EGI8C",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -846,7 +850,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Curse-Ham-Slavery-Christianity-Christians/dp/0691123705",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -858,7 +866,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Curse-Ham-Slavery-Christianity-Christians/dp/0691123705",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -898,7 +910,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Curse-Ham-Slavery-Christianity-Christians/dp/0691123705",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1118,7 +1134,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Linguistics-Colonial-World-Language-Meaning/dp/1405105704",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1130,7 +1150,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Linguistics-Colonial-World-Language-Meaning/dp/1405105704",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1194,7 +1218,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Religion-Victorian-Britain-Culture-Empire/dp/0719051843",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1419,7 +1447,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imperial-Encounters-Religion-Modernity-Britain/dp/069107478X",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1576,7 +1608,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imperial-Encounters-Religion-Modernity-Britain/dp/069107478X",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1588,7 +1624,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Legible-Bodies-Criminality-Colonialism-South/dp/1859738605",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1600,7 +1640,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imperial-Encounters-Religion-Modernity-Britain/dp/069107478X",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1729,7 +1773,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Mastering-Christianity-Missionary-Anglicanism-Atlantic/dp/0190683015",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1769,7 +1817,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christians-Public-Colonial-South-1863-1937/dp/0415646634",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1889,7 +1941,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hist-Christianity-India-Begin-Beginnings/dp/0521548853",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2628,7 +2684,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Buddhism-Ethnic-Conflict-Religious-Studies/dp/0791493539",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2696,7 +2756,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Buddhism-Betrayed-Religion-Politics-Violence/dp/0226789500",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2708,7 +2772,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Buddhism-Betrayed-Religion-Politics-Violence/dp/0226789500",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3231,7 +3299,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hist-Christianity-India-Begin-Beginnings/dp/0521548853",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5493,7 +5565,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Sorcery-Color-Identity-Gender-Brazil/dp/1592133509",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5808,7 +5884,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/Caste-Tamil-Culture-Foundations-COMPARATIVE/dp/0915984849",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5932,7 +6012,11 @@
          "url": "http://tamil.berkeley.edu/Tamil%20Chair/Background.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://southasia.berkeley.edu/node/227",
+        "exact": false
+       }
       }
      ]
     },
@@ -6404,7 +6488,11 @@
          "url": "http://www.arrs.manchester.ac.uk/ecmsas/panels/ecmsaspanel33to4",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.iias.asia/event/conference-report-19th-european-conference-modern-south-asian-studies-ecmsas",
+        "exact": false
+       }
       }
      ]
     }
@@ -6497,7 +6585,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Partition-Genocide-Manifestation-Violence-Punjab/dp/8187943254",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -6538,7 +6630,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -7143,7 +7239,11 @@
          "url": "http://www.historyforkids.org/crafts/india/ramayana.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.historyforkids.net/ancient-indian-literature-for-kids.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -7160,7 +7260,11 @@
          "url": "http://www.historyforkids.org/crafts/india/ramayana.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.historyforkids.net/ancient-indian-literature-for-kids.html",
+        "exact": false
+       }
       }
      ]
     },
@@ -7480,7 +7584,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -8995,7 +9103,11 @@
          "url": "http://www.infinityfoundation.com/ECITnehletterframeset.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://infinityfoundation.com/educational-council-on-indic-traditions/",
+        "exact": false
+       }
       }
      ]
     },
@@ -10719,7 +10831,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Converting-Colonialism-Realities-1706-1914-Christian/dp/0802817637",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -11599,7 +11715,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Faith-Halls-Power-Evangelicals-American/dp/0195326660",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -11678,7 +11798,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Faith-Halls-Power-Evangelicals-American/dp/0195326660",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -12501,7 +12625,11 @@
          "url": "http://www.ocrpl.org/?page_id=3",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://ocrpl.org/about/",
+        "exact": false
+       }
       }
      ]
     },
@@ -12776,7 +12904,11 @@
          "url": "http://www.jasso.go.jp/cgi-bin/user/univ_search_result.cgi?cunivid=1104&prefecturename=Chiba",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.jpss.jp/en/search/prefecture/chiba/",
+        "exact": false
+       }
       }
      ]
     },
@@ -13876,7 +14008,11 @@
          "url": "http://www.dalitstudies.org.in/associates.php",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://dalitstudies.org.in/institute/associates-affiliates/international-organization/",
+        "exact": false
+       }
       }
      ]
     },
@@ -13994,7 +14130,11 @@
          "url": "http://www.dalitstudies.org.in/associates.php",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://dalitstudies.org.in/institute/associates-affiliates/international-organization/",
+        "exact": false
+       }
       }
      ]
     },
@@ -14056,7 +14196,11 @@
          "url": "http://www.dalitstudies.org.in/associates.php",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://dalitstudies.org.in/institute/associates-affiliates/international-organization/",
+        "exact": false
+       }
       }
      ]
     },
@@ -14073,7 +14217,11 @@
          "url": "http://www.dalitstudies.org.in/associates.php",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://dalitstudies.org.in/institute/associates-affiliates/international-organization/",
+        "exact": false
+       }
       }
      ]
     },
@@ -14155,7 +14303,11 @@
          "url": "http://www.dalitstudies.org.in/associates.php",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://dalitstudies.org.in/institute/associates-affiliates/international-organization/",
+        "exact": false
+       }
       }
      ]
     },
@@ -14487,7 +14639,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/India%E2%80%B2s-Silent-Revolution-Comparative-International/dp/0231127863",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -14547,7 +14703,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/India%E2%80%B2s-Silent-Revolution-Comparative-International/dp/0231127863",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -14559,7 +14719,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/India%E2%80%B2s-Silent-Revolution-Comparative-International/dp/0231127863",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -15368,7 +15532,11 @@
          "url": "http://worldvision.org/content.nsf/about/hr-requirements",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.worldvision.org/about-us/job-opportunities-clone",
+        "exact": false
+       }
       }
      ]
     },
@@ -15488,7 +15656,11 @@
          "url": "http://www.worldvisionindia.org/P185",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.worldvision.in/about-us",
+        "exact": false
+       }
       }
      ]
     },
@@ -15553,7 +15725,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/White-Metropolis-Ethnicity-Religion-1841-2001/dp/029271274X",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -15679,7 +15855,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Pentecostal-Movement-Twentieth-Christian-Paperback/dp/0802827349",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -15804,7 +15984,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Revolution-World-Missions-Journey-Generation/dp/1595890610",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -16544,7 +16728,11 @@
          "url": "http://www.bostontheological.org/about_the_bti/mission_statement_and_history.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.bostontheological.org/about-us",
+        "exact": false
+       }
       }
      ]
     },
@@ -17040,7 +17228,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Evangelicals-Politics-Africa-Latin-America/dp/0521800412",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -17064,7 +17256,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Evangelicals-Politics-Africa-Latin-America/dp/0521800412",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -17391,7 +17587,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/War-Top-World-Struggle-Afghanistan/dp/0415930626",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -17829,7 +18029,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Political-Evolution-Muslims-Tamilnadu-1930-1947/dp/8125010114",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -17870,7 +18074,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Transfer-Power-India-V-Menon/dp/B004C7QVNW",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -17882,7 +18090,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Political-Evolution-Muslims-Tamilnadu-1930-1947/dp/8125010114",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -17944,10 +18156,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.satp.org/satporgtp/publication/faultlines/volumel67Article5",
+         "url": "https://www.satp.org/satporgtp/publication/faultlines/volume16/article5.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
@@ -20256,7 +20469,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Scientific-Racism-Modern-South-Africa/dp/0521473438",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20268,7 +20485,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Scientific-Racism-Modern-South-Africa/dp/0521473438",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20558,7 +20779,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20570,7 +20795,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20582,7 +20811,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20594,7 +20827,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20606,7 +20843,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -20618,7 +20859,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Christianity-Genocide-Rwanda-African-Studies/dp/0521191394",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21066,10 +21311,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.oikoumene.org/en/member-churches/church-families/lutheran-churches/lwf.html",
+         "url": "https://www.oikoumene.org/organization/lutheran-world-federation",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
@@ -21081,7 +21327,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Protestant-Origins-India-Evangelical-Christians/dp/0802847218",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21093,7 +21343,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Protestant-Origins-India-Evangelical-Christians/dp/0802847218",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21105,7 +21359,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Muslim-Identity-Culture-Dravidian-Factor/dp/8125026320",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21149,7 +21407,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Protestant-Origins-India-Evangelical-Christians/dp/0802847218",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21178,7 +21440,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://us.amazon.com/Protestant-Origins-India-Evangelical-Christians/dp/0802847218",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21190,7 +21456,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Converting-Women-Protestant-Christianity-Colonial/dp/0195165071",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -21255,7 +21525,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Encyclopedia-Christianity-3-Erwin-Fahlbusch/dp/0802880037",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -23811,7 +24085,11 @@
          "url": "http://www.dalitstudies.org.in/associates",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://dalitstudies.org.in/institute/associates-affiliates/international-organization/",
+        "exact": false
+       }
       }
      ]
     },
@@ -24455,7 +24733,11 @@
          "url": "http://freethedalit.blogspot.com/2008/08/book-arrow-of-blue-skinned-god.html",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://manuscrypts.com/2018/08/26/arrow-of-the-blue-skinned-god/",
+        "exact": false
+       }
       }
      ]
     },
@@ -24520,10 +24802,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.anathi.org/homes.html",
+         "url": "https://anathi.org/homes.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
@@ -24896,10 +25179,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.joshuaproject.net/1.0-40-window.php",
+         "url": "https://joshuaproject.net/resources/articles/10_40_window",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
@@ -25018,10 +25302,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.uscirf.gov/index",
+         "url": "https://www.uscirf.gov/",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
