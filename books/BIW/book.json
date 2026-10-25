@@ -1,0 +1,30 @@
+{
+  "code": "BIW",
+  "title": "Bringing Indian Wisdom to American Schools",
+  "author": "Rajiv Malhotra",
+  "chaptersFromCsv": true,
+  "chapterTitles": {
+    "1": "Chapter 1: Reclaiming the Bindi: Fighting the Dot Busters’ Hate Crimes",
+    "2": "Chapter 2: A Study of Anti-India Bias in American Newspapers",
+    "5": "Chapter 5: Confronting Missionary Hinduphobic Propaganda",
+    "8": "Chapter 8: Fighting the California Textbook Bias",
+    "10": "Chapter 10: Fourteen-Volume Series: The History of Indian Science and Technology",
+    "11": "Chapter 11: Reviving the Lost Knowledge of Nalanda",
+    "12": "Chapter 12: Reclaiming the Vedic Origins of Accelerated Learning",
+    "13": "Chapter 13: Bringing Vedanta-Based Scientific Evolution to American Schools",
+    "17": "Chapter 17: Championing Asian Studies in New Jersey Schools"
+  },
+  "showEmptyChapters": true,
+  "requireBackupFile": true,
+  "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
+  "buyLinks": {
+    "BIW_B011": "https://www.amazon.com/Suggestology-Outlines-Suggestopedy-Psychic-Studies/dp/0677309406",
+    "BIW_B019": "https://www.amazon.com/Psychic-Discoveries-Behind-Iron-Curtain/dp/0553135961",
+    "BIW_B020": "https://www.amazon.com/Super-Learning-Sheila-Ostrander/dp/0440384249",
+    "BIW_B016": "https://www.amazon.com/Born-Bang-Universe-Tells-Cosmic/dp/1584690321",
+    "BIW_B018": "https://us.amazon.com/Mammals-Who-Morph-Universe-Evolution/dp/1584690852",
+    "BIW_B027": "https://www.amazon.com/Kalacakratantra-Individual-together-Vimalaprabha-Treasury/dp/0975373412"
+  },
+  "buyLabel": "Buy this book (Amazon)",
+  "buyText": ""
+}
