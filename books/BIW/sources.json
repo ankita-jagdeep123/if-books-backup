@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 56,
   "cite": 45,
-  "saved": 0,
+  "saved": 17,
   "buy": 16,
-  "covered": 16,
+  "covered": 33,
   "comments": 11
  },
  "chapters": [
@@ -43,7 +43,7 @@
      "text": "(Williams, et al. 2004)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B029_Williams_2004_hwpi-harvard-edu.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -65,7 +65,7 @@
      "text": "(Malhotra 2024)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B013_Malhotra_2024_rajivmalhotra-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -104,7 +104,7 @@
      "text": "(Witzel 2005)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B030_Witzel_2005_safarmer-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -126,7 +126,7 @@
      "text": "(Staal 2006)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B023_Staal_2006_link-springer-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -212,7 +212,7 @@
      "text": "(The American Institute of Buddhist Studies n.d.)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B025_N_The-American-Institute-of-Buddhist-Studies_aibs-columbia-edu.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -229,7 +229,7 @@
      "text": "(American Institute of Buddhist Studies n.d.)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B002_N_American-Institute-of-Buddhist-Studies_aibs-columbia-edu.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -246,7 +246,7 @@
      "text": "(Sakya Monastery n.d.)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B022_N_Sakya-Monastery_wondersoftibet-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -284,7 +284,7 @@
      "text": "http://www.optimalearning.com/readings_delehanty.htm.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_Ch12_02_optimalearning-com_readings-delehanty.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -398,7 +398,7 @@
      "text": "(Bancroft 1976)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B006_Bancroft_Jane_eric-ed-gov.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -431,7 +431,7 @@
      "text": "(Bancroft 1976)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B006_Bancroft_Jane_eric-ed-gov.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -465,7 +465,7 @@
      "text": "http://www.coachlab.net/coachingsoup/evgame.html",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_Ch12_13_coachlab-net_evgame.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -482,7 +482,7 @@
      "text": "(Bancroft 1976)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B006_Bancroft_Jane_eric-ed-gov.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -499,7 +499,7 @@
      "text": "http://www.hinduonnet.com/thehindu/mp/2002/03/14/stories/2002031400010200.htm",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_Ch12_15_hinduonnet-com_2002031400010200.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -516,7 +516,7 @@
      "text": "(Maples 2020)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B014_Maples_2020_inovagroup-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -549,7 +549,7 @@
      "text": "(UMass Dartmouth Establishes $1 Million Indic Education Initiative 2008)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B028_2008_UMass-Dartmouth-Establishes-1-Million-Indic-Education_lokvani-com.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -760,7 +760,7 @@
      "text": "(Asia in the Schools 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B005_2001_Asia-in-the-Schools_asiasociety-org.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -861,7 +861,7 @@
      "text": "(Asia for Educators n.d.)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B004_N_Asia-for-Educators_afe-easia-columbia-edu.pdf",
        "gone": false,
        "comment": false,
        "links": [
