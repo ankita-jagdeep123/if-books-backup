@@ -13,8 +13,8 @@
   "endnotes": 513,
   "cite": 316,
   "saved": 129,
-  "buy": 92,
-  "covered": 221,
+  "buy": 109,
+  "covered": 238,
   "comments": 197
  },
  "chapters": [
@@ -257,7 +257,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Indian-Philosophy-at-University-Hawaii/dp/B00408PUZ8",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -293,7 +298,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Conquest-America-Question-published-University/dp/B00E32DZNA",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -596,7 +606,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Gandhian-Utopia-Experiments-Richard-Fox/dp/0807041009",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     }
@@ -1510,7 +1525,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Evolution-Toward-Divinity-Beatrice-Bruteau/dp/0835602168",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1941,7 +1961,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Advaita-Harsha-Dehejia-Kapila-Vatsyayan/dp/8120813871",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1953,7 +1978,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Advaita-Harsha-Dehejia-Kapila-Vatsyayan/dp/8120813871",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2205,7 +2235,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Hindu-Quest-Perfection-Man/dp/1579101410",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3476,7 +3511,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Reflections-Resemblance-Ritual-Religion-Brian/dp/0195055454",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3525,7 +3565,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Reflections-Resemblance-Ritual-Religion-Brian/dp/0195055454",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3746,7 +3791,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Early-Buddhist-Theory-Knowledge-tradition/dp/8120806190",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3945,7 +3995,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Criminal-Gods-Demon-Devotees-Guardians/dp/0887069827",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4211,7 +4266,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Bible-Empire-Postcolonial-Explorations/dp/0521531918",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -4338,7 +4398,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Varuna-Vidusaka-F-B-Kuiper/dp/0720484529",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5100,7 +5165,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagined-Manuvad-Dharmasastras-Their-Interpreters/dp/8129108089",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5112,7 +5182,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagined-Manuvad-Dharmasastras-Their-Interpreters/dp/8129108089",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5268,7 +5343,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Divine-Mother-Blessed-Goddesses-Virgin/dp/0195170377",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -5654,7 +5734,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Imagined-Manuvad-Dharmasastras-Their-Interpreters/dp/8129108089",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },

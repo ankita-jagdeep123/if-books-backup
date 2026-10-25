@@ -13,8 +13,8 @@
   "endnotes": 1486,
   "cite": 1294,
   "saved": 524,
-  "buy": 102,
-  "covered": 626,
+  "buy": 119,
+  "covered": 643,
   "comments": 192
  },
  "chapters": [
@@ -82,7 +82,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Dowry-Murder-Imperial-Origins-Cultural/dp/0195150724",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -825,7 +830,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Noahs-Curse-Biblical-Justification-American/dp/0195313070",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -885,7 +895,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Noahs-Curse-Biblical-Justification-American/dp/0195313070",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -921,7 +936,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Noahs-Curse-Biblical-Justification-American/dp/0195313070",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1022,7 +1042,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Bible-Empire-Postcolonial-Explorations/dp/0521531918",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -1135,7 +1160,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/OXFORD-HISTORY-INDIA-Third/dp/B000WMO7SW",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2430,7 +2460,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Break-Up-Sri-Lanka-Sinhalese-Tamil-Conflict/dp/0824812115",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2601,7 +2636,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Break-Up-Sri-Lanka-Sinhalese-Tamil-Conflict/dp/0824812115",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2637,7 +2677,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Break-Up-Sri-Lanka-Sinhalese-Tamil-Conflict/dp/0824812115",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2649,7 +2694,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Break-Up-Sri-Lanka-Sinhalese-Tamil-Conflict/dp/0824812115",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -2757,7 +2807,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Exodus-within-Borders-Introduction-Displacement/dp/0815749546",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -3150,7 +3205,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Oxford-Companion-Bible-Companions/dp/0195046455",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -10010,7 +10070,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Early-India-published-University-California/dp/B008DM387O",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -20342,7 +20407,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Archaeological-Thought-Second/dp/0521600499",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -20354,7 +20424,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Archaeological-Thought-Second/dp/0521600499",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -20378,7 +20453,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/History-Archaeological-Thought-Second/dp/0521600499",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
@@ -20419,7 +20499,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Races-Africa-OPUS-Opus-Books/dp/019888009X",
+        "label": "Buy this book (Amazon)",
+        "text": "A copy of this book is not on our site."
+       }
       }
      ]
     },
