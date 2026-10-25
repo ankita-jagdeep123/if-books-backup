@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 513,
   "cite": 316,
-  "saved": 139,
+  "saved": 140,
   "buy": 159,
-  "covered": 298,
+  "covered": 299,
   "comments": 197
  },
  "chapters": [
@@ -202,7 +202,7 @@
      "text": "(Haag 2008, Oct/Nov, 2-3).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B078_Haag_From-Tolerance-to-Respect.pdf",
        "gone": false,
        "comment": false,
        "links": []
