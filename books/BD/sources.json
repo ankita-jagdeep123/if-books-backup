@@ -13,8 +13,8 @@
   "endnotes": 513,
   "cite": 316,
   "saved": 129,
-  "buy": 155,
-  "covered": 284,
+  "buy": 159,
+  "covered": 288,
   "comments": 197
  },
  "chapters": [
@@ -584,7 +584,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Through-Categories-Contributions-Indian-Sociology/dp/0803996365",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -1926,7 +1930,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Gods-Within-Consciousness-Vedic-Tradition/dp/8121510635",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3919,7 +3927,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Through-Categories-Contributions-Indian-Sociology/dp/0803996365",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -4550,7 +4562,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Gods-Within-Consciousness-Vedic-Tradition/dp/8121510635",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
