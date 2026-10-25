@@ -73,10 +73,10 @@ def onedrive(r):
 #                               An ID listed in both files: the "equivalents" file wins (warning).
 #   "buyLinks": {"<Source ID or row ID>": "https://store page", ...}  a note citing that source (Source ID,
 #                               or the row's own ID) that has no saved copy shows a "buyLabel" button to the
-#                               store page instead of "PDF not saved yet", with the line "buyText" above it.
+#                               store page instead of "PDF not saved yet", with the line "buyText" above it (if any).
 #                               Such notes do NOT count as saved. Value may also be {"url": ..., "label": ...}.
 #   "buyLabel": "..."           button text (default BUY_LABEL)
-#   "buyText": "..."            line above the button (default BUY_TEXT)
+#   "buyText": "..."            line above the button (default BUY_TEXT); "" = no line, only the button
 # Button wording by the saved file's type, in every book (other types: "Open PDF", or with
 # "fileLabels" "Download <EXT>").
 FILE_LABELS = {"TXT": "Open text"}
@@ -199,8 +199,11 @@ def address(r, opt=None):
         if not str(buy.get("url", "")).startswith("https://"):
             print(f"WARNING {get(r, 'ID')}: buyLinks url is not https; not shown", file=sys.stderr)
         else:
-            a["buy"] = {"url": buy["url"], "label": buy.get("label") or opt.get("buyLabel") or BUY_LABEL,
-                        "text": opt.get("buyText") or BUY_TEXT}
+            a["buy"] = {"url": buy["url"], "label": buy.get("label") or opt.get("buyLabel") or BUY_LABEL}
+            # the line above the button: book.json "buyText" (default BUY_TEXT); "buyText": "" shows only the button
+            bt = opt["buyText"] if "buyText" in opt else BUY_TEXT
+            if bt:
+                a["buy"]["text"] = bt
             opt.setdefault("_buy_used", set()).update(k for k in (get(r, "ID"), get(r, "Source ID")) if k in bl)
     host = opt.get("fileHost")
     if host and pdf:
@@ -354,7 +357,7 @@ def build(folder):
                .replace("{{COMMENT_LABEL}}", html.escape(meta.get("commentLabel", "Author\\u2019s comment, no source to save")))
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
                .replace("{{PDF_BTN}}", btn)
-               .replace("{{BUY_JS}}", BUY_JS if meta.get("buyLinks") else "")
+               .replace("{{BUY_JS}}", ((BUY_JS if meta.get("buyText", BUY_TEXT) else BUY_JS_NOTEXT) if meta.get("buyLinks") else ""))
                .replace("{{PUBLISHER_LINE}}", f'    <p class="pub">{html.escape(meta["publisherLine"])}</p>\n' if meta.get("publisherLine") else "")
                .replace("{{EMPTY_JS}}", EMPTY_JS if meta.get("showEmptyChapters") else "")
                .replace("{{DEAD_JS}}", (EQUIV_JS if meta.get("equivalents") or meta.get("savedEquivalents") else "")
@@ -402,6 +405,9 @@ EMPTY_JS = ("\n      else if (!s && c.empty) out += \"<h2>\" + esc(c.title) + '<
 # "PDF not saved yet". Same look as Open PDF; opens in a new tab.
 BUY_JS = ("\n    else if (a.buy) { h.push('<span class=\"dead\">' + esc(a.buy.text) + '</span>'); "
           "h.push('<a class=\"btn pdf\" href=\"' + esc(a.buy.url) + '\" target=\"_blank\" rel=\"noopener noreferrer\">' + esc(a.buy.label) + '</a>'); }")
+# Same button without the line above it (book.json "buyText": "").
+BUY_JS_NOTEXT = ("\n    else if (a.buy) { "
+                 "h.push('<a class=\"btn pdf\" href=\"' + esc(a.buy.url) + '\" target=\"_blank\" rel=\"noopener noreferrer\">' + esc(a.buy.label) + '</a>'); }")
 # a row never has both "equiv" and "dead" (address() sets one or the other)
 # Round-3 EXACT note (only for books with "savedEquivalents"), same small-note style.
 SAVED_JS = "\n    if (a.saved) h.push('<span class=\"dead\">" + SAVED_TEXT + "</span>');"
