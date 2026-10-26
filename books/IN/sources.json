@@ -276,7 +276,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.parallax.org/?p=27277",
+        "exact": false
+       }
       }
      ]
     },
