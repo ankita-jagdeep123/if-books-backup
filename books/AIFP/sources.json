@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 245,
+  "saved": 247,
   "buy": 75,
-  "covered": 320,
+  "covered": 322,
   "comments": 55
  },
  "chapters": [
@@ -2033,7 +2033,7 @@
      "text": "Wisskirchen et al., Artificial Intelligence and Robotics, 18. See also pages 14 and 17 for risks facing the poor workers.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B086_Wisskirchen_Artificial-Intelligence-and-Robotics-and-Their-Impact.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4139,7 +4139,7 @@
      "text": "See: https://www.analyticsinsight.net/artificial-intelligence-india-comprehensive-overview/ (accessed July 20, 2020). Furthermore, India’s tech workers face serious challenges in the coming years, according to The Center for Internet and Society based in Bengaluru, that has produced a report on the technological impact on IT/ITES based on surveys of sixteen major companies with a total of about twenty lakh IT employees. This organization is mostly foreign funded. See: Rathi and Hickok, ‘Future of Work’ in India’s IT/IT-eS Sector.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B055_Rathi_Future-of-Work-in-India-s-IT.pdf",
        "gone": false,
        "comment": false,
        "links": [
