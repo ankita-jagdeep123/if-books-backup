@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 1486,
   "cite": 1294,
-  "saved": 541,
+  "saved": 546,
   "buy": 172,
-  "covered": 713,
+  "covered": 718,
   "comments": 192
  },
  "chapters": [
@@ -2218,10 +2218,16 @@
      "text": "(Lochan 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BI_B469_Lochan_The-Eternal-Values-of-Manu-Smrithi-Lecture.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://ignca.gov.in/?p=14812",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3946,10 +3952,14 @@
      "text": "Quotes excerpted from (Hinduism Today Archives, 1993). It is true tha t with the loss of royal and other forms of social patronage dating from (in many areas, even before) British times, many of these institutions had sunk to a depraved level indistinguishable from prostitution (with possible elements of coercion, given the patriarchal social structure). However, this was part of a more generalized decadence that could be seen also in the greedy behavior of temple priests at pilgrimage sites due to the same loss of patronage. Just as Bharata Natyam has long since regained its status worldwide, so too w ell-trained priests have now regained their status in the temples of the Hindu diaspora and in the better maintained temples of India,",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BI_B332_Devadasis-Outlawed_Hinduism-Today.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://hinduismtoday.com/magazine/december-1993/1993-12-devadasis/",
+        "exact": false
+       }
       }
      ]
     },
@@ -3958,10 +3968,14 @@
      "text": "(Hinduism Today Archives 1993).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BI_B332_Devadasis-Outlawed_Hinduism-Today.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://hinduismtoday.com/magazine/december-1993/1993-12-devadasis/",
+        "exact": false
+       }
       }
      ]
     },
@@ -7314,10 +7328,14 @@
      "text": "{Hindustan Times, 23 September 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BI_B336_Hindustan-Times_Ravana-is-a-hero-for-Sirihala-nationalists.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://ponniyinselvan.in/forum/discussion/comment/22080",
+        "exact": false
+       }
       }
      ]
     },
@@ -17906,10 +17924,14 @@
      "text": "{Hindustan Times, 07 April 2010)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BI_B336_Hindustan-Times_Ravana-is-a-hero-for-Sirihala-nationalists.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://ponniyinselvan.in/forum/discussion/comment/22080",
+        "exact": false
+       }
       }
      ]
     },
