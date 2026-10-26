@@ -145,7 +145,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://indicmandala.com/teaching-india-and-the-dialog-of-civilizations/",
+        "exact": false
+       }
       }
      ]
     },
@@ -1572,7 +1576,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.asiainstitutetorino.it/indologica/volumes/vol13/vol13_art18_POLLOCK.pdf",
+        "exact": true
+       }
       }
      ]
     },
