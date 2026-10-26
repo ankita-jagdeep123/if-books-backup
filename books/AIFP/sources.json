@@ -355,7 +355,23 @@
          "url": "https://venturedc.com/2015/10/the-three-vs-of-big-data-volume-velocity-variety/",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://web.archive.org/web/20170503175456/http://venturedc.com/2015/10/",
+        "exact": false
+       }
+      },
+      {
+       "pdf": "",
+       "gone": false,
+       "comment": false,
+       "links": [
+        {
+         "url": "https://diegonogare.net/wp-content/uploads/2020/08/3D-Data-Management-Controlling-Data-Volume-Velocity-and-Variety.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
