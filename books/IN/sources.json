@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 460,
   "cite": 368,
-  "saved": 126,
+  "saved": 127,
   "buy": 187,
-  "covered": 313,
+  "covered": 314,
   "comments": 92
  },
  "chapters": [
@@ -5603,10 +5603,15 @@
      "text": "Bhagavad-Gita 2.46, trans. A. Mahadeva Sastri, 6th ed. (Madras: V. Ramaswamy Sastrulu & Sons, 1972), p. 62.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/IN_B115_Sastri_Krishnamurthi.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/details/Bhagavad-Gita.with.the.Commentary.of.Sri.Shankaracharya",
+        "exact": false
+       },
+       "remark": "7th edition (1977) of the cited work; the cited 6th edition (1972) was not available"
       }
      ]
     },

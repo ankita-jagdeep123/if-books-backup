@@ -26,6 +26,9 @@
   "publisher": "HarperCollins Publishers India",
   "publisherLine": "HarperCollins Publishers India",
   "savedEquivalents": "IN_equivalents_done.csv",
+  "fileRemarks": {
+    "IN_B115_Sastri_Krishnamurthi.pdf": "7th edition (1977) of the cited work; the cited 6th edition (1972) was not available"
+  },
   "buyLinks": {
     "IN_B006": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
     "IN_B071": "https://www.amazon.com/Orientalism-Postcolonial-Predicament-Perspectives-Seminar/dp/0812214366",
