@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 460,
   "cite": 368,
-  "saved": 125,
+  "saved": 126,
   "buy": 187,
-  "covered": 312,
+  "covered": 313,
   "comments": 92
  },
  "chapters": [
@@ -273,10 +273,14 @@
      "text": "Park, 2010. Indra’s Net has also been cited by activists who argue against climate change and other environmental concerns (Tam, 2008). There are also co-dependency arguments for helping salmon survive (Allendorf, 1998).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/IN_B139_Tam.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.parallax.org/?p=27277",
+        "exact": false
+       }
       }
      ]
     },
