@@ -13,8 +13,8 @@
   "endnotes": 307,
   "cite": 194,
   "saved": 86,
-  "buy": 83,
-  "covered": 169,
+  "buy": 85,
+  "covered": 171,
   "comments": 113
  },
  "chapters": [
@@ -166,7 +166,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -178,7 +182,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -375,7 +383,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Breaking-Enlightenment-Twilight-History-Rediscovery/dp/0391040316",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     }
@@ -783,7 +795,11 @@
          "url": "http://www.infinityfoundation.com/mandala/h_es/h_es_malho_global_frameset.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.infinityfoundation.com/mandala/h_es/h_es_malho_global.htm",
+        "exact": false
+       }
       }
      ]
     },
@@ -1018,7 +1034,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1104,7 +1124,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://hvk.org/2002/0602/110.html",
+        "exact": true
+       }
       }
      ]
     },
@@ -1991,7 +2015,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://ksreligion.omeka.net/items/show/4368",
+        "exact": true
+       }
       }
      ]
     },
@@ -2196,7 +2224,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://omilosmeleton.gr/wp-content/uploads/2018/01/IDR.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -2372,7 +2404,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Papers-Eranos-Yearbooks-Bollingen-XXX/dp/B00C44H6UM",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2433,7 +2469,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -4171,7 +4211,11 @@
          "url": "http://www.ambedkar.org/News/hl/Response",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://web.archive.org/web/20260615143430/http://www.ambedkar.org/News/hl/Response%20to.htm",
+        "exact": true
+       }
       }
      ]
     },
@@ -4294,7 +4338,11 @@
          "url": "http://www.indiastudies.org/bookprize/",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.indiastudies.org/book-prize/",
+        "exact": false
+       }
       }
      ]
     },
@@ -4362,7 +4410,11 @@
          "url": "http://www.kashmirstudygroup.org/",
          "wayback": "https://web.archive.org/web/20110724155248/http://www.kashmirstudygroup.org/"
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://kashmirstudygroup.com/main.html",
+        "exact": false
+       }
       }
      ]
     },
