@@ -13,8 +13,8 @@
   "endnotes": 380,
   "cite": 325,
   "saved": 241,
-  "buy": 67,
-  "covered": 308,
+  "buy": 75,
+  "covered": 316,
   "comments": 55
  },
  "chapters": [
@@ -1658,7 +1658,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2177,7 +2181,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2233,7 +2241,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Breaking-India-Malhotra-Aravindan-Neelakandan/dp/8191067374",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3229,7 +3241,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3258,7 +3274,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3331,7 +3351,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3359,7 +3383,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3387,7 +3415,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Future-Politics-Living-Together-Transformed/dp/0198825617",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
