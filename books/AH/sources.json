@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 307,
   "cite": 194,
-  "saved": 86,
-  "buy": 83,
-  "covered": 169,
+  "saved": 97,
+  "buy": 85,
+  "covered": 182,
   "comments": 113
  },
  "chapters": [
@@ -163,10 +163,14 @@
      "text": "Edward W. Said, Representing the Colonized: Anthropology’s Interlocutors, in Critical Inquiry, Volume 15, Winter 1989, 217-224.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B012_Said_Representing-the-Colonized.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -175,10 +179,14 @@
      "text": "Edward W. Said, op. cit., 213-214.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B012_Said_Representing-the-Colonized.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -375,7 +383,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Breaking-Enlightenment-Twilight-History-Rediscovery/dp/0391040316",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     }
@@ -771,7 +783,7 @@
      "text": "For a summary of these contributions, see the following two articles: (i)”Global Renaissance and the roots of Western wisdom”: http://www.co-bw.com/world_global_renaissance_ and_the_roots_os_western_wisdom.htm (ii) “India’s place in global consciousness”: http://www.infinityfoundation.com/mandala/h_es/ h_es_malho_global_frameset.htm",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_Ch03_27_infinityfoundation-com_h-es-malho-global_part-ii-only.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -783,7 +795,12 @@
          "url": "http://www.infinityfoundation.com/mandala/h_es/h_es_malho_global_frameset.htm",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.infinityfoundation.com/mandala/h_es/h_es_malho_global.htm",
+        "exact": false
+       },
+       "remark": "Part (ii) only"
       }
      ]
     },
@@ -1015,10 +1032,14 @@
      "text": "Defense Science Board. Report of the Panel on Defense: Social and Behavioral Sciences (Williamstown, Mass., 1967). As quoted in “Representing the Colonized: Anthropology’s Interlocutors,” by Edward Said in Critical Inquiry, Volume 15, Winter 1989, 214.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B012_Said_Representing-the-Colonized.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1101,10 +1122,14 @@
      "text": "C. Sitharam, “Our Post Independence Intellectuals,” published in ‘Samyukta Karnataka,’ a daily from Bangalore. 12.6.2002. English translation by Dr. Upendra Shenoy.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B005_Sitharam_Our-Post-Independence-Intellectuals.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://hvk.org/2002/0602/110.html",
+        "exact": true
+       }
       }
      ]
     },
@@ -1988,10 +2013,15 @@
      "text": "Prof. Robert D Baird, of The University of Iowa, in “Religious Conflict in Contemporary India,” Religious Studies in Kansas, Vol.2, No.1. Fall 1993.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B038_Baird_Religious-Conflict-in-Contemporary-India.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://ksreligion.omeka.net/items/show/4368",
+        "exact": true
+       },
+       "remark": "Complete issue (Fall 1993); the article is on the first five pages"
       }
      ]
     },
@@ -2193,10 +2223,14 @@
      "text": "Nicholas Kazanas, “Indo-European Deities and the Rgveda” in Journal of Indo-European Studies, vol.29, nos.3-4 (Fall & Winter 2001), pp.257-293. Footnote #14 on page 283.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B032_Kazanas_Indo-European-Deities-and-the-Rgveda.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://omilosmeleton.gr/wp-content/uploads/2018/01/IDR.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -2372,7 +2406,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Papers-Eranos-Yearbooks-Bollingen-XXX/dp/B00C44H6UM",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2430,10 +2468,14 @@
      "text": "Edward Said, “Representing the Colonized: Anthropology’s Interlocutors,” in Critical Inquiry, Vol. 15, Winter 1989, 217-224.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_B012_Said_Representing-the-Colonized.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://racismandnationalconsciousnessresources.wordpress.com/wp-content/uploads/2008/11/edward-w-said-representing-the-colonized-anthropologys-interlocutors.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -4163,7 +4205,7 @@
      "text": "http://www.ambedkar.org/News/hl/Response to.htm",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_Ch11_13_ambedkar-org_Response-to.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4171,7 +4213,11 @@
          "url": "http://www.ambedkar.org/News/hl/Response",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://web.archive.org/web/20260615143430/http://www.ambedkar.org/News/hl/Response%20to.htm",
+        "exact": true
+       }
       }
      ]
     },
@@ -4286,7 +4332,7 @@
      "text": "Presently she is a member of the Publications Committee, see http://www.indiastudies.org/bookprize/",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_Ch11_20_indiastudies-org_book-prize_EQUIVALENT.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4294,7 +4340,12 @@
          "url": "http://www.indiastudies.org/bookprize/",
          "wayback": ""
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://www.indiastudies.org/book-prize/",
+        "exact": false
+       },
+       "remark": "Today’s version of the same site; the people or committee named may differ from the book’s."
       }
      ]
     },
@@ -4354,7 +4405,7 @@
      "text": "Kashmir Study Group, http://www.kashmirstudygroup.org/",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AH_Ch11_24_kashmirstudygroup-org_EQUIVALENT.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -4362,7 +4413,12 @@
          "url": "http://www.kashmirstudygroup.org/",
          "wayback": "https://web.archive.org/web/20110724155248/http://www.kashmirstudygroup.org/"
         }
-       ]
+       ],
+       "equiv": {
+        "url": "https://kashmirstudygroup.com/main.html",
+        "exact": false
+       },
+       "remark": "Today’s version of the same site; the people or committee named may differ from the book’s."
       }
      ]
     },

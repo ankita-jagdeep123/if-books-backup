@@ -25,6 +25,12 @@
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
   "publisher": "Voice of India",
   "publisherLine": "Voice of India, 2016",
+  "fileRemarks": {
+    "AH_B038_Baird_Religious-Conflict-in-Contemporary-India.pdf": "Complete issue (Fall 1993); the article is on the first five pages",
+    "AH_Ch03_27_infinityfoundation-com_h-es-malho-global_part-ii-only.pdf": "Part (ii) only",
+    "AH_Ch11_20_indiastudies-org_book-prize_EQUIVALENT.pdf": "Today’s version of the same site; the people or committee named may differ from the book’s.",
+    "AH_Ch11_24_kashmirstudygroup-org_EQUIVALENT.pdf": "Today’s version of the same site; the people or committee named may differ from the book’s."
+  },
   "buyLinks": {
     "AH_B001": "https://www.amazon.com/Powershift-Knowledge-Wealth-Violence-Century/dp/0553292153",
     "AH_B002": "https://www.amazon.com/Cross-Cultural-Conversation-New-Way-Learning/dp/0367172984",
@@ -61,7 +67,9 @@
     "AH_B049": "https://www.amazon.com/Asceticism-Eroticism-Mythology-Doniger-OFlaherty/dp/B0012UG32Q",
     "AH_B050": "https://www.amazon.com/Women-Androgynes-Other-Mythical-Beasts/dp/0226618498",
     "AH_B051": "https://www.amazon.com/Vishnu-Freuds-Desk-Psychoanalysis-Hinduism/dp/0195658353",
-    "AH_B052": "https://www.amazon.com/India-Europe-Understanding-Wilhelm-Halbfass/dp/0887067948"
+    "AH_B052": "https://www.amazon.com/India-Europe-Understanding-Wilhelm-Halbfass/dp/0887067948",
+    "AH_B035": "https://www.amazon.com/Breaking-Enlightenment-Twilight-History-Rediscovery/dp/0391040316",
+    "AH_B030": "https://www.amazon.com/Papers-Eranos-Yearbooks-Bollingen-XXX/dp/B00C44H6UM"
   },
   "buyLabel": "Buy this book (Amazon)",
   "buyText": ""
