@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 113,
   "cite": 105,
-  "saved": 29,
+  "saved": 31,
   "buy": 61,
-  "covered": 90,
+  "covered": 92,
   "comments": 8
  },
  "chapters": [
@@ -1739,10 +1739,14 @@
      "text": "(Lal 2012, 45)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B016_Lal_2012.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "http://press-files.anu.edu.au/downloads/press/p212781/pdf/3.-The-Odyssey-of-Indenture.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -1751,10 +1755,14 @@
      "text": "(Lal 2012, 53)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B016_Lal_2012.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "http://press-files.anu.edu.au/downloads/press/p212781/pdf/3.-The-Odyssey-of-Indenture.pdf",
+        "exact": false
+       }
       }
      ]
     },
