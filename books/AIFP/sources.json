@@ -2036,7 +2036,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://cms.law/en/deu/news-information/artificial-intelligence-and-robotics-and-their-impact-on-the-workplace",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
