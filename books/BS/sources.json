@@ -13,8 +13,8 @@
   "endnotes": 554,
   "cite": 479,
   "saved": 375,
-  "buy": 64,
-  "covered": 439,
+  "buy": 66,
+  "covered": 441,
   "comments": 75
  },
  "chapters": [
@@ -3201,7 +3201,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Indian-Sociology-Through-Ghurye/dp/8171548075",
+        "label": "Buy this book (Amazon)"
+       },
+       "remark": "Same ISBN as the 1997 edition; Amazon lists the 2011 printing"
       }
      ]
     },
@@ -5534,7 +5539,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Encyclopaedia-Higher-Education-Historical-Survey-Pre-Independence/dp/8183240135",
+        "label": "Buy this book (Amazon)"
+       },
+       "remark": "Amazon credits the author as S.K. Sharma"
       }
      ]
     },
@@ -5606,7 +5616,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/details/in.ernet.dli.2015.68437",
+        "exact": false
+       }
       }
      ]
     },
