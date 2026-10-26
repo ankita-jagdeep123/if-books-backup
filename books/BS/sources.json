@@ -6484,7 +6484,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://sheldonpollock.org/archive/pollock_raksasas_1985.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -6496,7 +6500,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://files.eric.ed.gov/fulltext/ED426010.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -6508,7 +6516,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://files.eric.ed.gov/fulltext/ED426010.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -6520,7 +6532,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://files.eric.ed.gov/fulltext/ED426010.pdf",
+        "exact": true
+       }
       }
      ]
     },
