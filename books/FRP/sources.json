@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 113,
   "cite": 105,
-  "saved": 27,
+  "saved": 29,
   "buy": 61,
-  "covered": 88,
+  "covered": 90,
   "comments": 8
  },
  "chapters": [
@@ -142,10 +142,14 @@
      "text": "(Malhotra 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B017_Malhotra_2001.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://indicmandala.com/teaching-india-and-the-dialog-of-civilizations/",
+        "exact": false
+       }
       }
      ]
     },
@@ -1569,10 +1573,14 @@
      "text": "(Pollock, Vol. 13 Raksasas and Others 1985, 277).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B025_Pollock_1985.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.asiainstitutetorino.it/indologica/volumes/vol13/vol13_art18_POLLOCK.pdf",
+        "exact": true
+       }
       }
      ]
     },
