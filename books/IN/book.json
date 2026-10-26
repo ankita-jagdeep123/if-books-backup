@@ -25,7 +25,11 @@
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
   "publisher": "HarperCollins Publishers India",
   "publisherLine": "HarperCollins Publishers India",
+  "savedEquivalents": "IN_equivalents_done.csv",
   "buyLinks": {
+    "IN_B006": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+    "IN_B071": "https://www.amazon.com/Orientalism-Postcolonial-Predicament-Perspectives-Seminar/dp/0812214366",
+    "IN_B138": "https://www.amazon.com/Secularization-World-Religions-Hans-Joas/dp/184631187X",
     "IN_B001": "https://www.amazon.com/Bahina-Bai-Translation-Autobiography-Verses/dp/8120813359",
     "IN_B003": "https://www.amazon.com/Ancient-Science-Monograph-History-Philosophy/dp/8121507529",
     "IN_B008": "https://www.amazon.com/Annam-bahu-kurvi%CC%84ta-Recollecting-discipline/dp/8186041052",

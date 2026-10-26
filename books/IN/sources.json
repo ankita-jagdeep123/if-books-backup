@@ -13,8 +13,8 @@
   "endnotes": 460,
   "cite": 368,
   "saved": 37,
-  "buy": 165,
-  "covered": 202,
+  "buy": 187,
+  "covered": 224,
   "comments": 92
  },
  "chapters": [
@@ -372,7 +372,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     }
@@ -541,7 +547,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -553,7 +565,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -804,10 +822,11 @@
        "comment": false,
        "links": [
         {
-         "url": "http://www.columbia.edu/itc/mealac/pritchett/00litlinks/pankajmishra/articles/txt_mishra_Hin",
+         "url": "https://franpritchett.com/00litlinks/txt_mishra_hinduism_2004.html",
          "wayback": ""
         }
-       ]
+       ],
+       "saved": true
       }
      ]
     },
@@ -1587,7 +1606,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1599,7 +1624,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1611,7 +1642,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1623,7 +1660,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1635,7 +1678,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1647,7 +1696,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1659,7 +1714,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1671,7 +1732,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1683,7 +1750,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1695,7 +1768,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1707,7 +1786,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1719,7 +1804,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1731,7 +1822,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1743,7 +1840,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1755,7 +1858,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1767,7 +1876,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1779,7 +1894,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -1791,7 +1912,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://resolve.cambridge.org/core/journals/journal-of-asian-studies/article/abs/hindu-renaissance-and-its-apologetic-patterns/6E92355B4489113F65550B8F1C4FE1E3",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     }
@@ -2041,7 +2168,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2085,7 +2218,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2145,7 +2284,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2157,7 +2302,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2169,7 +2320,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2193,7 +2350,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2299,7 +2462,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2311,7 +2480,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2335,7 +2510,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2379,7 +2560,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2391,7 +2578,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2403,7 +2596,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2432,7 +2631,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Secularization-World-Religions-Hans-Joas/dp/184631187X",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2444,7 +2647,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2456,7 +2665,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -2514,7 +2729,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2526,7 +2745,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2538,7 +2761,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2550,7 +2777,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3276,7 +3507,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3394,7 +3631,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Orientalism-Postcolonial-Predicament-Perspectives-Seminar/dp/0812214366",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -3639,7 +3880,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3651,7 +3898,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3663,7 +3916,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3675,7 +3934,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3687,7 +3952,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://pueaa.unam.mx/uploads/materials/Lectura-1-Questioning-Authority.pdf?v=1612170324",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -4871,7 +5142,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://etheses.whiterose.ac.uk/919/1/uk_bl_ethos_349108.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -4919,7 +5196,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -4931,7 +5212,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5057,7 +5342,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5069,7 +5360,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5196,7 +5493,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5225,7 +5526,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5237,7 +5542,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5476,7 +5787,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5552,7 +5867,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5641,7 +5960,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5653,7 +5976,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5682,7 +6009,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5694,7 +6025,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5747,7 +6082,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5759,7 +6100,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5771,7 +6116,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5783,7 +6132,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5795,7 +6150,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://esamskriti.com/essays/pdf/17%20Advaita%20V%20PB%2010.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5807,7 +6168,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://esamskriti.com/essays/pdf/17%20Advaita%20V%20PB%2010.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5831,7 +6198,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5843,7 +6214,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5896,7 +6273,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5908,7 +6291,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5936,7 +6323,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5948,7 +6339,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5960,7 +6355,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/The%20question%20of%20the%20importance%20of%20Samadhi_Advaita%20Vedanta_PEW_Comans_1993.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
