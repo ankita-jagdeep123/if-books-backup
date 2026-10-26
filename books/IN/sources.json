@@ -5606,7 +5606,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/details/Bhagavad-Gita.with.the.Commentary.of.Sri.Shankaracharya",
+        "exact": false
+       }
       }
      ]
     },
