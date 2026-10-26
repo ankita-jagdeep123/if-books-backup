@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 56,
   "cite": 45,
-  "saved": 17,
+  "saved": 20,
   "buy": 16,
-  "covered": 33,
+  "covered": 36,
   "comments": 11
  },
  "chapters": [
@@ -801,10 +801,14 @@
      "text": "(Global Economics Paper No. 99 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B009_2003_Global-Economics-Paper-No.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.goldmansachs.com/pdfs/insights/archive/archive-pdfs/brics-dream.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -813,10 +817,14 @@
      "text": "(Census of Population, Public Law 94-171 Redistricting Data File 2000)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B007_2000_Census-of-Population.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.census.gov/data/datasets/2000/dec/redistricting.html",
+        "exact": true
+       }
       }
      ]
     },
@@ -849,10 +857,14 @@
      "text": "Estimated by AAPI",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B001_N_American-Association-of-Physicians-from-India.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://aapiusa.org/?p=63",
+        "exact": true
+       }
       }
      ]
     },
