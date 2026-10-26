@@ -1742,7 +1742,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "http://press-files.anu.edu.au/downloads/press/p212781/pdf/3.-The-Odyssey-of-Indenture.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -1754,7 +1758,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "http://press-files.anu.edu.au/downloads/press/p212781/pdf/3.-The-Odyssey-of-Indenture.pdf",
+        "exact": false
+       }
       }
      ]
     },
