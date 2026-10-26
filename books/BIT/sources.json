@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 190,
   "cite": 183,
-  "saved": 158,
+  "saved": 163,
   "buy": 18,
-  "covered": 176,
+  "covered": 181,
   "comments": 7
  },
  "chapters": [
@@ -1166,16 +1166,19 @@
      "text": "(Sindwani 2020)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_B037_Sindwani_2020_businessinsider-in.pdf",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "https://www.businessinsider.in/careers/news/india-tops-the-world-in-producing-female-graduates-in-stem-but-ranks-19th-in-employing-them/articleshow/74117413.cms",
+         "url": "https://www.businessinsider.in/careers/news/india-topsthe-world-in-producing-female-graduates-in-stem-but-ranks-19thin-employing-them/articleshow/74117413.cms",
          "wayback": ""
         }
        ],
-       "saved": true
+       "equiv": {
+        "url": "https://www.businessinsider.in/careers/news/india-tops-the-world-in-producing-female-graduates-in-stem-but-ranks-19th-in-employing-them/articleshow/74117413.cms",
+        "exact": true
+       }
       }
      ]
     },
@@ -1804,16 +1807,19 @@
      "text": "See: ‘Why We Must End Caste Oppression’. Reappropriate. Retrieved on February 15, 2022 (http://reappropriate.co/2018/05/why-we-mustend-caste-oppression/)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N107_reappropriate-co_why-we-mustend-caste-oppression.pdf",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "https://reappropriate.co/2018/05/why-we-must-end-caste-oppression/",
+         "url": "http://reappropriate.co/2018/05/why-we-mustend-caste-oppression/",
          "wayback": ""
         }
        ],
-       "saved": true
+       "equiv": {
+        "url": "https://reappropriate.co/2018/05/why-we-must-end-caste-oppression/",
+        "exact": true
+       }
       }
      ]
     },
@@ -1953,16 +1959,19 @@
      "text": "See: ‘India’s engineers have thrived in Silicon Valley. So has its caste system’. The    Washington     Post.   Retrieved    on   February    15,   2022    (https://www.washingtonpost.com/technology/2020/10/27/indian-caste-biassilicon-valley/)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_N116_washingtonpost-com_indian-caste-biassilicon-valley.pdf",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "https://www.washingtonpost.com/technology/2020/10/27/indian-caste-bias-silicon-valley/",
+         "url": "https://www.washingtonpost.com/technology/2020/10/27/indian-caste-biassilicon-valley/",
          "wayback": ""
         }
        ],
-       "saved": true
+       "equiv": {
+        "url": "https://www.washingtonpost.com/technology/2020/10/27/indian-caste-bias-silicon-valley/",
+        "exact": true
+       }
       }
      ]
     },
@@ -2863,16 +2872,19 @@
      "text": "(Klima, Senra and De Backer 2021)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_B025_Klima_2021_f3magazine-unicri-it.pdf",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "https://backoffice.biblio.ugent.be/download/8762075/8762081",
+         "url": "https://f3magazine.unicri.it/?p=2312",
          "wayback": ""
         }
        ],
-       "saved": true
+       "equiv": {
+        "url": "https://backoffice.biblio.ugent.be/download/8762075/8762081",
+        "exact": true
+       }
       }
      ]
     },
@@ -2898,16 +2910,19 @@
      "text": "(Klima, Senra and De Backer 2021)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIT_B025_Klima_2021_f3magazine-unicri-it.pdf",
        "gone": false,
        "comment": false,
        "links": [
         {
-         "url": "https://backoffice.biblio.ugent.be/download/8762075/8762081",
+         "url": "https://f3magazine.unicri.it/?p=2312",
          "wayback": ""
         }
        ],
-       "saved": true
+       "equiv": {
+        "url": "https://backoffice.biblio.ugent.be/download/8762075/8762081",
+        "exact": true
+       }
       }
      ]
     },
