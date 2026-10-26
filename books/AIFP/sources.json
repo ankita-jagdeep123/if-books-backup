@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 248,
+  "saved": 250,
   "buy": 75,
-  "covered": 323,
+  "covered": 325,
   "comments": 55
  },
  "chapters": [
@@ -5499,10 +5499,11 @@
      "text": "Joshi, Dasabodha, 21.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B029_Joshi_Dasabodha_1930.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Saved copy of the cited source: Joshi, Dasabodha, 4th edition (Chitrashala Steam Press, Pune, Samvat 1986 = 1930)"
       }
      ]
     },
@@ -5625,10 +5626,11 @@
      "text": "Joshi, Dasabodha, 21-23, 46.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B029_Joshi_Dasabodha_1930.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Saved copy of the cited source: Joshi, Dasabodha, 4th edition (Chitrashala Steam Press, Pune, Samvat 1986 = 1930)"
       }
      ]
     }
