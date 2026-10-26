@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 247,
+  "saved": 250,
   "buy": 75,
-  "covered": 322,
+  "covered": 325,
   "comments": 55
  },
  "chapters": [
@@ -347,7 +347,7 @@
      "text": "This discussion is based on the 3 Vs described at https://venturedc.com/2015/10/the-three-vs-of-big-data-volume-velocity-variety/. See also D. Laney. “3D Data Management: Controlling Data Volume, Velocity and Variety”. META Group Research Note 6, no. 70 (2001): 1.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N021_venturedc-com_the-three-vs-of-big-data-volume.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -359,10 +359,11 @@
        "equiv": {
         "url": "https://web.archive.org/web/20170503175456/http://venturedc.com/2015/10/",
         "exact": false
-       }
+       },
+       "remark": "The Wayback Machine did not save the article's own page. This is the archived October 2015 monthly archive page of venturedc.com, trimmed to the three pages that show the full article."
       },
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_N021_u2_diegonogare-net_3d-data-management-controlling-data-volume-velocity-and-variety.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -371,7 +372,8 @@
          "wayback": ""
         }
        ],
-       "saved": true
+       "saved": true,
+       "remark": "Same document by Doug Laney (META Group, 6 February 2001). The book calls it Research Note 6, no. 70; the copy's own header reads File 949."
       }
      ]
     },
@@ -5497,10 +5499,11 @@
      "text": "Joshi, Dasabodha, 21.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B029_Joshi_Dasabodha.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same work, earlier printing (1913 Hindi translation; Shankar Narahari Joshi, Chitrashala Press, Pune, is its publisher)"
       }
      ]
     },
@@ -5623,10 +5626,11 @@
      "text": "Joshi, Dasabodha, 21-23, 46.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B029_Joshi_Dasabodha.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Same work, earlier printing (1913 Hindi translation; Shankar Narahari Joshi, Chitrashala Press, Pune, is its publisher)"
       }
      ]
     }
