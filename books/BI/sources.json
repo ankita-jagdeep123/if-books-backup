@@ -2221,7 +2221,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://ignca.gov.in/?p=14812",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -3949,7 +3955,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://hinduismtoday.com/magazine/december-1993/1993-12-devadasis/",
+        "exact": false
+       }
       }
      ]
     },
@@ -3961,7 +3971,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://hinduismtoday.com/magazine/december-1993/1993-12-devadasis/",
+        "exact": false
+       }
       }
      ]
     },
@@ -7317,7 +7331,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://ponniyinselvan.in/forum/discussion/comment/22080",
+        "exact": false
+       }
       }
      ]
     },
@@ -17909,7 +17927,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://ponniyinselvan.in/forum/discussion/comment/22080",
+        "exact": false
+       }
       }
      ]
     },
