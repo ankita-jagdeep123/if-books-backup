@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 513,
   "cite": 316,
-  "saved": 143,
+  "saved": 145,
   "buy": 165,
-  "covered": 308,
+  "covered": 310,
   "comments": 197
  },
  "chapters": [
@@ -2907,10 +2907,11 @@
      "text": "(Camilleri 1994: 24).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B037_Camilleri.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "The saved copy is only the abstract page from Taylor & Francis. The full article (pp. 17-41) is available with a journal or library login."
       }
      ]
     },
@@ -3130,7 +3131,7 @@
      "text": "(Rotter, 'In Retrospect: Harold R. Isaacs's Scratches on Our Minds', 1996: 177- 88).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BD_B181_Rotter.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -3139,7 +3140,8 @@
          "wayback": ""
         }
        ],
-       "saved": true
+       "saved": true,
+       "remark": "The saved copy is only the excerpt page from Project MUSE. The full article (pp. 177-188) is available with a Project MUSE or library login."
       }
      ]
     },
