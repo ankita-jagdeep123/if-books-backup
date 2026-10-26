@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 241,
+  "saved": 245,
   "buy": 75,
-  "covered": 316,
+  "covered": 320,
   "comments": 55
  },
  "chapters": [
@@ -543,7 +543,7 @@
      "text": "Sundram et al., “Utilizing Artificial Intelligence as a Dengue Surveillance and Prediction Tool”.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B071_Sundram_Utilizing-Artificial-Intelligence-as-a-Dengue-Surveillance.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2761,7 +2761,7 @@
      "text": "Moran, It’s Time to Make Data Strategic for Our Navy, 17-18.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B038_Moran_The-Future-of-the-Navy.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2779,7 +2779,7 @@
      "text": "Frandrup, The US Navy Needs Offensive Undersea Drones, 7-8.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B014_Frandrup_The-US-Navy-Needs-Offensive-Undersea-Drones.pdf",
        "gone": false,
        "comment": false,
        "links": [
@@ -2797,7 +2797,7 @@
      "text": "Moran, It’s Time to Make Data Strategic for Our Navy, 17-18.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B038_Moran_The-Future-of-the-Navy.pdf",
        "gone": false,
        "comment": false,
        "links": [
