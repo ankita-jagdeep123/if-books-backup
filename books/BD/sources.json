@@ -13,8 +13,8 @@
   "endnotes": 513,
   "cite": 316,
   "saved": 143,
-  "buy": 159,
-  "covered": 302,
+  "buy": 165,
+  "covered": 308,
   "comments": 197
  },
  "chapters": [
@@ -229,7 +229,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/8121505224",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -241,7 +245,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/8121505224",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -253,7 +261,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/8121505224",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -293,7 +305,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/8121505224",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -2148,7 +2164,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0828811547",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5285,7 +5305,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0828811547",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
