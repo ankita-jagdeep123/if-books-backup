@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 554,
   "cite": 479,
-  "saved": 375,
-  "buy": 64,
-  "covered": 439,
+  "saved": 390,
+  "buy": 66,
+  "covered": 456,
   "comments": 75
  },
  "chapters": [
@@ -1477,7 +1477,7 @@
      "text": "Iam indebted to K.S. Kannan for this rejoinder (via private communication) to Pollock: In 1.3 Kuntaka says that kavyas constitute a means for attaining the four purusharthas. Elsewhere he also discusses achieving this by the shastras. In 1.5 also the same issue is discussed again, and it is shown how the method of kavya in imparting the knowledge of the purusharthas is even superior, by way of being delightful. The auto-commentary on 1.5 says shastra is like bitter medicine for destroying ignorance whereas kavya is nectar for doing the same. See Krishnamoorthy 1977.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B047_Krishnamoorthy_Vakrokti-Jivita-of-Kuntaka.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -1702,7 +1702,7 @@
      "text": "Pollock 1993a: 77. Pollock's use of relationships between knowledge and power — where dominant groups in power establish, sustain and deepen their power through knowledge production, has its roots in Foucault and Gramsci. See Bhatnagar 1986.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B005_Bhatnagar_Uses-and-Limits-of-Foucault.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -2199,10 +2199,11 @@
      "text": "Aklujkar 2003: This was a time when brahmins ‘could have had (a) a well-thought-out view of social change and (b) institutions necessary to implement that view. Without discounting the possibility that their motives could have had a selfish political-economic underbelly, one must attribute to them some decency, some vision, and some capacity for flexibility. Otherwise, how could they have achieved what they did while remaining a minority with no direct control over physical power and with no passion or egalitarianism necessary for increasing their number and without giving rise to any long class warfare? In spite of their exclusivism and emphasis on purity in diet, marital relations, etc., the Brahmins were probably nor all that puritanical or lacking in diversity. Their puritanism in the period we have considered could have been highly pragmatic, probably directed more toward assimilating communities through a step-by-step process than toward excluding them.’ Aklujkar is saying that the brahmins’ role as experts depended on increasing their support base. Since they did not have any state institution protecting them in the pre-Shaka period, it was strategic for them to include others, but in a systematic manner. Their systematic method of propagation without diluting their expertise was achieved by demanding a high standard of rigour and ethical behaviour; it was not based on exclusivity of language or race. Aklujkar writes: “The Brahmins, Jains and Buddhists generally understood what constituted aryatva and shared that understanding in all important respects if not in every detail or emphasis, Aryatva was not exclusively or primarily associated with language, although some languages could have come to be associated with the groups that came to be known as Aryas as their languages and as especially valued languages. The component more important and fundamental than language in the understanding of Arya seems to have been the mode of living and thinking. This is where the evidence from all the three religious traditions I have been mentioning seems to converge. A certain kind of ethics and ethico-religious behaviour was clearly at the core of Arya, although, as with all formations of social sets, the presence of a core does not mean that every member of the set lived by it or lived uniformly and exclusively by it and although, at the surface level, a certain arrangement of individual and social life also seems to have played an important role in the understanding of aryatva.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B001_Aklujkar_A-Different-Sociolinguistics.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Text transcription of the printed pages, page numbers not shown"
       }
      ]
     },
@@ -2452,7 +2453,7 @@
      "text": "Halbfass 2007: 17.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B029_Halbfass_Research-and-Reflection.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -3201,7 +3202,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Indian-Sociology-Through-Ghurye/dp/8171548075",
+        "label": "Buy this book (Amazon)"
+       },
+       "remark": "Same ISBN as the 1997 edition; Amazon lists the 2011 printing"
       }
      ]
     },
@@ -3273,7 +3279,7 @@
      "text": "Pollock claims we cannot rule out the idea thar Valmiki was familiar with these writings and appropriated them from Buddhist Jaraka writers. He even goes so far as to suggest that, in the story of Rama's exile, Valmiki may be creating a fictional parallel to Buddha's renunciation. He leaves these as suggestions without any specific conclusion(s) for others to pursue. Despite so many challenges to this chronology, certain eminent Indian historians, Romila Thapar for example, assume his views are factual. Thapar uses Sheldon Pollock's positioning of the date of Valmiki’s Ramayana to dilute its uniqueness and reduce it to being a fantasy. See, for example, Thapar, ‘Fallacies of Hindutva Historiography’, Economic and Political Weekly, 3 January 2015: ‘Composition over a period of time means diverse authors, so we need to ask who they were and what were their frameworks of reference? The Valmiki Ramayana, in the period between 400 sce and 400 ce, had ar least two contenders — the Buddhist version, the Dasaratha Jataka, and the Jaina version, Vimalasuri’s Paumachariyam — both contradicting the Valmiki version. In the Buddhist version Rama and Sita are siblings, and in the Jaina version Ravana is not a rakshasa but a respectable member of the Meghavahana lineage and the fantasies of the other Ramayana are given rational explanations.’ Accessed from http://www.epw.in/discussion/ fallacies-hindutva-historiography.html on 28 January 2015.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B120_Thapar_Fallacies-of-Hindutva-Historiography.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -3314,7 +3320,7 @@
      "text": "Pollock quoted in Kruijtzer 2005.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B050_Kruijtzer_A-Pre-colonial-Language-in-a-Post-colonial-World.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -4961,7 +4967,7 @@
      "text": "Ferguson 1959: 336,",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B021_Ferguson_Diglossia.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5455,7 +5461,7 @@
      "text": "Pollock quoted in Kruijtzer 2005.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B050_Kruijtzer_A-Pre-colonial-Language-in-a-Post-colonial-World.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5534,7 +5540,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Encyclopaedia-Higher-Education-Historical-Survey-Pre-Independence/dp/8183240135",
+        "label": "Buy this book (Amazon)"
+       },
+       "remark": "Amazon credits the author as S.K. Sharma"
       }
      ]
     },
@@ -5543,7 +5554,7 @@
      "text": "See Kaul 1967: 72-73.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B043_Kaul_Rajatarangini-of-Jonaraja.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -5603,10 +5614,11 @@
      "text": "Row, Kshama 1944: iv—vi. Italics mine.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B097_Row_Uttara-Satyagraha-Gita.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "1948 edition (Hind Kitabs); the book cites 1944"
       }
      ]
     },
@@ -5632,7 +5644,7 @@
      "text": "Raghavan 1959: 213.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B092_Raghavan_Sanskrit-Literature.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -6913,10 +6925,11 @@
      "text": "Aklujkar 2003.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B001_Aklujkar_A-Different-Sociolinguistics.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Text transcription of the printed pages, page numbers not shown"
       }
      ]
     },
@@ -6925,10 +6938,11 @@
      "text": "Ibid.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B001_Aklujkar_A-Different-Sociolinguistics.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Text transcription of the printed pages, page numbers not shown"
       }
      ]
     },
@@ -6937,7 +6951,7 @@
      "text": "Kannan (private communication) offers the following point in support: Bhatrakalanka, a seventeenth century Kannada grammarian, a Jain from Karnataka, and a master of over half a dozen languages including Sanskrit, Prakrit and Magadhi, wrote that the same divine language of the Lord [Mahavira] was heard, simultaneously, by different people in different languages! This is even more explicitly stated by Devendra thar the gods took the message as encoded in the divine language, men as expressed in the human language, hunters as in their own language, etc.!",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B059_Master_Influence-of-Sir-William-Jones.pdf",
        "gone": false,
        "comment": false,
        "links": []
@@ -7142,7 +7156,7 @@
      "text": "Zaheer 1981. Appendix C: Pollock’s Political Activism",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B127_Zaheer_The-Temple-at-Bhitargaon.pdf",
        "gone": false,
        "comment": false,
        "links": []
