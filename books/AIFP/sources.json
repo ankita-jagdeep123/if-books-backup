@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 380,
   "cite": 325,
-  "saved": 250,
+  "saved": 248,
   "buy": 75,
-  "covered": 325,
+  "covered": 323,
   "comments": 55
  },
  "chapters": [
@@ -5499,11 +5499,10 @@
      "text": "Joshi, Dasabodha, 21.",
      "addr": [
       {
-       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B029_Joshi_Dasabodha.pdf",
+       "pdf": "",
        "gone": false,
        "comment": false,
-       "links": [],
-       "remark": "Same work, earlier printing (1913 Hindi translation; Shankar Narahari Joshi, Chitrashala Press, Pune, is its publisher)"
+       "links": []
       }
      ]
     },
@@ -5626,11 +5625,10 @@
      "text": "Joshi, Dasabodha, 21-23, 46.",
      "addr": [
       {
-       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/AIFP_B029_Joshi_Dasabodha.pdf",
+       "pdf": "",
        "gone": false,
        "comment": false,
-       "links": [],
-       "remark": "Same work, earlier printing (1913 Hindi translation; Shankar Narahari Joshi, Chitrashala Press, Pune, is its publisher)"
+       "links": []
       }
      ]
     }
