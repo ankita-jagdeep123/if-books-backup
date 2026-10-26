@@ -13,8 +13,8 @@
   "endnotes": 554,
   "cite": 479,
   "saved": 364,
-  "buy": 58,
-  "covered": 422,
+  "buy": 63,
+  "covered": 427,
   "comments": 75
  },
  "chapters": [
@@ -244,7 +244,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Plain-Tales-Oxford-Worlds-Classics/dp/0192835718",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -425,7 +429,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/Challenge-Eurocentrism-Global-Perspectives-Prospects/dp/023061227X",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5020,7 +5028,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Ideology-Status-Sanskrit-Contributions-Indological/dp/9004106138",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -6098,7 +6110,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Veil-Women-Writers-History-Politics/dp/0520255186",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -6110,7 +6126,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/Veil-Women-Writers-History-Politics/dp/0520255186",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
