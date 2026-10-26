@@ -13,8 +13,8 @@
   "endnotes": 554,
   "cite": 479,
   "saved": 364,
-  "buy": 63,
-  "covered": 427,
+  "buy": 64,
+  "covered": 428,
   "comments": 75
  },
  "chapters": [
@@ -445,7 +445,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.co.uk/Through-Categories-Contributions-Indian-Sociology/dp/0803996365",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5619,7 +5623,11 @@
        "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B101_Sanskrit-Commission_1957.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://wilbourhall.org/sansknet/general/reportonsanskritcommission/S_comm2.htm",
+        "exact": false
+       }
       }
      ]
     },
@@ -6296,7 +6304,11 @@
        "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B101_Sanskrit-Commission_1957.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://wilbourhall.org/sansknet/general/reportonsanskritcommission/S_comm2.htm",
+        "exact": false
+       }
       }
      ]
     },

@@ -22,6 +22,7 @@
     "14": "Appendix C: Pollock’s Political Activism"
   },
   "requireBackupFile": true,
+  "equivalents": "BS_equivalents_done.csv",
   "commentLabel": "Comment only",
   "commentStat": "Comment only",
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
@@ -51,7 +52,8 @@
     "BS_B045": "https://www.amazon.com/Plain-Tales-Oxford-Worlds-Classics/dp/0192835718",
     "BS_B040": "https://www.amazon.com/Veil-Women-Writers-History-Politics/dp/0520255186",
     "BS_B053": "https://www.amazon.in/Challenge-Eurocentrism-Global-Perspectives-Prospects/dp/023061227X",
-    "BS_B032": "https://www.amazon.com/Ideology-Status-Sanskrit-Contributions-Indological/dp/9004106138"
+    "BS_B032": "https://www.amazon.com/Ideology-Status-Sanskrit-Contributions-Indological/dp/9004106138",
+    "BS_B058": "https://www.amazon.co.uk/Through-Categories-Contributions-Indian-Sociology/dp/0803996365"
   },
   "buyLabel": "Buy this book (Amazon)",
   "buyText": ""
