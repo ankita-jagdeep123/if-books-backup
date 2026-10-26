@@ -13,8 +13,8 @@
   "endnotes": 460,
   "cite": 368,
   "saved": 129,
-  "buy": 187,
-  "covered": 316,
+  "buy": 191,
+  "covered": 320,
   "comments": 92
  },
  "chapters": [
@@ -611,7 +611,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://polity.lk/wp-content/uploads/2024/08/Pravada-Vol-2-no-9-syndicated-moksha.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -623,7 +627,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://polity.lk/wp-content/uploads/2024/08/Pravada-Vol-2-no-9-syndicated-moksha.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -635,7 +643,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://polity.lk/wp-content/uploads/2024/08/Pravada-Vol-2-no-9-syndicated-moksha.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -647,7 +659,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://polity.lk/wp-content/uploads/2024/08/Pravada-Vol-2-no-9-syndicated-moksha.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -659,7 +675,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://polity.lk/wp-content/uploads/2024/08/Pravada-Vol-2-no-9-syndicated-moksha.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -963,7 +983,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://archive.org/details/in.ernet.dli.2015.233422",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     }
@@ -4148,7 +4174,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0226576183",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -4815,7 +4845,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/0195640128",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -4843,7 +4877,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://archive.org/details/zfai_the-cult-of-vithoba-by-g-a-deleury-s-j-ph-d-religion-history-bhakti-movemen",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5125,7 +5165,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/0195640128",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5197,7 +5241,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.in/dp/0195640128",
+        "label": "Buy this book (Amazon)"
+       }
       }
      ]
     },
@@ -5890,7 +5938,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/Is%20Anubhava%20a%20Paramana_PEW_Sharma_1992.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5926,7 +5980,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/Is%20Anubhava%20a%20Paramana_PEW_Sharma_1992.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -5988,7 +6048,13 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.ahandfulofleaves.org/documents/Articles/Is%20Anubhava%20a%20Paramana_PEW_Sharma_1992.pdf",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
