@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 460,
   "cite": 368,
-  "saved": 127,
+  "saved": 129,
   "buy": 187,
-  "covered": 314,
+  "covered": 316,
   "comments": 92
  },
  "chapters": [
@@ -159,10 +159,16 @@
      "text": "Loy, 1993, p. 484.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/IN_B077_Loy_43.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.davidloy.org/source/philosophy-east-and-west-vol-43-no-3-july-1993-pp-481-510/",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
@@ -171,10 +177,16 @@
      "text": "Loy, 1993.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/IN_B077_Loy_43.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [
+        {
+         "url": "https://www.davidloy.org/source/philosophy-east-and-west-vol-43-no-3-july-1993-pp-481-510/",
+         "wayback": ""
+        }
+       ],
+       "saved": true
       }
      ]
     },
