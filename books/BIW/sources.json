@@ -804,7 +804,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.goldmansachs.com/pdfs/insights/archive/archive-pdfs/brics-dream.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -816,7 +820,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.census.gov/data/datasets/2000/dec/redistricting.html",
+        "exact": true
+       }
       }
      ]
     },
@@ -852,7 +860,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://aapiusa.org/?p=63",
+        "exact": true
+       }
       }
      ]
     },
