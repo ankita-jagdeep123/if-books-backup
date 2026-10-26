@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 113,
   "cite": 105,
-  "saved": 31,
-  "buy": 61,
-  "covered": 92,
+  "saved": 40,
+  "buy": 63,
+  "covered": 103,
   "comments": 8
  },
  "chapters": [
@@ -43,10 +43,14 @@
      "text": "(Wadley and Ramamurthy 1995: 326)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B035_Wadley-Ramamurthy_Spotlight-on-Ramayana.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://files.eric.ed.gov/fulltext/ED426010.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -55,10 +59,14 @@
      "text": "(Wadley and Ramamurthy 1995: 335-337)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B035_Wadley-Ramamurthy_Spotlight-on-Ramayana.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://files.eric.ed.gov/fulltext/ED426010.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -362,10 +370,14 @@
      "text": "(Ingalls 1965, 33-34). ‘The mahakavya must take its subject matter from the epics (Ramayana or Mahabharata), or from history. It must help further the four goals of man (Purusharthas). It must contain descriptions of cities, seas, mountains, moonrise and sunrise’, and ‘accounts of merrymaking in gardens, of bathing parties, drinking bouts, and love-making. It should tell the sorrow of separated lovers and should describe a wedding and the birth of a son. It should describe a king’s council, an embassy, the marching forth of an army, a battle, and the victory of a hero.’",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B013_Ingalls_Anthology-of-Sanskrit-Court-Poetry.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/details/ingalls-an-anthology-of-sanskrit-court-poetry-1965",
+        "exact": true
+       }
       }
      ]
     },
@@ -374,10 +386,14 @@
      "text": "(Ingalls 1965, 33-4)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B013_Ingalls_Anthology-of-Sanskrit-Court-Poetry.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/details/ingalls-an-anthology-of-sanskrit-court-poetry-1965",
+        "exact": true
+       }
       }
      ]
     },
@@ -1349,10 +1365,14 @@
      "text": "(Susanne Hoeber Rudolph 1993)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B027_Rudolph_Modern-Hate.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.cc.columbia.edu/itc/journalism/stille/Politics%20Fall%202007/readings%20weeks%206-7/Modern%20Hate%20by%20Suzanne%20Rudolph.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1442,10 +1462,14 @@
      "text": "Pollock has consistently held such views for many decades. As far back as 1993, he blamed Valmiki, saying: ‘Vālmīki’s monumental text is doubtless the starting point, to establish a hegemonic version,’ and that the TV Ramayana serial merely continued this Indian method of rewriting and adapting the old ‘myth’ to deal with new political threats. He wrote: ‘Medieval codings of the Rāmāyaṇa are an instance of a mythopolitical strategy available for recurrent deployment, such as is taking place in India today’ (Pollock, Ramayana and Political Imagination in India 1993, 289).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B022_Pollock_Ramayana-and-Political-Imagination.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://indologyarchives.wordpress.com/wp-content/uploads/2016/03/ramayana-and-political-imagination.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1702,7 +1726,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0333535057",
+        "label": "Buy this book (Amazon)"
+       },
+       "remark": "The sheet cites the 1993 NWIG review, but the cited pages fit the book."
       }
      ]
     },
@@ -1714,7 +1743,12 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "buy": {
+        "url": "https://www.amazon.com/dp/0333535057",
+        "label": "Buy this book (Amazon)"
+       },
+       "remark": "The sheet cites the 1993 NWIG review, but the cited pages fit the book."
       }
      ]
     },
@@ -1771,10 +1805,14 @@
      "text": "(Chandrashekar Bhat 2007)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B008_Bhat-Bhaskar_Contextualising-Diasporic-Identity.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://library.oapen.org/bitstream/handle/20.500.12657/35217/1/340114.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1783,10 +1821,14 @@
      "text": "(Chandrashekar Bhat 2007, 90)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B008_Bhat-Bhaskar_Contextualising-Diasporic-Identity.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://library.oapen.org/bitstream/handle/20.500.12657/35217/1/340114.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1795,10 +1837,15 @@
      "text": "(Marvin 1996). This is a popular calypso-soca hybrid song called Jahajee Bhai or Brotherhood of the Boat. It seeks to unify Indians, Africans, different ethnic groups and different religions in a song of nationalism.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B019_Marvin_Jahaji-Bhai.pdf",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://mobilizing-india.cscsarchive.org/gen/lyrics_jahajibhai.html",
+        "exact": false
+       },
+       "remark": "Lyrics page only; the cited item is a 1996 recording"
       }
      ]
     }

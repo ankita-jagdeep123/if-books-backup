@@ -204,6 +204,9 @@ def address(r, opt=None):
             bt = opt["buyText"] if "buyText" in opt else BUY_TEXT
             if bt:
                 a["buy"]["text"] = bt
+            if buy.get("note"):
+                # book.json buyLinks {"<Source ID>": {"url": ..., "note": "..."}}: a small remark line above this note's button
+                a["remark"] = buy["note"]
             opt.setdefault("_buy_used", set()).update(k for k in (get(r, "ID"), get(r, "Source ID")) if k in bl)
     host = opt.get("fileHost")
     if host and pdf:
@@ -365,7 +368,8 @@ def build(folder):
                         + ("\n    if (a.dead) h.push('<span class=\"dead\">" + DEAD_TEXT + "</span>');"
                            if meta.get("deadLinkNote") else "")
                         + ("\n    if (a.remark) h.push('<span class=\"dead\">' + esc(a.remark) + '</span>');"
-                           if meta.get("fileRemarks") or meta.get("noteRemarks") else ""))
+                           if meta.get("fileRemarks") or meta.get("noteRemarks")
+                           or any(isinstance(v, dict) and v.get("note") for v in (meta.get("buyLinks") or {}).values()) else ""))
                .replace("{{EXTRA_CSS}}", ("\n  header p.pub { margin-top: 4px; font-size: .82rem; color: #7a8396; }" if meta.get("publisherLine") else "") + ("\n  .dead { flex-basis: 100%; font-size: .78rem; color: var(--soft); font-style: italic; }"
                          if meta.get("deadLinkNote") or meta.get("equivalents") or meta.get("savedEquivalents") or meta.get("fileRemarks") or meta.get("noteRemarks") or meta.get("buyLinks") else "")
                         + ("\n  .dead a { overflow-wrap: anywhere; }" if meta.get("equivalents") or meta.get("savedEquivalents") else ""))
