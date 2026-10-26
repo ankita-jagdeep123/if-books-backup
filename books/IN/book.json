@@ -83,7 +83,7 @@
     "IN_B156": "https://www.amazon.com/Sinister-Yogis-David-Gordon-White/dp/0226895130",
     "IN_B157": "https://www.amazon.com/New-Face-Hinduism-Swaminarayan-Religion/dp/0521274737",
     "IN_B095": "https://www.amazon.com/dp/0226576183",
-    "IN_B011": "https://www.amazon.in/dp/0195640128"
+    "IN_B011": {"url": "https://www.amazon.in/dp/0195640128", "note": "Amazon dates this edition 1997; the note says 1998."}
   },
   "buyLabel": "Buy this book (Amazon)",
   "buyText": ""

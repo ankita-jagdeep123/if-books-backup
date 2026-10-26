@@ -4849,7 +4849,8 @@
        "buy": {
         "url": "https://www.amazon.in/dp/0195640128",
         "label": "Buy this book (Amazon)"
-       }
+       },
+       "remark": "Amazon dates this edition 1997; the note says 1998."
       }
      ]
     },
@@ -5169,7 +5170,8 @@
        "buy": {
         "url": "https://www.amazon.in/dp/0195640128",
         "label": "Buy this book (Amazon)"
-       }
+       },
+       "remark": "Amazon dates this edition 1997; the note says 1998."
       }
      ]
     },
@@ -5245,7 +5247,8 @@
        "buy": {
         "url": "https://www.amazon.in/dp/0195640128",
         "label": "Buy this book (Amazon)"
-       }
+       },
+       "remark": "Amazon dates this edition 1997; the note says 1998."
       }
      ]
     },
