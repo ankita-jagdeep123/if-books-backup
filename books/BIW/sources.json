@@ -836,7 +836,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.aasc.ucla.edu/aascpress/tocs/newface.aspx",
+        "exact": false
+       }
       }
      ]
     },
@@ -848,7 +852,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.aasc.ucla.edu/aascpress/tocs/newface.aspx",
+        "exact": false
+       }
       }
      ]
     },
