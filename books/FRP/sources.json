@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 113,
   "cite": 105,
-  "saved": 40,
+  "saved": 42,
   "buy": 63,
-  "covered": 103,
+  "covered": 105,
   "comments": 8
  },
  "chapters": [
@@ -126,14 +126,15 @@
      "text": "(Association for Asian Studies 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B002_Association-For_2001.pdf",
        "gone": false,
        "comment": false,
        "links": [],
        "equiv": {
         "url": "https://www.educationaboutasia.org/issue/18/info/",
         "exact": false
-       }
+       },
+       "remark": "Issue page for Education About Asia Vol. 6"
       }
      ]
     },
@@ -142,14 +143,15 @@
      "text": "(Association for Asian Studies 2001)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/FRP_B002_Association-For_2001.pdf",
        "gone": false,
        "comment": false,
        "links": [],
        "equiv": {
         "url": "https://www.educationaboutasia.org/issue/18/info/",
         "exact": false
-       }
+       },
+       "remark": "Issue page for Education About Asia Vol. 6"
       }
      ]
     },
