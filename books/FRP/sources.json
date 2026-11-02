@@ -129,7 +129,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.educationaboutasia.org/issue/18/info/",
+        "exact": false
+       }
       }
      ]
     },
@@ -141,7 +145,11 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://www.educationaboutasia.org/issue/18/info/",
+        "exact": false
+       }
       }
      ]
     },
