@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 56,
   "cite": 45,
-  "saved": 20,
+  "saved": 22,
   "buy": 16,
-  "covered": 36,
+  "covered": 38,
   "comments": 11
  },
  "chapters": [
@@ -833,14 +833,15 @@
      "text": "(Lai and Arguelles 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B010_Lai_2003.pdf",
        "gone": false,
        "comment": false,
        "links": [],
        "equiv": {
         "url": "https://www.aasc.ucla.edu/aascpress/tocs/newface.aspx",
         "exact": false
-       }
+       },
+       "remark": "Publisher's page with the table of contents"
       }
      ]
     },
@@ -849,14 +850,15 @@
      "text": "(Lai and Arguelles 2003)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BIW_B010_Lai_2003.pdf",
        "gone": false,
        "comment": false,
        "links": [],
        "equiv": {
         "url": "https://www.aasc.ucla.edu/aascpress/tocs/newface.aspx",
         "exact": false
-       }
+       },
+       "remark": "Publisher's page with the table of contents"
       }
      ]
     },
