@@ -29,7 +29,9 @@
   "fileRemarks": {
     "BS_B097_Row_Uttara-Satyagraha-Gita.pdf": "1948 edition (Hind Kitabs); the book cites 1944",
     "BS_B001_Aklujkar_A-Different-Sociolinguistics.pdf": "Text transcription of the printed pages, page numbers not shown",
-    "BS_B078_Pollock_1993b.pdf": "remarks"
+    "BS_B078_Pollock_1993b.pdf": "remarks",
+    "BS_B107_Sharma_2000.pdf": "Paywalled: the full text is not public. This is the article's public page.",
+    "BS_B059_Master_1946.pdf": "Paywalled: the full text is not public. This is the article's public page."
   },
   "buyLinks": {
     "BS_B108": "https://www.amazon.com/Hindu-Egalitarianism-Equality-Arvind-Sharma/dp/812910833X",
@@ -56,9 +58,43 @@
     "BS_B053": "https://www.amazon.in/Challenge-Eurocentrism-Global-Perspectives-Prospects/dp/023061227X",
     "BS_B032": "https://www.amazon.com/Ideology-Status-Sanskrit-Contributions-Indological/dp/9004106138",
     "BS_B058": "https://www.amazon.co.uk/Through-Categories-Contributions-Indian-Sociology/dp/0803996365",
-    "BS_B070": {"url": "https://www.amazon.com/Indian-Sociology-Through-Ghurye/dp/8171548075", "note": "Same ISBN as the 1997 edition; Amazon lists the 2011 printing"},
-    "BS_B111": {"url": "https://www.amazon.com/Encyclopaedia-Higher-Education-Historical-Survey-Pre-Independence/dp/8183240135", "note": "Amazon credits the author as S.K. Sharma"}
+    "BS_B070": {
+      "url": "https://www.amazon.com/Indian-Sociology-Through-Ghurye/dp/8171548075",
+      "note": "Same ISBN as the 1997 edition; Amazon lists the 2011 printing"
+    },
+    "BS_B111": {
+      "url": "https://www.amazon.com/Encyclopaedia-Higher-Education-Historical-Survey-Pre-Independence/dp/8183240135",
+      "note": "Amazon credits the author as S.K. Sharma"
+    }
   },
   "buyLabel": "Buy this book (Amazon)",
-  "buyText": ""
+  "buyText": "",
+  "directFiles": [
+    "BS_B107_Sharma_2000.pdf",
+    "BS_B059_Master_1946.pdf"
+  ],
+  "unpublishedNotes": [
+    "BS_Ch04_49",
+    "BS_Ch08_14",
+    "BS_Ch08_15",
+    "BS_Ch08_16",
+    "BS_Ch08_17",
+    "BS_Ch08_18",
+    "BS_Ch08_19",
+    "BS_Ch08_20",
+    "BS_Ch08_21",
+    "BS_Ch08_22",
+    "BS_Ch08_23",
+    "BS_Ch08_24",
+    "BS_Ch08_25",
+    "BS_Ch08_26",
+    "BS_Ch08_27",
+    "BS_Ch08_28",
+    "BS_Ch09_31",
+    "BS_Ch09_32",
+    "BS_Ch09_33",
+    "BS_Ch09_34",
+    "BS_Ch09_35",
+    "BS_Ch09_36"
+  ]
 }

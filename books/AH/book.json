@@ -72,5 +72,9 @@
     "AH_B030": "https://www.amazon.com/Papers-Eranos-Yearbooks-Bollingen-XXX/dp/B00C44H6UM"
   },
   "buyLabel": "Buy this book (Amazon)",
-  "buyText": ""
+  "buyText": "",
+  "unpublishedNotes": [
+    "AH_Ch02_06",
+    "AH_Ch04_29"
+  ]
 }

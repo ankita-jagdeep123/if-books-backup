@@ -77,7 +77,7 @@ window.BOOK_FALLBACK = /*DATA*/null;
   function addr(a) {
     var h = [];{{DEAD_JS}}
     if (a.gone) h.push('<span class="btn off" aria-disabled="true">Copy not available</span>');
-    else if (a.comment) h.push('<span class="cmt">{{COMMENT_LABEL}}</span>');
+    else if (a.comment) h.push('<span class="cmt">{{COMMENT_LABEL}}</span>');{{UNPUB_JS}}
     else if (a.pdf) {{PDF_BTN}}{{BUY_JS}}
     else h.push('<span class="btn off" aria-disabled="true">PDF not saved yet</span>');
     a.links.forEach(function (l, i) {
