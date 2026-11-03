@@ -13,6 +13,7 @@ from urllib.parse import urlsplit, quote
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 GONE = {"cannot obtain"}
+UNPUB_TEXT = "Unpublished / print-only: no public copy exists."
 EDIT = re.compile(r"action=edit|[?&]edit=|/edit(?:[/?#]|$)|:[wxp]:/r/|editnew", re.I)
 # Note: "?e=xxxx" on 1drv.ms share links is an access token, not an edit flag.
 
@@ -143,6 +144,10 @@ def address(r, opt=None):
     a = {"pdf": pdf, "gone": gone, "comment": comment,
          "links": [{"url": u, "wayback": wb[i] if i < len(wb) else ""} for i, u in enumerate(us)]
                   or ([{"url": "", "wayback": w} for w in wb])}
+    if not pdf and get(r, "ID") in (opt.get("unpublishedNotes") or []):
+        # book.json "unpublishedNotes": ["<ID>", ...] unpublished / print-only sources: no button, the
+        # fixed line UNPUB_TEXT instead; left out of the linkable count like an author's comment.
+        a["comment"], a["unpub"] = False, True
     eq = (opt.get("_equiv") or {}).get(get(r, "ID"))
     sv = (opt.get("_saved_equiv") or {}).get(get(r, "ID"))
     if eq and sv:
@@ -209,6 +214,10 @@ def address(r, opt=None):
                 a["remark"] = buy["note"]
             opt.setdefault("_buy_used", set()).update(k for k in (get(r, "ID"), get(r, "Source ID")) if k in bl)
     host = opt.get("fileHost")
+    if host and pdf and get(r, "Backup file") in (opt.get("directFiles") or []):
+        # book.json "directFiles": ["<Backup file>", ...] keep the CSV link (e.g. a Google Drive view
+        # link) instead of the fileHost proxy for those files only
+        host = None
     if host and pdf:
         # buttons point to the file proxy (Cloudflare Worker) by Backup file name; the OneDrive
         # links stay in the CSV only. Part n of "x_part-a.txt" is "x_part-<n-th letter>.txt".
@@ -322,18 +331,20 @@ def build(folder):
         chapters.append({"title": "Also in the bibliography (not cited in an endnote)", "entries": bib})
     nl = list(notes.values())
     comments = sum(1 for e in nl if all(a["comment"] for a in e["addr"]))
+    unpub = sum(1 for e in nl if all(a["comment"] or a.get("unpub") for a in e["addr"])
+                and not all(a["comment"] for a in e["addr"]))
     saved = sum(1 for e in nl if any(a["pdf"] for a in e["addr"]))
     # Covered = saved copy OR (no saved copy and) a book.json buyLinks store button; author's-comment-only notes are not counted.
-    buy = sum(1 for e in nl if not any(a["pdf"] for a in e["addr"]) and not all(a["comment"] for a in e["addr"])
+    buy = sum(1 for e in nl if not any(a["pdf"] for a in e["addr"]) and not all(a["comment"] or a.get("unpub") for a in e["addr"])
               and any(a.get("buy") for a in e["addr"]))
     covered = saved + buy
-    uncovered = sum(1 for e in nl if not all(a["comment"] for a in e["addr"])
+    uncovered = sum(1 for e in nl if not all(a["comment"] or a.get("unpub") for a in e["addr"])
                     and not any(a["pdf"] or a.get("buy") for a in e["addr"]))
-    if covered + uncovered != len(nl) - comments:
-        sys.exit(f"PROGRESS DOES NOT ADD UP: saved {saved} + buy {buy} + not covered {uncovered} != {len(nl) - comments}")
+    if covered + uncovered != len(nl) - comments - unpub:
+        sys.exit(f"PROGRESS DOES NOT ADD UP: saved {saved} + buy {buy} + not covered {uncovered} != {len(nl) - comments - unpub}")
     data = {"code": meta["code"], "title": meta["title"], "author": meta.get("author", ""),
             "stats": stats(rows, len(nl)),
-            "progress": {"endnotes": len(nl), "cite": len(nl) - comments, "saved": saved, "buy": buy, "covered": covered, "comments": comments},
+            "progress": {"endnotes": len(nl), "cite": len(nl) - comments - unpub, "saved": saved, "buy": buy, "covered": covered, "comments": comments, **({"unpublished": unpub} if unpub else {})},
             "chapters": chapters}
     with open(os.path.join(folder, "sources.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
@@ -360,6 +371,8 @@ def build(folder):
                .replace("{{COMMENT_LABEL}}", html.escape(meta.get("commentLabel", "Author\\u2019s comment, no source to save")))
                .replace("{{COMMENT_STAT}}", html.escape(meta.get("commentStat", "Author\\u2019s comment")))
                .replace("{{PDF_BTN}}", btn)
+               .replace("{{UNPUB_JS}}", ("\n    else if (a.unpub) h.push('<span class=\"cmt\">" + html.escape(meta.get("unpublishedText", UNPUB_TEXT)) + "</span>');"
+                                         if meta.get("unpublishedNotes") else ""))
                .replace("{{BUY_JS}}", ((BUY_JS if meta.get("buyText", BUY_TEXT) else BUY_JS_NOTEXT) if meta.get("buyLinks") else ""))
                .replace("{{PUBLISHER_LINE}}", f'    <p class="pub">{html.escape(meta["publisherLine"])}</p>\n' if meta.get("publisherLine") else "")
                .replace("{{EMPTY_JS}}", EMPTY_JS if meta.get("showEmptyChapters") else "")
@@ -394,7 +407,7 @@ def build(folder):
           + (f", equivalent-link sentence {sum(1 for a in A if a.get('equiv'))} "
              f"({sum(1 for a in A if a.get('equiv', {}).get('exact'))} EXACT)" if meta.get("equivalents") else "")
           + (f", saved-copy note {sum(1 for a in A if a.get('saved'))}" if meta.get("savedEquivalents") else "") + "; "
-          f"progress: {covered} of {len(nl) - comments} notes covered (saved {saved} + buy-link {buy}); stats: {data['stats']}")
+          f"progress: {covered} of {len(nl) - comments - unpub} notes covered (saved {saved} + buy-link {buy}{f'; unpublished {unpub} not counted' if unpub else ''}); stats: {data['stats']}")
     return meta
 
 

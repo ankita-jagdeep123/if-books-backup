@@ -11,11 +11,12 @@
  },
  "progress": {
   "endnotes": 307,
-  "cite": 194,
+  "cite": 192,
   "saved": 97,
   "buy": 85,
   "covered": 182,
-  "comments": 113
+  "comments": 113,
+  "unpublished": 2
  },
  "chapters": [
   {
@@ -114,7 +115,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -1686,7 +1688,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },

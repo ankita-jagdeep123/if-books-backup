@@ -11,11 +11,12 @@
  },
  "progress": {
   "endnotes": 554,
-  "cite": 479,
-  "saved": 390,
+  "cite": 461,
+  "saved": 391,
   "buy": 66,
-  "covered": 456,
-  "comments": 75
+  "covered": 457,
+  "comments": 71,
+  "unpublished": 22
  },
  "chapters": [
   {
@@ -2163,10 +2164,11 @@
      "text": "Sharma offers the following arguments. According to Jaiminisutra (JS 6:1.27), it was the opinion of Badari (contested by Jaimini) thar the shudras could perform Vedic yajnas. The issue is discussed in considerable detail from which it is clear that the exact status of the shudra was a contested point. According to the Bharadvaja Srauta Sutra (5:2.8) it is ‘the opinion of some that the shudra can consecrate the three Vedic fires while recognizing that there was a controversy about this. According to Vrddha Gautamasmrti (Ch. 16), shudras of good conduct are eligible for initiation (Sudro va caritravratah). According to Yoga-Yajijavalkya (Ch. 2), it is the opinion of some sages that the shudras may enter the stage of life called brahmacharya. Interesting evidence of the eligibility for maintaining sacrificial fire by the shudras is provided by Apastamba Dharmasutra (5: 14.1) which lays down that © fire may be accepted from a brahmin, kshatriya, vaishya or shudra who is ‘well off (bahupushta)’ (Sharma 2000: 236-38).",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1QWN7TL7Zh5SFYY9NAW6aXq1BjYHH-ACz/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Paywalled: the full text is not public. This is the article's public page."
       }
      ]
     },
@@ -2178,7 +2180,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5070,7 +5073,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5081,8 +5085,9 @@
       {
        "pdf": "",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5094,7 +5099,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5106,7 +5112,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5118,7 +5125,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5130,7 +5138,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5142,7 +5151,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5154,7 +5164,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5165,8 +5176,9 @@
       {
        "pdf": "",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5178,7 +5190,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5189,8 +5202,9 @@
       {
        "pdf": "",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5201,8 +5215,9 @@
       {
        "pdf": "",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5214,7 +5229,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5226,7 +5242,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5238,7 +5255,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5675,7 +5693,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5687,7 +5706,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5699,7 +5719,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5711,7 +5732,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5723,7 +5745,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -5735,7 +5758,8 @@
        "pdf": "",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -6951,10 +6975,11 @@
      "text": "Kannan (private communication) offers the following point in support: Bhatrakalanka, a seventeenth century Kannada grammarian, a Jain from Karnataka, and a master of over half a dozen languages including Sanskrit, Prakrit and Magadhi, wrote that the same divine language of the Lord [Mahavira] was heard, simultaneously, by different people in different languages! This is even more explicitly stated by Devendra thar the gods took the message as encoded in the divine language, men as expressed in the human language, hunters as in their own language, etc.!",
      "addr": [
       {
-       "pdf": "https://if-books-files.ifbooks-archive.workers.dev/BS_B059_Master_Influence-of-Sir-William-Jones.pdf",
+       "pdf": "https://drive.google.com/file/d/1X39PhEePen2Guvv49Gt6wydkY8kp31Jz/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Paywalled: the full text is not public. This is the article's public page."
       }
      ]
     },
