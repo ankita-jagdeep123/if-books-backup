@@ -21,5 +21,8 @@
     "SNT_B029": "https://www.amazon.com/Hindus-Alternative-History-Wendy-Doniger/dp/1594202052"
   },
   "buyLabel": "Buy this book (Amazon)",
-  "buyText": ""
+  "buyText": "",
+  "unpublishedNotes": [
+    "SNT_N029"
+  ]
 }
