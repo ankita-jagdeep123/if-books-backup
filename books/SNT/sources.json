@@ -12,10 +12,11 @@
  "progress": {
   "endnotes": 213,
   "cite": 51,
-  "saved": 7,
+  "saved": 18,
   "buy": 13,
-  "covered": 20,
-  "comments": 162
+  "covered": 31,
+  "comments": 161,
+  "unpublished": 1
  },
  "chapters": [
   {
@@ -415,8 +416,9 @@
       {
        "pdf": "",
        "gone": false,
-       "comment": true,
-       "links": []
+       "comment": false,
+       "links": [],
+       "unpub": true
       }
      ]
     },
@@ -437,10 +439,14 @@
      "text": "See Sri Aurobindo, 1999:11-12.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1pEYr5N85p_V3bgPW_uwUCkmiyi9cUOn_/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://sri-aurobindo.co.in/workings/sa/37_23_24/the_synthesis_of_yoga_23_24.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -961,10 +967,14 @@
      "text": "See Sri Aurobindo, 1998:65-66.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1RKmUWuUtTqlycHfanntcDZF4kBWYOAEO/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://sri-aurobindo.co.in/workings/sa/37_16/hymns_to_the_mystic_fire_16.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -1117,10 +1127,14 @@
      "text": "The grammarian Pāṇini defines indriya in his work Aṣṭādhyāyī as the liṅga (sign) by which we can infer the existence of a jīvātmā (i.e., wherever there is an indriya, there is also Indra or ātmā). Indrasya jīvasya liṅgam indriyam (V.2.93). See V.2.93 in English translation of Aṣṭādhyāyī by Srisa Chandra Vasu.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1aULl01QsLX0I6j4ikhQAfzTHQbNvqZiG/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/in.ernet.dli.2015.424391/2015.424391.ashtadhyayi-of.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1546,10 +1560,14 @@
      "text": "According to Suśruta Saṃhitā, prāṇa is not vital air, air or breath but the energy that activates al these and other elements in the body. See Introduction, Volume 2 of English translation by K.L. Bhishagratna, 1911.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1b_5NHysn1WFApG3znJ3ATLXAhdGpveth/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/dli.bengal.10689.2529/10689.2529.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1958,10 +1976,14 @@
      "text": "This discrepancy is explained by Kalpa-bheda or by difference in the kalpa to which these similar stories belong. See Ramayana Mīmāṁsa by Swami Sri Karpatri Maharaja, 2001:67 and 2001:49 for quote by Śrī Gosvāmi Tulsidāsa who says in Śrī Rāmacaritamānas Kalpabheda Haricarita Suhāe, bhānti aneka munisanha gāe (1.32.4) which also clearly points to this fact.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1W0Us4sVlIS7fPIH1HZkAKhuaiL6ehC44/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/ramayana-mimamsa-karapatri-maharaj-2001/Ramayana%20Mimamsa%20-%20Karapatri%20Maharaj%202001.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -1982,10 +2004,14 @@
      "text": "Although Tantra-s and Āgama-s are used synonymously, Tantra-s are broader in scope than Āgama-s. Tantra-s deal with as many as twenty-five subjects whereas Āgama-s cover only seven. See Manoranjan Basu, 1986:1. Kul ūka Bhaṭṭa, the famous commentator on Manusmṛti, states that Śruti-s are two-fold, namely, Vaidika and Tāntrika. He says in the commentary on Manusmṛti 2.1: Śrutiśca dvividhā vaidikī tāntrikī ca See Mānava-Dharma- Shastra by Vishvanath Narayan Mandlik, 1886:88.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/17XrQAL3wTdtjGJLJ_m9n28GmMA_5jMzZ/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/in.gov.ignca.27212/27212.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -2006,10 +2032,14 @@
      "text": "The Kulārṇava Tantra discusses the four yuga-s and their corresponding śastra-s: Śruti-s for Satyuga, Smṛti - s for Tretā Yuga, Purāṇa-s for Dvāpara Yuga and Tantra-s for Kali Yuga. See Synthesis of Yoga by Kireet Joshi, 2011:304. Also see The Great Liberation ( Mahaānirvāṇa Tantra) by Arthur Avalon, 1953:11.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1gqh49lINUh-GvQhQAhFvr957UWXpjWR1/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/dli.csl.5754/5754.pdf",
+        "exact": false
+       }
       }
      ]
     },
@@ -2262,10 +2292,14 @@
      "text": "It is believed that the naked philosophers whom the Greek king Alexander met in India were none other than the Nāgā Sādhu-s. The Greeks cal ed them Gymnosophists. See for reference pp. 1 of A History of Dasnami Naga Sanyasis by Jadunath Sarkar.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/18bQ16AnqW592E_Nz3Hftjt-RSiQ6gkxx/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/in.ernet.dli.2015.32182/2015.32182.A-History-Of-Dasnami-Naga-Sanyasis.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -2274,10 +2308,14 @@
      "text": "See pp. 154 of A History of Dasnami Naga Sanyasis by Jadunath Sarkar.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/18bQ16AnqW592E_Nz3Hftjt-RSiQ6gkxx/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/in.ernet.dli.2015.32182/2015.32182.A-History-Of-Dasnami-Naga-Sanyasis.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -2430,10 +2468,14 @@
      "text": "Rājaśekhara, in his work Kavyamīmāṁsa, is of the opinion that śāstra-s are not only connected with kāvya but even form its basis. He says that a person who believes that the two are unconnected is like a fool who wants to have the knowledge of things lying in darkness without lighting a lamp. See Pandit Kedarnath Sharma, 1965:6. In the eighth chapter of Kavyamīmāṁsa, Rājaśekhara mentions the sources of themes of a kāvya. The sixteen sources listed by him are Śruti-s, Smṛti-s, Itihasa-s, Purāṇa-s, Pramāṇa-vidya (science of logic, interpretation and valid knowledge), samayavidya (systems of philosophy), Arthaśāstra and Nāṭyaśāstra. See Pandit Kedarnath Sharma, 1965:87-9. Rājaśekhara regards Śruti-s as equivalent to the divine cow which is milked to the capacity of their intel igence by a seer, philosopher and kavi.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1zt5FxROX9F-tUZQeFrzUcPUkxwBa_du7/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/KavyaMimansaOfLatePt.KedarnathSharmaSarasvatBiharRashtraBhashaParishad/Kavya%20Mimansa%20of%20Late%20Pt.%20Kedarnath%20Sharma%20Sarasvat%20-%20Bihar%20Rashtra%20Bhasha%20Parishad_text.pdf",
+        "exact": true
+       }
       }
      ]
     },
@@ -2478,10 +2520,14 @@
      "text": "See Rewaprasad Dwivedi. 1936:95-97.",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1q3Vih4mkSIE5wHZ-gPj_yW4rxEA4A76n/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "equiv": {
+        "url": "https://archive.org/download/in.ernet.dli.2015.378652/2015.378652.THE-VYAKTIVIVEKA.pdf",
+        "exact": true
+       }
       }
      ]
     },
