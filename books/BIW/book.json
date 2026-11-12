@@ -19,7 +19,8 @@
   "requireBackupFile": true,
   "fileHost": "https://if-books-files.ifbooks-archive.workers.dev",
   "fileRemarks": {
-    "BIW_B010_Lai_2003.pdf": "Publisher's page with the table of contents"
+    "BIW_B010_Lai_2003.pdf": "Publisher's page with the table of contents",
+    "BIW_B024_Tharoor_1998.pdf": "Paywalled: the full text is not public. This is the article's public page."
   },
   "buyLinks": {
     "BIW_B011": "https://www.amazon.com/Suggestology-Outlines-Suggestopedy-Psychic-Studies/dp/0677309406",
@@ -30,5 +31,8 @@
     "BIW_B027": "https://www.amazon.com/Kalacakratantra-Individual-together-Vimalaprabha-Treasury/dp/0975373412"
   },
   "buyLabel": "Buy this book (Amazon)",
-  "buyText": ""
+  "buyText": "",
+  "directFiles": [
+    "BIW_B024_Tharoor_1998.pdf"
+  ]
 }

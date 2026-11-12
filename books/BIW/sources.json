@@ -12,9 +12,9 @@
  "progress": {
   "endnotes": 56,
   "cite": 45,
-  "saved": 22,
+  "saved": 23,
   "buy": 16,
-  "covered": 38,
+  "covered": 39,
   "comments": 11
  },
  "chapters": [
@@ -912,10 +912,11 @@
      "text": "(Tharoor 1998)",
      "addr": [
       {
-       "pdf": "",
+       "pdf": "https://drive.google.com/file/d/1_Ypzkn3yMZe4Kzepx7rZG93-uGK8G7hO/view",
        "gone": false,
        "comment": false,
-       "links": []
+       "links": [],
+       "remark": "Paywalled: the full text is not public. This is the article's public page."
       }
      ]
     }
