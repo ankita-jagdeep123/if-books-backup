@@ -28,7 +28,8 @@
   "savedEquivalents": "IN_equivalents_done.csv",
   "fileRemarks": {
     "IN_B143_Thapar_Syndicated-Moksha.pdf": "Same article, reprinted in Pravada (Colombo), 1993; page numbers differ from the cited Seminar pp. 14-22",
-    "IN_B115_Sastri_Krishnamurthi.pdf": "7th edition (1977) of the cited work; the cited 6th edition (1972) was not available"
+    "IN_B115_Sastri_Krishnamurthi.pdf": "7th edition (1977) of the cited work; the cited 6th edition (1972) was not available",
+    "IN_B044_Gupta_8-25.pdf": "Paywalled: the full text is not public. This is the article's public page."
   },
   "buyLinks": {
     "IN_B006": "https://www.amazon.com/Meditation-Sankaras-Vedanta-Jonathan-Bader/dp/8185179514",
@@ -83,8 +84,14 @@
     "IN_B156": "https://www.amazon.com/Sinister-Yogis-David-Gordon-White/dp/0226895130",
     "IN_B157": "https://www.amazon.com/New-Face-Hinduism-Swaminarayan-Religion/dp/0521274737",
     "IN_B095": "https://www.amazon.com/dp/0226576183",
-    "IN_B011": {"url": "https://www.amazon.in/dp/0195640128", "note": "Amazon dates this edition 1997; the note says 1998."}
+    "IN_B011": {
+      "url": "https://www.amazon.in/dp/0195640128",
+      "note": "Amazon dates this edition 1997; the note says 1998."
+    }
   },
   "buyLabel": "Buy this book (Amazon)",
-  "buyText": ""
+  "buyText": "",
+  "directFiles": [
+    "IN_B044_Gupta_8-25.pdf"
+  ]
 }
